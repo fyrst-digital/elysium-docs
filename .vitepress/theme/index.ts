@@ -3,17 +3,19 @@ import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
 
-import MyComponent from './MyComponent.vue'
+import MyComponent from "./components/MyComponent.vue";
+
+
 
 export default {
   ...Theme,
   Layout: () => {
     return h(Theme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
-      // 'aside-outline-before': () => h(MyComponent)
+      //'home-hero-info': () => h(MyComponent)
     })
   },
   enhanceApp({ app, router, siteData }) {
-    app.component('MyGlobalComponent' /* ... */)
+    app.component('MyComponent', MyComponent /* ... */)
   }
 }

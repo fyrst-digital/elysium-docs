@@ -1,7 +1,22 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^.*\/VPHero\.vue$/,
+          replacement: './components/CustomHero.vue'
+        },
+        {
+          find: /^.*\/VPButton\.vue$/,
+          replacement: './components/CustomButton.vue'
+        }
+      ]
+    }
+  },
   srcDir: "./content",
   cleanUrls: true,
   locales: {
@@ -38,6 +53,7 @@ export default defineConfig({
   title: "Elysium Slider",
   description: "Manual, Documentation and Guides for Elysium Slider",
   themeConfig: {
+    logo: "/logo.svg",
     search: {
       provider: "local"
     },
