@@ -8,6 +8,7 @@
  * -------------------------------------------------------------------------- */
 
  :root {
+  --color-brand-primary: #bd34fe;
   --color-brand-secondary: #feadac;
   --vp-c-brand: #646cff;
   --vp-c-brand-light: #747bff;
@@ -42,7 +43,7 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe 30%,
+    var(--color-brand-primary) 30%,
     var(--color-brand-secondary)
   );
 
