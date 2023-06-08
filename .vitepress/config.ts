@@ -20,6 +20,15 @@ export default defineConfig({
   srcDir: "./content",
   cleanUrls: true,
   lastUpdated: true,
+  head: [
+    [
+      'link',
+      { rel: 'icon', type: 'image/svg', href: '/logo.svg' }
+      // would render:
+      //
+      // <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    ],
+  ],
   locales: {
     root: {
       label: 'English',
@@ -47,6 +56,7 @@ export default defineConfig({
           '/de/guides/': [
             {
               text: 'Guides',
+              collapsed: true,
               items: [
                 { text: 'Slider-Größe', link: '/de/guides/slider-sizing' },
                 { text: 'Individuelle Slide-Templates', link: '/de/guides/custom-slide-templates' },
