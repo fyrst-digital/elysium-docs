@@ -4,7 +4,7 @@ import Theme from 'vitepress/theme'
 import './style.css'
 
 import Image from "./components/Image.vue";
-
+import HeroImage from "./components/MyComponent.vue";
 
 
 export default {
@@ -12,7 +12,7 @@ export default {
   Layout: () => {
     return h(Theme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
-      //'home-hero-info': () => h(MyComponent)
+      'home-hero-image': () => h(HeroImage)
     })
   },
   enhanceApp({ app, router, siteData }) {

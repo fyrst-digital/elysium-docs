@@ -128,7 +128,7 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
 .text {
     line-height: 1.1;
     max-width: 392px;
-  font-size: clamp(32px, 6vw, 58px);
+  font-size: clamp(32px, 4vw, 58px);
   white-space: pre-wrap;
   letter-spacing: -0.4px;
 }
@@ -142,7 +142,7 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
 
 .text {
   padding: .75rem 0;
-  font-size: clamp(24px, 6vw, 50px);
+  font-size: clamp(24px, 3vw, 50px);
   font-weight: 600;
   
 }
