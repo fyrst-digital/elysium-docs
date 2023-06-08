@@ -19,6 +19,7 @@ export default defineConfig({
   },
   srcDir: "./content",
   cleanUrls: true,
+  lastUpdated: true,
   locales: {
     root: {
       label: 'English',
@@ -30,6 +31,12 @@ export default defineConfig({
       title: "Elysium Slider",
       description: "Anleitung, Dokumentation und Guides für Elysium Slider",
       themeConfig: { 
+        lastUpdatedText: "Zuletzt aktualisiert",
+        outlineTitle: 'Auf dieser Seite',
+        docFooter: {
+          prev: 'Vorherige Seite',
+          next: 'Nächste Seite'
+        },
         nav: [
           {
             text: "Guides",
@@ -42,6 +49,7 @@ export default defineConfig({
               text: 'Guides',
               items: [
                 { text: 'Slider-Größe', link: '/de/guides/slider-sizing' },
+                { text: 'Individuelle Slide-Templates', link: '/de/guides/custom-slide-templates' },
                 { text: 'Updates', link: '/de/guides/updates' }
               ]
             }
@@ -71,7 +79,9 @@ export default defineConfig({
       '/guides/': [
         {
           text: 'Guides',
+          collapsed: true,
           items: [
+            { text: 'Slider Sizing', link: '/guides/slider-sizing' },
             { text: 'Updates', link: '/guides/updates' }
           ]
         }
@@ -80,6 +90,8 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    
   }
 })

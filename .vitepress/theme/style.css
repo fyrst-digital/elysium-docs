@@ -73,6 +73,10 @@
   --vp-custom-block-tip-border: var(--vp-c-brand);
   --vp-custom-block-tip-text: var(--vp-c-brand-darker);
   --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+  --image-border-radius: .5rem;
+  --image-gaps: 2rem;
+  --image-shadow-color: rgba(0, 0, 0, 0.15);
+  --image-modal-bg-color: rgba(0, 0, 0, 0.75);
 }
 
 .dark {
@@ -89,3 +93,10 @@
   --docsearch-primary-color: var(--vp-c-brand) !important;
 }
 
+.VPDoc .container > .content {
+  padding-left: 0;
+  padding-right: 0;
+}
+.VPDoc.has-aside .content .content-container {
+  max-width: none;
+}

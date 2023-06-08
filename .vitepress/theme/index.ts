@@ -3,7 +3,7 @@ import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
 
-import MyComponent from "./components/MyComponent.vue";
+import Image from "./components/Image.vue";
 
 
 
@@ -16,6 +16,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    app.component('MyComponent', MyComponent /* ... */)
+    app.component('Image', Image)
   }
 }
