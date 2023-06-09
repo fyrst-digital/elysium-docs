@@ -66,19 +66,18 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
 
 <style scoped>
 .VPHero {
-  margin-top: calc((var(--vp-nav-height) + var(--vp-layout-top-height, 0px)) * -1);
-  padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 48px) 24px 48px;
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 640px) {
   .VPHero {
-    padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 80px) 48px 64px;
+    padding: 4rem 2rem;
   }
 }
 
 @media (min-width: 960px) {
   .VPHero {
-    padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 80px) 64px 64px;
   }
 }
 
@@ -126,7 +125,7 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
 
 .name, 
 .text {
-    line-height: 1.1;
+    line-height: 1.25;
     max-width: 392px;
   font-size: clamp(32px, 4vw, 58px);
   white-space: pre-wrap;

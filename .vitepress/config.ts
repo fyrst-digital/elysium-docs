@@ -48,19 +48,37 @@ export default defineConfig({
         },
         nav: [
           {
-            text: "Guides",
-            link: "/de/guides/",
+            text: "Dokumentation",
+            link: "/de/documentation/",
           }
         ],
         sidebar: {
-          '/de/guides/': [
+          '/de/documentation/': [
+            {
+              text: 'Anleitung',
+              collapsed: false,
+              items: [
+                { text: 'Einrichtung', link: '/de/documentation/setup' },
+                { 
+                  text: 'Slide Elemente', 
+                  link: '/de/documentation/slide-elements/', 
+                  items: [
+                    {
+                      text: 'Inhalt',
+                      link: '/de/documentation/slide-elements/content' 
+                    }
+                  ]
+                },
+                { text: 'Erlebniswelten Slider', link: '/de/documentation/setup' }
+              ]
+            },
             {
               text: 'Guides',
-              collapsed: true,
+              collapsed: false,
               items: [
-                { text: 'Slider-Größe', link: '/de/guides/slider-sizing' },
-                { text: 'Individuelle Slide-Templates', link: '/de/guides/custom-slide-templates' },
-                { text: 'Updates', link: '/de/guides/updates' }
+                { text: 'Slider-Größe', link: '/de/documentation/slider-sizing' },
+                { text: 'Individuelle Slide-Templates', link: '/de/documentation/custom-slide-templates' },
+                { text: 'Updates', link: '/de/documentation/updates' }
               ]
             }
           ],
@@ -71,7 +89,6 @@ export default defineConfig({
   title: "Elysium Slider",
   description: "Manual, Documentation and Guides for Elysium Slider",
   themeConfig: {
-    logo: "/logo.svg",
     search: {
       provider: "local"
     },
@@ -79,27 +96,27 @@ export default defineConfig({
     
     nav: [
       {
-        text: "Guides",
-        link: "/guides/",
+        text: "Documentation",
+        link: "/documentation/",
       }
     ],
-    
-
+  
     sidebar: {
-      '/guides/': [
+      '/documentation/': [
         {
           text: 'Guides',
-          collapsed: true,
+          collapsed: false,
           items: [
-            { text: 'Slider Sizing', link: '/guides/slider-sizing' },
-            { text: 'Updates', link: '/guides/updates' }
+            { text: 'Slider Sizing', link: '/documentation/slider-sizing' },
+            { text: 'Updates', link: '/documentation/updates' }
           ]
         }
       ],
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://fsdfsd.com/vuejs/vitepress' },
     ],
 
     

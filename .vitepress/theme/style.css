@@ -9,7 +9,9 @@
 
  :root {
   --color-brand-primary: #bd34fe;
+  --color-brand-primary-darker: #7f20ab;
   --color-brand-secondary: #feadac;
+  --badge-bg-color: #eeeeee;
   --vp-c-brand: #646cff;
   --vp-c-brand-light: #747bff;
   --vp-c-brand-lighter: #9499ff;
@@ -24,9 +26,9 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-button-brand-border: var(--vp-c-brand-light);
+  --vp-button-brand-border: var(--color-brand-primary-darker);
   --vp-button-brand-text: var(--vp-c-white);
-  --vp-button-brand-bg: var(--vp-c-brand);
+  --vp-button-brand-bg: var(--color-brand-primary-darker);
   --vp-button-brand-hover-border: var(--vp-c-brand-light);
   --vp-button-brand-hover-text: var(--vp-c-white);
   --vp-button-brand-hover-bg: var(--vp-c-brand-light);
@@ -43,7 +45,7 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    var(--color-brand-primary) 30%,
+    var(--color-brand-primary) 50%,
     var(--color-brand-secondary)
   );
 

@@ -18,7 +18,7 @@ defineProps<{
 <template>
   <div class="image-wrapper">
 
-    <img src="/logo.svg" alt="" class="image">
+    <img src="/hero-image.png" alt="" class="image">
   </div>
 </template>
 
@@ -33,6 +33,6 @@ defineProps<{
   }
   .image {
     width: 100%;
-    max-width: clamp(200px, 80vw, 400px);
+    max-width: clamp(200px, 80vw, 600px);
   }
 </style>
