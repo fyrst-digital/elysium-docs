@@ -66,6 +66,10 @@ export default defineConfig({
                     {
                       text: 'Inhalt',
                       link: '/de/documentation/slide-elements/content' 
+                    },
+                    {
+                      text: 'Anzeige',
+                      link: '/de/documentation/slide-elements/display' 
                     }
                   ]
                 },
