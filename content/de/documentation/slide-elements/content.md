@@ -76,3 +76,19 @@ Gibt den Grad der automatischen Skalierung an
 ### Button Farbgebung
 
 Legt die Farbgebung des Buttons fest. Die Farben orientieren sich an den Einstellungen des Themes.
+
+## Medien
+
+Hier kannst du Medien für deinen Slide festlegen. Die Slides sind so konzipiert dass nur zwischen Portrait- und Landschafts-Modus, und nicht einzelnen Theme-Breakpoints, unterschieden wird. Wir glauben dass ist die optimale Balance zwischen Anzeigekontrolle und unkomplizierter Konfiguration.
+
+::: info Landscape Modus
+Der Landscape-Modus wird verwendet wenn die Bildschirmbreite das Seitenverhältnis von 1:1 überschreitet. Typischerweise ist das bei der Desktopansicht oder Smartphones/Tablets im "Querformat" der Fall.
+:::
+
+::: info Portrait Modus
+Der Portrait-Modus wird verwendet wenn die Bildschirmhöhe das Seitenverhältnis von 1:1 überschreitet. Typischerweise ist das bei Smartphones/Tablets im "Hochformat" der Fall.
+:::
+
+### Slide Cover
+
+Definiert das Hintergrund-Medium des Slides im Landscape- und Portrait-Modus. Für eine optimale Anzeigekontrolle empfehlen wir ein einheitliches Seitenverhältnis des Mediums für den jeweiligen Modus zu wählen. Weitere Tipps zum Seitenverhältnis findest du hier. Darüber hinaus solltest du im Slider Erlebniswelten Element das entsprechende Seitenverhältnis angeben.
