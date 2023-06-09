@@ -91,7 +91,7 @@ Der Portrait-Modus wird verwendet wenn die Bildschirmhöhe das Seitenverhältnis
 
 ### Slide Cover
 
-Definiert das Hintergrundbild des Slides im Landscape- und Portrait-Modus. Für eine optimale responsive Darstellung empfehlen wir ein optimiertes Seitenverhältnis des Bildes für den jeweiligen Modus zu wählen. Weitere Hinweise zum Seitenverhältnis und Slider-Größe [findest du hier](/de/documentation/slider-sizing).  
+Definiert das Hintergrundbild des Slides im Landscape- und Portrait-Modus. Für eine optimale responsive Darstellung empfehlen wir ein optimiertes Seitenverhältnis des Bildes für den jeweiligen Modus zu erstellen. Weitere Hinweise zum Seitenverhältnis und Slider-Größe [findest du hier](/de/documentation/slider-sizing).  
 Neben Bildern kannst du auch ein Video als Slide Cover hochladen. Das Portrait Medium wird nicht genutzt sobald ein Video im Slide-Cover Landscape festgelegt wurde.
 
 ::: info Unterstützte Datei Formate
