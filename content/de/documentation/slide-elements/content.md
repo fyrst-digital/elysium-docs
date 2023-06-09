@@ -91,4 +91,17 @@ Der Portrait-Modus wird verwendet wenn die Bildschirmhöhe das Seitenverhältnis
 
 ### Slide Cover
 
-Definiert das Hintergrund-Medium des Slides im Landscape- und Portrait-Modus. Für eine optimale Anzeigekontrolle empfehlen wir ein einheitliches Seitenverhältnis des Mediums für den jeweiligen Modus zu wählen. Weitere Tipps zum Seitenverhältnis findest du hier. Darüber hinaus solltest du im Slider Erlebniswelten Element das entsprechende Seitenverhältnis angeben.
+Definiert das Hintergrundbild des Slides im Landscape- und Portrait-Modus. Für eine optimale responsive Darstellung empfehlen wir ein optimiertes Seitenverhältnis des Bildes für den jeweiligen Modus zu wählen. Weitere Hinweise zum Seitenverhältnis und Slider-Größe [findest du hier](/de/documentation/slider-sizing).  
+Neben Bildern kannst du auch ein Video als Slide Cover hochladen. Das Portrait Medium wird nicht genutzt sobald ein Video im Slide-Cover Landscape festgelegt wurde.
+
+::: info Unterstützte Datei Formate
+Für Bilder werden die Formate **jpg, png, webp** und für Videos werden **mp4 und webm** unterstützt.
+:::
+
+## Zusatzfelder
+
+Du kannst einem Slide auch Zusatzfelder zuweisen. Wenn du einen neuen Slide erstellst speichere diesen zuerst, damit du auf die Zusatzfelder zugreifen kannst. Um in Shopware Zusatzfelder anzulegen kannst du der offiziellen [Shopware Dokumentation](https://docs.shopware.com/de/shopware-6-de/einstellungen/zusatzfelder) folgen.
+
+::: info Hinweis
+Zusatzfelder müssen manuell mit dem Slide Template verknüpft werden und setzen daher Kentnisse im Shopware Templating/Twig voraus. Hier bietet es sich auch an [individuelle Slide-Templates](/de/documentation/custom-slide-templates) zu erstellen.
+:::
