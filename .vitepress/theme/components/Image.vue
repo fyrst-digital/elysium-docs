@@ -89,9 +89,12 @@
         align-self: center;
         border-radius: var(--image-border-radius);
         width: 100%;
-        max-width: 600px;
         cursor: pointer;
         box-shadow: 0 0 1rem var(--image-shadow-color);
+        transition: all .3s;
+    }
+    .image:hover {
+        transform: scale(1.1);
     }
     .dark .image {
         --image-shadow-color: rgba(0, 0, 0, 0.5);
