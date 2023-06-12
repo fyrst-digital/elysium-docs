@@ -36,6 +36,8 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
         <div v-if="actions" class="actions">
           <div v-for="action in actions" :key="action.link" class="action">
             <CustomButton
+                tag="a"
+                :href="action.link"
                 :text="action.text"
                 :theme="action.theme"
                 size="medium" />

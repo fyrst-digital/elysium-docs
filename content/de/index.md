@@ -4,17 +4,17 @@ layout: home
 
 hero:
   name: "Elysium Slider"
-  text: "Flexibler und wiederverwendbarer Einkaufswelten Slider"
-  tagline: "Anleitung, Dokumentation und Guides"
+  text: "Flexibler und wiederverwendbarer Slider für Shopware"
   image:
     src: "/logo.png"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      external: true
+      text: Zum Shopware Store
+      link: https://store.shopware.com/blur358402810171f/elysium-slider-fuer-erlebniswelten.html?c=1062
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Zur Dokumentation
+      link: /de/documentation/setup
 
 features:
   - title: "Zentrale Verwaltung deiner Slides"

@@ -35,6 +35,11 @@
   --vp-button-brand-active-border: var(--vp-c-brand-light);
   --vp-button-brand-active-text: var(--vp-c-white);
   --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+  --button-brand-bg-image: linear-gradient(
+    120deg,
+    var(--color-brand-primary) 0%,
+    var(--vp-button-brand-bg) 100%
+  );
 }
 
 /**

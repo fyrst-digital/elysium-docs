@@ -73,6 +73,7 @@ const component = computed(() => {
   border-color: var(--vp-button-brand-border);
   color: var(--vp-button-brand-text);
   background-color: var(--vp-button-brand-bg);
+  background-image: var(--button-brand-bg-image);
 }
 
 .VPButton.brand:hover {
