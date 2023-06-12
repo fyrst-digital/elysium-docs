@@ -5,4 +5,4 @@ er finden sich verschiedene Einstellungen für die Navigations-Pfeile des Slider
 Lege fest ob die Navigations-Pfeile angezeigt werden sollen oder nicht. Standardgemäß sind die Pfeile aktiviert.
 
 ## Erscheinungsbild
-Es lassen sich Icon-Größe und das Icon, sowie die Farben der Icons auswählen
+Es lassen sich Icon-Größe und das Icon, sowie die Farben der Icons und des Hintergrunds auswählen
