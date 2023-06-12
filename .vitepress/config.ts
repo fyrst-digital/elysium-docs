@@ -93,6 +93,14 @@ export default defineConfig({
                     {
                       text: 'Seitenverhältnis',
                       link: '/de/documentation/cms-slider/aspect-ratio' 
+                    },
+                    {
+                      text: 'Navigation',
+                      link: '/de/documentation/cms-slider/navigation' 
+                    },
+                    {
+                      text: 'Pfeile',
+                      link: '/de/documentation/cms-slider/arrows' 
                     }
                   ]
                 }
