@@ -22,6 +22,6 @@ features:
   - title: "Einfache Wiederverwendbarkeit"
     details: "Durch die Trennung von Slider Element und Slides kannst du deine angelegten Slides beliebig wiederverwenden.
     Lege deinen Slide einmalig an und verwende ihn in unterschiedlichen Slider Elementen."
-  - title: "Vielzahl an Standardeinstellungen"
-    details: "Es gibt eine Vielzahl von Einstellungen. Hintergrundbilder für Portrait- und Landscape-Ansicht, Video-Support, Einstellen des HTML-Tags der Überschrift, eigene CSS-Klassen, individuelle Verlinkung und vieles, vieles mehr."
+  - title: "Vielzahl an Einstellungen"
+    details: "Unsere Erweiterung bietet jede Menge Einstellungen. Hintergrundbilder für Portrait- und Landscape-Ansicht, Video-Support, Einstellen des HTML-Tags der Überschrift, eigene CSS-Klassen, individuelle Verlinkung und vieles, vieles mehr."
 ---
