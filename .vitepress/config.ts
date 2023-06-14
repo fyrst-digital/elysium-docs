@@ -91,8 +91,8 @@ export default defineConfig({
                       link: '/de/documentation/cms-slider/settings' 
                     },
                     {
-                      text: 'Seitenverhältnis',
-                      link: '/de/documentation/cms-slider/aspect-ratio' 
+                      text: 'Größen',
+                      link: '/de/documentation/cms-slider/sizing' 
                     },
                     {
                       text: 'Navigation',
