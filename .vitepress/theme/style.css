@@ -99,6 +99,21 @@
  * Component: Algolia
  * -------------------------------------------------------------------------- */
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10rem;
+}
+
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand) !important;
 }
