@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { fileURLToPath, URL } from 'node:url'
 import urls from "./rewrites"
 
 // https://vitepress.dev/reference/site-config
@@ -37,10 +36,12 @@ export default defineConfig({
       label: 'Deutsch',
       lang: 'de',
       title: "Elysium Slider",
+      titleTemplate: ":title — Elysium Slider",
       description: "Anleitung, Dokumentation und Guides für Elysium Slider",
       themeConfig: { 
         lastUpdatedText: "Zuletzt aktualisiert",
         outlineTitle: 'Auf dieser Seite',
+        returnToTopLabel: "Zurück nach oben",
         docFooter: {
           prev: 'Vorherige Seite',
           next: 'Nächste Seite'
@@ -124,7 +125,26 @@ export default defineConfig({
   description: "Manual, Documentation and Guides for Elysium Slider",
   themeConfig: {
     search: {
-      provider: "local"
+      provider: "local",
+      options: {
+        locales: {
+          de: {
+            translations: {
+              button: {
+                buttonText: "Suchen",
+              },
+              modal: {
+                noResultsText: "Keine Ergebnisse für",
+                footer: {
+                  navigateText: "navigieren",
+                  selectText: "auswählen",
+                  closeText: "schließen",
+                }
+              }
+            }
+          }
+        }
+      }
     },
     // https://vitepress.dev/reference/default-theme-config
     

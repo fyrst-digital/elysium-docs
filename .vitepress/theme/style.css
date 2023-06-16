@@ -87,12 +87,14 @@
   --image-gaps: 2rem;
   --image-shadow-color: rgba(0, 0, 0, 0.15);
   --image-modal-bg-color: rgba(0, 0, 0, 0.75);
+  --nav-bar-bg-color: rgba(255,255,255,.8);
 }
 
 .dark {
   --vp-custom-block-tip-border: var(--vp-c-brand);
   --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
   --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+  --nav-bar-bg-color: rgba(30,30,32,.8);
 }
 
 /**
@@ -156,4 +158,27 @@
 }
 .VPHome {
   overflow: hidden;
+}
+
+.VPNavBar .curtain
+{
+  display: none !important;
+}
+
+.VPNavBar .content-body
+{
+  background-color: var(--nav-bar-bg-color) !important;
+  backdrop-filter: blur(1rem);
+}
+
+@media screen and (min-width: 768px) {
+  #local-search {
+    width: 320px;
+  }
+}
+.DocSearch-Button {
+  border-color: var(--vp-c-divider);
+}
+.DocSearch-Button .DocSearch-Button-Keys {
+  margin-left: auto;
 }
