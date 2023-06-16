@@ -81,7 +81,6 @@
         justify-content: center;
         gap: var(--image-gaps);
         padding: var(--image-gaps);
-        border: 1px solid var(--vp-c-divider);
         background-color: var(--vp-sidebar-bg-color);
         border-radius: 1rem;
     }

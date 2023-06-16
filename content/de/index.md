@@ -1,7 +1,7 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+title: "Erlebniswelten Slider für Shopware 6"
+description: "Flexibler und wiederverwendbarer Slider für Shopware 6"
 hero:
   name: "Elysium Slider"
   text: "Flexibler und wiederverwendbarer Slider für Shopware"
@@ -23,5 +23,9 @@ features:
     details: "Durch die Trennung von Slider Element und Slides kannst du deine angelegten Slides beliebig wiederverwenden.
     Lege deinen Slide einmalig an und verwende ihn in unterschiedlichen Slider Elementen."
   - title: "Vielzahl an Einstellungen"
-    details: "Unsere Erweiterung bietet jede Menge Einstellungen. Hintergrundbilder für Portrait- und Landscape-Ansicht, Video-Support, Einstellen des HTML-Tags der Überschrift, eigene CSS-Klassen, individuelle Verlinkung und vieles, vieles mehr."
+    details: "Unsere Erweiterung bietet jede Menge Einstellungen. Hintergrundbilder für Portrait- und Landscape-Ansicht, Video-Support, eigene CSS-Klassen, individuelle Verlinkung und vieles, vieles mehr."
+  - title: "Erweiterbar durch Zusatzfelder"
+    details: "Du kannst jeden Slide durch beliebige Zusatzfelder erweitern. Erstelle einfach ein Zusatzfelder-Set für Elysium Slides und lege deine Felder fest."
+  - title: "Individuelle Slide-Templates"
+  - title: "Updates und Support"
 ---

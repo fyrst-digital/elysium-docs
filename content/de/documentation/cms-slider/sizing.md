@@ -1,3 +1,7 @@
+---
+title: "Erlebniswelten Slider: Größen Einstellungen"
+---
+
 # Größen
 Hier kannst du Größen des Sliders, für verschiedene Bildschirmgrößen, anpassen. Wir verwenden die Bildschirm Größen des Shopware Standard Storefronts. Wähle eine Bildschirmgröße und lege Optionen wie zum Beispiel das Seitenverhältnis fest.
 

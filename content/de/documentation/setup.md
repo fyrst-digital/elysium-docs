@@ -16,7 +16,7 @@ Um einen Slide hinzuzufügen klicke oben rechts auf den Button **Slide erstellen
 Der Slide wird immer in deiner Standardsprache erstellt. Willst du den Slide in einer anderen Sprache pflegen, erstelle und speichere ihn zuerst in deiner Standardsprache.
 :::
 
-Nachdem du Slides angelegt hast kannst du diese in einem Erlebniswelten Layout im Elysium Slider Element verknüpfen.
+Nachdem du Slides angelegt hast kannst du diese im Elysium Slider Element eines Erlebniswelten Layouts verknüpfen.
 
 ## Slides im Slider Erlebniswelt-Element verknüpfen
 

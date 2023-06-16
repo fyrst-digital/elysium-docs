@@ -78,10 +78,7 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
   }
 }
 
-@media (min-width: 960px) {
-  .VPHero {
-  }
-}
+
 
 .container {
   display: flex;
@@ -172,9 +169,6 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
 }
 
 @media (min-width: 960px) {
-  .name,
-  .text {
-  }
 
   .VPHero.has-image .name,
   .VPHero.has-image .text {

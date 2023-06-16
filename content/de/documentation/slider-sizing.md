@@ -1,14 +1,14 @@
 ---
-title: "Guides: Slider-Größe"
+title: "Slider-Größen anpassen"
 ---
 
-# Anpassung der Slider-Größe
+# Anpassung der Slider-Größen
 
 Um das bestmögliche Responsive Erlebnis zu bieten, arbeitet der Elysium Slider mit Seitenverhältnissen, statt mit statischen Pixel-Werten. Im Erlebniswelten Element des Elysium Slider findest du die Einstellungen der Seitenverhältnisse.
 
 <Image
-    src="/screenshots/de/admin-cms-setting-aspect-ratio.png" 
-    alt="Seitenverhätnis Einstellungen im Erlebniswelt Element"
+    src="/screenshots/de/admin-cms-setting-sizing.png" 
+    alt="Größen Einstellungen im Erlebniswelt Element"
     :caption="true" />
 
 Du kannst für jede Bildschirm-Größe ein eigenes Seitenverhältnis einstellen. Die Bildschirm-Größen orientieren sich am Shopware Standard Theme. Diese können bei eigenen Themes abweichen.  
