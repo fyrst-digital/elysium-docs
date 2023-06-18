@@ -18,20 +18,19 @@ defineProps<{
 const { title } = useData()
 </script>
 <template>
-  <div class="image-wrapper"> 
+  <div class="image-wrapper" style="aspect-ratio: 4 / 3;"> 
 
     <img src="/hero-image.png" 
       :alt="title" 
-      style="aspect-ratio: 4 / 3;"
       class="image">
   </div>
 </template>
 
 <style scoped>
   .image-wrapper {
+    width: 460px;
     z-index: 5;
     position: relative;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,6 +38,21 @@ const { title } = useData()
   .image {
     width: 100%;
     aspect-ratio: 4 / 3;
-    max-width: clamp(200px, 80vw, 600px);
+    max-width: 100%;
+  }
+  @media screen and (min-width: 960px) {
+    .image-wrapper {
+    width: 500px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .image-wrapper {
+    width: 580px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .image-wrapper {
+    width: 620px;
+    }
   }
 </style>
