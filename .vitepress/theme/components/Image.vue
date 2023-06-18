@@ -1,19 +1,30 @@
 <script setup lang="ts">
     import { type Ref, inject, ref } from 'vue'
     import type { DefaultTheme } from 'vitepress/theme'
-
-    defineProps<{
-        src: string,
-        alt?: string,
+    
+    interface Props {
+        src: string
+        alt?: string
         caption?: boolean
-    }>()
+        aspectRatio?: string
+    }
+
+    const props = withDefaults(defineProps<Props>(), {
+        src: "",
+        alt: "",
+        caption: true,
+        aspectRatio: "16 / 10"
+    });
 
     const modalState = ref(false)
 </script>
 <template>
     <div class="image-container">
 
-        <div class="image-wrapper">
+        <div class="image-wrapper"
+            :style="{
+                aspectRatio: aspectRatio
+            }">
             <img 
                 :src="src" 
                 :alt="alt"
