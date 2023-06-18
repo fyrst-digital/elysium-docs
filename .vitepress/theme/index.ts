@@ -6,11 +6,12 @@ import CustomLayout from './CustomLayout.vue'
 
 import Image from "./components/Image.vue";
 import Badge from "./components/Badge.vue";
+import LeadNotFound from "./components/LeadNotFound.vue";
 
 export default {
   ...Theme,
   Layout: CustomLayout,
   enhanceApp({ app, router, siteData }) {
-    app.component('Image', Image).component('Badge', Badge)
+    app.component('Image', Image).component('Badge', Badge).component('LeadNotFound',LeadNotFound)
   }
 }

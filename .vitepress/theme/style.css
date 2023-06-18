@@ -88,6 +88,8 @@
   --image-shadow-color: rgba(0, 0, 0, 0.15);
   --image-modal-bg-color: rgba(0, 0, 0, 0.75);
   --nav-bar-bg-color: rgba(255,255,255,.8);
+  --text-color-soft: #bababa;
+  --color-divider: rgba(0,0,0,.15); 
 }
 
 .dark {
@@ -95,6 +97,8 @@
   --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
   --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
   --nav-bar-bg-color: rgba(30,30,32,.8);
+  --text-color-soft: #666666;
+  --color-divider: rgba(255,255,255,.15); 
 }
 
 /**

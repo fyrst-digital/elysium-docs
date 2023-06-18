@@ -27,5 +27,7 @@ features:
   - title: "Erweiterbar durch Zusatzfelder"
     details: "Du kannst jeden Slide durch beliebige Zusatzfelder erweitern. Erstelle einfach ein Zusatzfelder-Set für Elysium Slides und lege deine Felder fest."
   - title: "Individuelle Slide-Templates"
+    details: "Du kannst für jeden Slide ein individuelles Twig-Template festlegen, welches du in deinem Custom Theme oder Plugin frei anpassen kannst."
   - title: "Updates und Support"
+    details: "Der Elysium Slider wird stetig weiterentwickelt. Außerdem steht neben unserer ausführlichen Dokumentation auch exklusiver Ticket-Support zur Verfügung."
 ---
