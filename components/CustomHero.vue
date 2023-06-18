@@ -40,6 +40,7 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
                 :href="action.link"
                 :text="action.text"
                 :theme="action.theme"
+                :isExternal="action.external"
                 size="medium" />
             <!--
             <VPButton
