@@ -10,20 +10,20 @@ In the menu under **Contents -> Elysium Slides** you will find the slide overvie
     src="/screenshots/de/admin-slides-listing-empty.png" 
     alt="Elysium Slides Overview" />
 
-Um einen Slide hinzuzufügen klicke oben rechts auf den Button **Slide erstellen**. Du gelangst zur Slide-Ansicht und kannst diesen befüllen. [Hier findest du](/de/documentation/slide-elements/) mehr Details zu den Einstellungsmöglichkeiten.  
+To add a slide click on the **Create Slide** button in the upper right corner. You will get to the slide view and can fill in the details. [Here you can find](/documentation/slide-elements/) more details about the settings.
 
-::: info Hinweis
-Der Slide wird immer in deiner Standardsprache erstellt. Willst du den Slide in einer anderen Sprache pflegen, erstelle und speichere ihn zuerst in deiner Standardsprache.
+::: info Note
+The slide is always created in your default language. If you want to maintain the slide in another language, create and save it in your default language first.
 :::
 
-Nachdem du Slides angelegt hast kannst du diese im Elysium Slider Element eines Erlebniswelten Layouts verknüpfen.
+After you have created slides you can link them in the Elysium Slider element of a Shopping experience layout.
 
-## Slides im Slider Erlebniswelt-Element verknüpfen
+## Link slides in the Slider element
 
-In einem Erlebniswelten Layout kannst du unter der **Block Gruppe Text und Bild das Elysium Slider Element** auswählen und per Drag & Drop an die gewünschte Position ziehen.
+In an Shopping expierence layout, you can select the **Elysium Slider** element in the Block group **Text and Image** and drag it to the desired position.
 
 <Image 
     src="/screenshots/de/admin-cms-block-selection.png" 
-    alt="Erlebiswelt Elysium Slider in Block-Auswahl" />
+    alt="Elysium Slider in Block group Text and Images whitin Shopping expierence layout" />
 
-In dem Element kannst du deine Slides verknüpfen und [weitere Slider bezogene Einstellungen](/de/documentation/cms-slider/) festlegen.
+In the element you can link your slides and set [other slider related settings](/documentation/cms-slider/).

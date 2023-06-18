@@ -22,6 +22,7 @@ const { title } = useData()
 
     <img src="/hero-image.png" 
       :alt="title" 
+      style="aspect-ratio: 4 / 3;"
       class="image">
   </div>
 </template>
