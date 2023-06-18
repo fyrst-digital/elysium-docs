@@ -34,6 +34,7 @@ const { title } = useData()
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
   }
   .image {
     width: 100%;
