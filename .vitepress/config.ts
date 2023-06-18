@@ -1,10 +1,32 @@
-import { defineConfig } from 'vitepress'
-import urls from "./rewrites"
+import { defineConfig, createContentLoader } from 'vitepress'
+import { SitemapStream } from 'sitemap'
+import { createWriteStream } from 'node:fs'
+import { resolve } from 'node:path'
 import sidebar from "./sidebar"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // rewrites: urls,
+  lastUpdated: true,
+  buildEnd: async ({ outDir, pages }) => {
+    const sitemap = new SitemapStream({ hostname: 'https://elysium-slider.blurcreative.de/' })
+    const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
+
+    sitemap.pipe(writeStream)
+    pages.forEach((page) => {
+      console.log("", page)
+        sitemap.write(
+          page            // Strip `index.html` from URL
+            .replace(/.md$/g, '')
+            // Optional: if Markdown files are located in a subfolder
+            .replace(/^\/content/, '')
+        )
+      }
+    )
+    sitemap.end()
+
+    await new Promise((r) => writeStream.on('finish', r))
+    
+  },
   vite: {
     resolve: {
       alias: [
@@ -21,7 +43,6 @@ export default defineConfig({
   },
   srcDir: "./content",
   cleanUrls: true,
-  lastUpdated: true,
   head: [
     [
       'link',
