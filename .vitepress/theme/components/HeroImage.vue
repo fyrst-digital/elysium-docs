@@ -20,7 +20,7 @@ const { title } = useData()
 <template>
   <div class="image-wrapper" style="aspect-ratio: 4 / 3;"> 
 
-    <img src="/hero-image.png" 
+    <img src="/hero-image.webp" 
       :alt="title" 
       class="image">
   </div>
