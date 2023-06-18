@@ -13,9 +13,9 @@
     })
 
     interface Props {
-        subtext: string
-        description: string
-        buttonLabel: string
+        subtext?: string
+        description?: string
+        buttonLabel?: string
     }
 
     const props = withDefaults(defineProps<Props>(), {
