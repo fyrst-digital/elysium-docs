@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, watchEffect, watch, computed } from "vue";
+import { onMounted, watchEffect, watch, computed, reactive } from "vue";
 import { useData, useRouter, useRoute } from 'vitepress';
 import DefaultTheme from 'vitepress/theme'
 import HeaderIcon from "./components/HeaderIcon.vue";
@@ -7,14 +7,12 @@ import HeroImage from "./components/HeroImage.vue";
 import LeadNotFound from "./components/LeadNotFound.vue";
 
 const { Layout } = DefaultTheme;
-const { lang, site, page, localeIndex } = useData()
+const { lang, site, page, localeIndex, frontmatter } = useData()
 const route = useRoute()
 const router = useRouter()
 const locales = site.value.locales
 
-const isNotFound = computed(() => {
-  return page.value.isNotFound || page.value.frontmatter['404'] ? true : false;
-})
+console.log(frontmatter.value)
 
 /*
 watchEffect(async () => {

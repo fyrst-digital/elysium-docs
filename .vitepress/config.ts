@@ -7,19 +7,22 @@ import sidebar from "./sidebar"
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lastUpdated: true,
-  buildEnd: async ({ outDir, pages }) => {
-    const sitemap = new SitemapStream({ hostname: 'https://elysium-slider.blurcreative.de/' })
+  buildEnd: async ({ outDir }) => {
+    const host = 'https://elysium-slider.blurcreative.de/'
+    const sitemap = new SitemapStream({ hostname: host })
+    const pages = await createContentLoader('content/**/*.md').load()
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
 
     sitemap.pipe(writeStream)
     pages.forEach((page) => {
-      console.log("", page)
-        sitemap.write(
-          page            // Strip `index.html` from URL
-            .replace(/.md$/g, '')
-            // Optional: if Markdown files are located in a subfolder
-            .replace(/^\/content/, '')
-        )
+        let pageUrl = page.url.replace(/index$/g, '').replace(/^\/content/, '')
+        let pagePriority = page.frontmatter?.sitemap?.priority ?? 1
+        let pageChangefreq = page.frontmatter?.sitemap?.changefreq ?? 'weekly'
+        sitemap.write({
+          url: pageUrl,
+          changefreq: pageChangefreq,
+          priority: pagePriority
+        })
       }
     )
     sitemap.end()
@@ -108,7 +111,7 @@ export default defineConfig({
     nav: [
       {
         text: "Documentation",
-        link: "/documentation/",
+        link: "/documentation/setup",
       }
     ],
   
