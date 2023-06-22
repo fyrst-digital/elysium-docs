@@ -1,6 +1,11 @@
 ---
 layout: home
 
+head:
+  - - link
+    - rel: canonical
+      content: "https://elysium-slider.blurcreative.de/de/"
+
 title: "Erlebniswelten Slider für Shopware 6"
 description: "Flexibler und wiederverwendbarer Slider für Shopware 6"
 
