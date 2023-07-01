@@ -36,3 +36,8 @@ features:
   - title: "Updates und Support"
     details: "Der Elysium Slider wird stetig weiterentwickelt. Außerdem steht neben unserer ausführlichen Dokumentation auch exklusiver Ticket-Support zur Verfügung."
 ---
+
+<!--HomeContent
+  title="Die Idee">
+  Alle Slides werden an einer zentralen Stelle verwaltet. Also kein mühsames erstellen der Slide Inhalte innerhalb eines Erlebniswelt Elements. Du kannst deine Slides so ganz einfach an anderes Stellen wiederverwenden und frei arrangieren wie du möchtest.
+<HomeContent-->
