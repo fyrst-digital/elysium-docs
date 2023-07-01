@@ -135,6 +135,9 @@
   align-items: center;
   gap: 2rem
 }
+.VPFeatures {
+  margin-bottom: 2rem;
+}
 .VPHero > .container .main {
   flex: 1 1 0%;
   width: 100%;

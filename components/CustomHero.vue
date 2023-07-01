@@ -26,10 +26,10 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
     <div class="container">
       <div class="main">
         <slot name="home-hero-info">
-          <h1 v-if="name" class="name">
+          <div v-if="name" class="name">
             <span class="clip">{{ name }}</span>
-          </h1>
-          <p v-if="text" class="text">{{ text }}</p>
+          </div>
+          <h1 v-if="text" class="text">{{ text }}</h1>
           <p v-if="tagline" class="tagline">{{ tagline }}</p>
         </slot>
 
