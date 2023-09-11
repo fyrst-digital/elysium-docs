@@ -7,7 +7,7 @@ title: "Guides: Slider Sizing"
 To provide the best possible Responsive experience, the Elysium Slider works with aspect ratios instead of static pixel values. In the Slider CMS element you can find the aspect ratio settings.
 
 <Image
-    src="/screenshots/de/admin-cms-setting-aspect-ratio.png" 
+    src="/screenshots/en/admin-cms-setting-sizing.png" 
     alt="Aspect Ratio Settings in CMS Slider"
     :caption="true" />
 
