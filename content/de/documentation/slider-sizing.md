@@ -18,5 +18,5 @@ Intern wird die Twig Funktion `theme_config('breakpoint.<viewport>')` genutzt
 :::
 
 ## Maximale Höhe
-Außerdem kannst du eine maximale Höhe in `px` oder `rem` festlegen. Dies ist sinnvoll wenn du zum Beispiel ein Erlebniswelten Layout nutzt welches über die volle Bildschirmbreite geht. Dann wird der Slider auf diese maximale Höhe begrenzt.  
-Willst du nur einmalig eine maximale Höhe festlegen welche für alle Bildschirm-Größen greift, empfehlen wir dies in der kleinsten Bildschirm-Größe zu tun. Standardgemäß ist das **xs**.
+Außerdem kannst du eine maximale Höhe in `px` oder `rem` festlegen. Das ist sinnvoll wenn du zum Beispiel ein Erlebniswelten Layout nutzt welches über die volle Bildschirmbreite geht. Der Slider wird auf diese maximale Höhe begrenzt.  
+Wenn du eine maximale Höhe festlegen möchtest, die für alle Bildschirmgrößen gilt, kannst du das in der kleinsten Bildschirmgröße zu tun. Standardgemäß ist das **xs**.

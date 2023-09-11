@@ -1,22 +1,22 @@
 ---
-title: "Guides: Slider-Größe"
+title: "Guides: Slider Sizing"
 ---
 
-# Anpassung der Slider-Größe
+# Customization of Slider size
 
-Um das bestmögliche Responsive Erlebnis zu bieten, arbeitet der Elysium Slider mit Seitenverhältnissen, statt mit statischen Pixel-Werten. Im Erlebniswelten Element des Elysium Slider findest du die Einstellungen der Seitenverhältnisse.
+To provide the best possible Responsive experience, the Elysium Slider works with aspect ratios instead of static pixel values. In the Slider CMS element you can find the aspect ratio settings.
 
 <Image
     src="/screenshots/de/admin-cms-setting-aspect-ratio.png" 
     alt="Seitenverhätnis Einstellungen im Erlebniswelt Element"
     :caption="true" />
 
-Du kannst für jede Bildschirm-Größe ein eigenes Seitenverhältnis einstellen. Die Bildschirm-Größen orientieren sich am Shopware Standard Theme. Diese können bei eigenen Themes abweichen.  
+You can set a custom aspect ratio for each screen size. The screen sizes are based on the Shopware Standard Theme. These may differ for custom themes.  
 
-::: info Hinweis für Entwickler
-Intern wird die Twig Funktion `theme_config('breakpoint.<viewport>')` genutzt
+::: info Note for developers
+Internally the Twig function `theme_config('breakpoint.<viewport>')` is used
 :::
 
-## Maximale Höhe
-Außerdem kannst du eine maximale Höhe in `px` oder `rem` festlegen. Dies ist sinnvoll wenn du zum Beispiel ein Erlebniswelten Layout nutzt welches über die volle Bildschirmbreite geht. Dann wird der Slider auf diese maximale Höhe begrenzt.  
-Willst du nur einmalig eine maximale Höhe festlegen welche für alle Bildschirm-Größen greift, empfehlen wir dies in der kleinsten Bildschirm-Größe zu tun. Standardgemäß ist das **xs**.
+## Maximum height
+You can also specify a maximum height in `px` or `rem`. This is useful if you are using a CMS layout that spans the full width of the screen. The Slider will be limited to this maximum height.  
+If you want to set a maximum height that applies to all screen sizes, we recommend doing this in the smallest screen size. By default, this is **xs**.

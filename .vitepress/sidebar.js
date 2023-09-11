@@ -71,7 +71,10 @@ export default {
                 text: 'Manual',
                 collapsed: false,
                 items: [
-                    { text: 'Setup', link: '/de/documentation/setup' },
+                    { 
+                        text: 'Setup', 
+                        link: '/documentation/setup'
+                    },
                     { 
                         text: 'Slide Elements', 
                         link: '/documentation/slide-elements/', 
