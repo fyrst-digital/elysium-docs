@@ -8,7 +8,7 @@ To provide the best possible Responsive experience, the Elysium Slider works wit
 
 <Image
     src="/screenshots/de/admin-cms-setting-aspect-ratio.png" 
-    alt="Seitenverhätnis Einstellungen im Erlebniswelt Element"
+    alt="Aspect Ratio Settings in CMS Slider"
     :caption="true" />
 
 You can set a custom aspect ratio for each screen size. The screen sizes are based on the Shopware Standard Theme. These may differ for custom themes.  
