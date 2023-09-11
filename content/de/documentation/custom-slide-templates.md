@@ -1,3 +1,7 @@
+---
+title: "Guides: Individuelle Slide Templates einrichten"
+---
+
 # Individuelle Slide Templates
 
 Du kannst für jeden Slide ein individuelles Twig-Template festlegen, welches du in deinem Custom Theme oder Plugin frei anpassen kannst. Wenn du also Kenntnisse in Twig hast kannst du dir so individuelle Templates für deine Slides erstellen, welche sich nach belieben wiederverwenden lassen.

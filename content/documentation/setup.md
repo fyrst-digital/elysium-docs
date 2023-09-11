@@ -1,3 +1,7 @@
+---
+title: "Manual: Setup and first steps"
+---
+
 # Setup
 After you have installed and activated the extension, you will find the new entry **Elysium Slides** in the menu **Contents**. Here you can manage all your slides. You can create new slides or delete the ones you no longer need. If you have created one or more slides you can arrange them in the **Elysium Slider World of Experience Element** and define the behavior and appearance of the slider.
 

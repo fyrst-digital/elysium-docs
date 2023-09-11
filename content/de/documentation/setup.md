@@ -1,3 +1,7 @@
+---
+title: "Anleitung: Einrichtung und erste Schritte"
+---
+
 # Einrichtung
 Nachdem du das Plugin installiert und aktiviert hast, findest du im Menüpunkt **Inhalte** den neuen **Eintrag Elysium Slides**. Hier werden all deine Slides verwaltet. Du kannst neue Slides erstellen oder nicht mehr benötigte löschen. Hast du einen oder mehrere Slides erstellt kannst du diese im **Elysium Slider Erlebniswelten Element** beliebig zusammenstellen und das Verhalten und Aussehen des Sliders festlegen.  
 

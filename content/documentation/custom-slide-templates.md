@@ -1,3 +1,7 @@
+---
+title: Set up custom slide templates
+---
+
 # Custom Slide Templates
 
 You can set an individual Twig template for each slide, which you can freely customize in your custom theme or plugin. So if you have knowledge in Twig you can create individual templates for your slides, which can be reused as you like.
