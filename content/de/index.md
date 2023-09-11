@@ -37,7 +37,32 @@ features:
     details: "Der Elysium Slider wird stetig weiterentwickelt. Außerdem steht neben unserer ausführlichen Dokumentation auch exklusiver Ticket-Support zur Verfügung."
 ---
 
-<!--HomeContent
-  title="Die Idee">
-  Alle Slides werden an einer zentralen Stelle verwaltet. Also kein mühsames erstellen der Slide Inhalte innerhalb eines Erlebniswelt Elements. Du kannst deine Slides so ganz einfach an anderes Stellen wiederverwenden und frei arrangieren wie du möchtest.
-<HomeContent-->
+<HomeContent
+  title="Die Idee des Elysium Slider für Shopware 6"
+  titleTag="h2">
+  Shopware hat in seinen Erlebniswelt Elementen nur einen sehr einfachen Bild Slider. Dieser bietet nur eine Größe für alle Bildschirmgrößen und man kann nur ein Bild hochladen. Okay, in der aktuellen Version kann man auch Videos hochladen und die Reihenfolge der Bilder anpassen. Aber das reicht uns und vor allem vielen Shopbetreibern nicht.
+  Also musste ein Slider für Shopware her der die benötigten Features, eine gutes Nutzererlebnis und Erweiterbarkeit mitbringt. So entstand der Elysium Slider
+</HomeContent>
+
+<HomeContent
+  title="Trennung von Inhalt und Verhalten: Slide- und Slider-Element"
+  titleTag="h3">
+  Die ersten Überlegungen widmeten wir dem Aufbau und der Bedienung. Sollten wir die Inhalte des Sliders wirklich an das Erlebniswelt Element binden? Auf der einen Seite macht es keinen Spaß die Inhalte in dem kleinen PopUp des Erlebniswelten Elements zu pflegen. Auf der anderen Seite kann man die Inhalte so nur schlecht weiter verwenden. Zum Beispiel möchte man auf der Startseite einen Slide haben, welchen man auf einer Kategorie- oder Produktseite wiederverwenden möchte. So müsste man die Inhalte händisch kopieren. Und was ist bei Änderungen des Inhalts? Das ganze Spiel von vorne.<br/>
+  <br/>
+  Also haben wir den Inhalt, also die einzelnen Slides, in eine eigenständige Komponente ausgelagert. Du pflegst die Slides also an einer zentralen Stelle. Diese Slides kannst du im Erlebniswelten Slider-Element beliebig zusammenstellen. Dort kannst du auch das Verhalten und Erscheinung des gesamten Slider anpassen. Zum Beispiel Auto-Wiedergabe, Anzeige der Navigations-Puinkte oder Pfeile, Farben und mehr.<br/>
+  Dieses Konzept bringt dir als Shhopbetreiber maximale Flexibilität und Wiederverwendbarkeit
+</HomeContent>
+
+<!--
+<HomeContent
+  title="Der optimale Mix zwischen Funktionsumfang und Übersicht"
+  titleTag="h3">
+</HomeContent>
+-->
+<HomeContent
+  title="Erweiterbar durch Zusatzfelder und individuelle Slide Twig-Templates"
+  titleTag="h3">
+  Jeder Slide ist durch Zusatzfelder erweiterbar. Du kannst also ein eigenes Zusatzfelder-Set für die Elysium Slides anlegen und im entsprechenden Slide pflegen. Damit die Zusatzfelder im Frontend sichbar sind, müssen diese im Slide Template verknüpft werden. Da dies nicht im Template des Plugins gemacht werden sollte, kommt hier ein weiterer Ansatz ins Spiel. Nämlich individuelle Twig-Templates für jeden Slide. Lege ein eigenes Twig-Template in deinem Custom Theme oder Plugin an und verknüpfe dort die Zusatzfelder. Du kannst auch sonstige stukturelle Anpassungen am Slide vornehmen, den Möglichkeiten sind keine Grenzen gesetzt. Wenn du einen einfachen Einstiegspunkt benötigst, kannst du auch von unserem Standard-Template ableiten. In unserer Dokumentation erfährt du mehr dazu.<br/>
+  <br/>
+  All das setzt natürlich Kenntnisse in Twig und dem Template Aufbau von Shopware voraus. Solltest du diese nicht haben, kannst du uns gern für die Umsetzung deiner Ideen kontaktieren.
+</HomeContent>

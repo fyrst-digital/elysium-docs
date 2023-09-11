@@ -1,13 +1,14 @@
 <script setup lang="ts">
   defineProps<{
-    title?: string
+    title?: string,
+    titleTag?: string,
   }>()
 </script>
 <template>
   <div class="wrapper"> 
 
     <div class="container">
-      <h2 class="title">{{ title }}</h2>
+      <component :is="titleTag" class="title">{{ title }}</component>
       <slot name="before-content" />
       <div class="content">
         <slot/>
@@ -22,8 +23,24 @@
     position: relative;
     padding: 12px 24px;
   }
+  .wrapper::after {
+    content:'';
+    display: block;
+    height: 1px;
+    background-color: rgba(0,0,0,.15);
+    position: relative;
+    inset: auto auto 0;
+    transform: translateY(2rem);
+    width: 100%;
+    max-width: 24rem;
+    margin: 0 auto;
+  }
+  .dark .wrapper::after {
+    background-color: rgba(255,255,255,.15);
+  }
   .container {
     margin: 0 auto;
+    padding: 0 24px;
     max-width: 1152px;
   }
   .title {
