@@ -82,6 +82,7 @@ export default defineConfig({
     },
   },
   title: "Elysium Slider",
+  titleTemplate: ":title — Elysium Slider",
   description: "Manual, Documentation and Guides for Elysium Slider",
   themeConfig: {
     search: {

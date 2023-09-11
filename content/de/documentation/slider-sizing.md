@@ -1,5 +1,5 @@
 ---
-title: "Slider-Größen anpassen"
+title: "Guides: Slider-Größen anpassen"
 ---
 
 # Anpassung der Slider-Größen
