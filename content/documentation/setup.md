@@ -1,5 +1,6 @@
 ---
 title: "Manual: Setup and first steps"
+description: "This Manual page shows you how to set up your Slides and link them with a Slider element in shoping expierence layout"
 ---
 
 # Setup

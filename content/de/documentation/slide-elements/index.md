@@ -1,3 +1,8 @@
+---
+title: "Anleitung: Slide Elemente"
+description: "Erfahre in dieser Anleitung mehr über Slide Elemente, deren Verwendung und Konfigurations-Möglichkeiten"
+---
+
 # Slide Elemente
 
 Der Elysium Slider besteht aus zwei Komponenten, den **Slide Elementen** und dem Erlebniswelten Slider. In den Slide Elementen legst du Inhalt und Erscheinungsbild einzelner Slides fest. Diese werden zentral in einer eigenen Verwaltung gespeichert und können so beliebig wiederverwendet werden. Du musst einzelne Slides also nicht mühsam innerhalb eines Einkaufwelt Elements pflegen.  

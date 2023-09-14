@@ -1,5 +1,6 @@
 ---
 title: "Anleitung: Einrichtung und erste Schritte"
+description: "Diese Anleitung zeigt dir, wie Sie du Slides einrichtest und mit einem Slider-Element in den Erlebniswelten verknüpfst"
 ---
 
 # Einrichtung
