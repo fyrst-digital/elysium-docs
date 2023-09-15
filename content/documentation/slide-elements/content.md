@@ -1,107 +1,72 @@
-# Inhalt
+---
+title: "Slide content settings"
+description: "Here you can define content related settings for your slide"
+---
 
-## Allgemeine Angaben
+# Slide Content
+In this Tab you define content related settings for your slide
 
-Hier findest du alle allgemeinen Einstellungen der Slides.
+## General information
+Here you can find general settings of the slide, such as the internal name, heading, description and more.
 
-### Slide Name (Pflichtfeld)
+### Internal name (required)
 
-**Dieser Name muss einzigartig sein** und dient der internen Bezeichnung des Slides um ihn in der Administration zu identifizieren. So kannst du deine Slides in der Übersicht, Suche oder im Slider Einkaufswelt-Element schneller finden. Diese Angabe ist das einzige Pflichtfeld.  
+**This name must be unique** and is used for the internal name of the slide to identify it in the administration. So you can find your slides faster in the overview, search or in the slider shopping world element. This is the only required field.  
 
-Eine Best Practice Bezeichnung ist in Kleinbuchstaben und ohne Leerzeichen. Also beispielsweise `mein-erster-slide` oder `summer-sale-2023`
+A best practice name is in lowercase and without spaces. So for example `my-first-slide` or `summer-sale-2023`.
 
-### Überschrift
+### Headline
+Sets the title of the slide, which is displayed as a heading in the frontend. For the heading you can also set a text color and an HTML element. The font size is automatically scaled according to the screen width. The font size can be [adjusted by CSS variables](/documentation/reference/css-variables#slide-headline).
 
-Legt die Überschrift des Slides fest, welche im Frontend als erstes angezeigt wird. Für die Überschrift kannst du auch eine Textfarbe und ein HTML-Element festlegen. Die Schriftgröße wird automatisch, je nach Bildschirmbreite, skaliert. Die Schriftgröße kann durch die Anpassung folgender CSS Variablen angepasst werden:  
+### Short description
+Sets the short description of the slide, which is displayed in the frontend below the headline. Since this is an HTML field, you can add simple HTML or adjust the text color.  The font size is automatically scaled according to the screen width. The font size can be [adjusted by CSS variables](/documentation/reference/css-variables#slide-description).
 
-**`--bc-esld-headline-font-size-min`** <small>Standard: 2rem</small>  
-Gibt die minimale Schriftgröße an  
+### Slide background color
+Sets a background color for the slide.
 
-**`--bc-esld-headline-font-size-max`** <small>Standard: 3rem</small>  
-Gibt die maximale Schriftgröße an  
+### CSS Class
+You can specify one or more (space-separated) CSS classes for the slide to further customize your slide.
 
-**`--bc-esld-headline-font-size-scale`** <small>Standard: 2vw</small>  
-Gibt den Grad der automatischen Skalierung an  
-
-### Kurzbeschreibung
-
-Legt die kurzbeschreibung des Slides fest, welcher im Theme unterhalb der Überschrift angezeigt wird. Da dies ein HTML-Feld ist kannst du auch einfaches HTML hinterlegen oder die Textfarbe anpassen. Die Schriftgröße wird automatisch, je nach Bildschirmbreite, skaliert. Die Schriftgröße kann durch die Anpassung folgender CSS Variablen angepasst werden:  
-
-**`--bc-esld-description-font-size-min`** <small>Standard: 2rem</small>  
-Gibt die minimale Schriftgröße an  
-
-**`--bc-esld-description-font-size-max`** <small>Standard: 3rem</small>  
-Gibt die maximale Schriftgröße an  
-
-**`--bc-esld-description-font-size-scale`** <small>Standard: 2vw</small>  
-Gibt den Grad der automatischen Skalierung an  
-
-### Slide Hintergrundfarbe
-
-Legt eine Hintergrundfarbe für den Slide fest.
-
-### CSS Klasse
-
-Du kannst für den Slide eine oder mehrere (durch Leerzeichen getrennt) CSS Klassen festlegen und deinen Slide so noch weiter individualisieren.
-
-## Verlinkung
-
-Hier findest du alle relevanten Einstellungen für die Verlinkung des Slides.
+## Linking
+Here you can find all relevant settings for linking the slide.
 
 ### Slide URL
+Specifies the URL of the slide. This can be both an absolute `https://my-awesome-shop.com/category` and a relative `/my-awesome-product` URL. This field is language dependent. You can specify different URLs for different languages.
 
-Gibt die URL des Slides an. Dies kann sowohl eine absolute `https://my-awesome-shop.com/category` als auch eine relative `/my-awesome-product` URL sein. Dieses Feld ist Sprachabhängig. Du kannst also für verschiedene Sprachen unterschiedliche URLs festlegen.
+### URL tartget
+Specify whether the link should be opened internal (in the same tab/window) or external (in a new tab/window).
 
-### URL Ziel
+### URL overlay
+When the URL overlay is active, the entire slide is used as a linking area and the button is automatically hidden.
 
-Lege fest ob die Verlinkung Intern (im selben Tab/Fenster) oder Extern (im neuen Tab/Fenster) geöffnet werden soll.
+### Button label
+Sets the label of the button. The font size is scaled automatically, depending on the screen width. The font size can be [adjusted by CSS variables](/documentation/reference/css-variables#slide-button).
 
-### URL Overlay
+### Button color
+Sets the color scheme of the button. The colors are based on the theme settings.
 
-Bei aktiven URL Overlay wir der gesamte Slide als Verlinkungsfläche genutzt und der Button automatisch ausgeblendet.
+## Media
+Here you can specify media for your slide. The slides are designed to distinguish only between portrait and landscape mode, and not individual theme breakpoints. We believe this is the optimal balance between display control and straightforward configuration.
 
-### Button Beschriftung
-
-Legt die Beschriftung des Buttons fest. Die Schriftgröße wird automatisch, je nach Bildschirmbreite, skaliert. Die Schriftgröße kann durch die Anpassung folgender CSS Variablen angepasst werden:  
-
-**`--bc-esld-button-font-size-min`** <small>Standard: 2rem</small>  
-Gibt die minimale Schriftgröße an  
-
-**`--bc-esld-button-font-size-max`** <small>Standard: 3rem</small>  
-Gibt die maximale Schriftgröße an  
-
-**`--bc-esld-button-font-size-scale`** <small>Standard: 2vw</small>  
-Gibt den Grad der automatischen Skalierung an  
-
-### Button Farbgebung
-
-Legt die Farbgebung des Buttons fest. Die Farben orientieren sich an den Einstellungen des Themes.
-
-## Medien
-
-Hier kannst du Medien für deinen Slide festlegen. Die Slides sind so konzipiert dass nur zwischen Portrait- und Landschafts-Modus, und nicht einzelnen Theme-Breakpoints, unterschieden wird. Wir glauben dass ist die optimale Balance zwischen Anzeigekontrolle und unkomplizierter Konfiguration.
-
-::: info Landscape Modus
-Der Landscape-Modus wird verwendet wenn die Bildschirmbreite das Seitenverhältnis von 1:1 überschreitet. Typischerweise ist das bei der Desktopansicht oder Smartphones/Tablets im "Querformat" der Fall.
+::: info Landscape mode
+Landscape mode is used when the screen width exceeds the aspect ratio of 1:1. Typically, this is the case for desktop view or smartphones/tablets in "landscape" mode.
 :::
 
-::: info Portrait Modus
-Der Portrait-Modus wird verwendet wenn die Bildschirmhöhe das Seitenverhältnis von 1:1 überschreitet. Typischerweise ist das bei Smartphones/Tablets im "Hochformat" der Fall.
+::: info Portrait mode
+Portrait mode is used when the screen height exceeds the aspect ratio of 1:1. Typically, this is the case with smartphones/tablets in "portrait" mode.
 :::
 
-### Slide Cover
+### Slide cover
+Defines the background image of the slide in landscape and portrait mode. For optimal responsive display, we recommend creating an optimized aspect ratio of the image for the respective mode. More information about aspect ratio and slider size [can be found here](/documentation/slider-sizing).  
+Besides images you can also upload a video as a slide cover. The portrait medium will not be used once a video is set in the landscape slide cover.
 
-Definiert das Hintergrundbild des Slides im Landscape- und Portrait-Modus. Für eine optimale responsive Darstellung empfehlen wir ein optimiertes Seitenverhältnis des Bildes für den jeweiligen Modus zu erstellen. Weitere Hinweise zum Seitenverhältnis und Slider-Größe [findest du hier](/de/documentation/slider-sizing).  
-Neben Bildern kannst du auch ein Video als Slide Cover hochladen. Das Portrait Medium wird nicht genutzt sobald ein Video im Slide-Cover Landscape festgelegt wurde.
-
-::: info Unterstützte Datei Formate
-Für Bilder werden die Formate **jpg, png, webp** und für Videos werden **mp4 und webm** unterstützt.
+::: info Supported file formats
+For images the formats **jpg, png, webp** and for videos **mp4 and webm** are supported.
 :::
 
-## Zusatzfelder
+## Custom fields
+You can also assign custom fields to a slide. When you create a new slide, save it first so that you can access the custom fields. To create custom fields in Shopware you can follow the official [Shopware documentation](https://docs.shopware.com/en/shopware-6-en/settings/custom-fields).
 
-Du kannst einem Slide auch Zusatzfelder zuweisen. Wenn du einen neuen Slide erstellst speichere diesen zuerst, damit du auf die Zusatzfelder zugreifen kannst. Um in Shopware Zusatzfelder anzulegen kannst du der offiziellen [Shopware Dokumentation](https://docs.shopware.com/de/shopware-6-de/einstellungen/zusatzfelder) folgen.
-
-::: info Hinweis
-Zusatzfelder müssen manuell mit dem Slide Template verknüpft werden und setzen daher Kentnisse im Shopware Templating/Twig voraus. Hier bietet es sich auch an [individuelle Slide-Templates](/de/documentation/custom-slide-templates) zu erstellen.
+::: info Note
+Custom fields must be manually linked to the slide template and therefore require knowledge of Shopware Templating/Twig. Here you can also create [custom slide templates](/documentation/custom-slide-templates).
 :::

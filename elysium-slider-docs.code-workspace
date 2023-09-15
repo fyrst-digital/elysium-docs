@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Content",
+			"path": "./content"
+		},
+		{
+			"name": "Content German",
+			"path": "./content/de"
+		}
+	],
+	"settings": {}
+}

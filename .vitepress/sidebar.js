@@ -62,6 +62,13 @@ export default {
                     { text: 'Individuelle Slide-Templates', link: '/de/documentation/custom-slide-templates' },
                     { text: 'Update Hinweise', link: '/de/documentation/update-notes' }
                 ]
+            },
+            {
+                text: 'Referenzen',
+                collapsed: false,
+                items: [
+                    { text: 'CSS Variablen', link: '/de/documentation/reference/css-variables' }
+                ]
             }
         ],
     },
@@ -130,6 +137,13 @@ export default {
                     { text: 'Slider Sizing', link: '/documentation/slider-sizing' },
                     { text: 'Custom Slide Templates', link: '/documentation/custom-slide-templates' },
                     { text: 'Update Notes', link: '/documentation/update-notes' }
+                ]
+            },
+            {
+                text: 'References',
+                collapsed: true,
+                items: [
+                    { text: 'CSS Variables', link: '/documentation/reference/css-variables' }
                 ]
             }
         ],
