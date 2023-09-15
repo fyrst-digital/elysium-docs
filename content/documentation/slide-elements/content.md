@@ -1,5 +1,5 @@
 ---
-title: "Slide content settings"
+title: "Manual: Slide content settings"
 description: "Here you can define content related settings for your slide"
 ---
 

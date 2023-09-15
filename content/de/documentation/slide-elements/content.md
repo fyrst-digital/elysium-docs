@@ -1,5 +1,5 @@
 ---
-title: "Inhaltliche Slide Einstellungen"
+title: "Anleitung: Inhaltliche Slide Einstellungen"
 description: "Hier kannst du inhaltsbezogene Einstellungen für einen Slide vornehmen"
 ---
 
