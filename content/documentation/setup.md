@@ -3,7 +3,7 @@ title: "Manual: Setup and first steps"
 description: "This Manual page shows you how to set up your Slides and link them with a Slider element in shoping expierence layout"
 ---
 
-# Setup
+# Setup and first steps
 After you have installed and activated the extension, you will find the new entry **Elysium Slides** in the menu **Contents**. Here you can manage all your slides. You can create new slides or delete the ones you no longer need. If you have created one or more slides you can arrange them in the **Elysium Slider World of Experience Element** and define the behavior and appearance of the slider.
 
 Um dir den Einstieg zu erleichtern findest du hier eine Anleitung. Diese Anleitung setzt an nachdem du die Erweiterung installiert und aktiviert hast.
