@@ -1,16 +1,19 @@
-# Einstellungen
+---
+title: "Manual: Basic settings of the slider element"
+description: "Here you can specify a slide selection and content-related settings for your slider element"
+---
 
-## Allgemein
+# Basic settings of the slider element
+Here you can define the basic settings for your slider element.
 
-### Slides zurückspulen
-Der Slider springt zum ersten Slide zurück wenn er beim letzten Slide angekommen ist. Ist diese Option inaktiv bleibt der Slider beim letzten Slide stehen und der "nächster Slide" Pfeil wird ausgeblendet
+## Rewind slides
+The slider jumps back to the first slide when it reaches the last slide. If this option is inactive, the slider stops at the last slide and the "next slide" arrow is hidden.
 
-### Zeige Overlay
-Zeigt einen Overlay über den gesamten Slider welches den Hintergrund abdunkelt. Dies kann die Lesbarkeit der Texte auf hellen Hintergründen verbessern. Falls du die Slide Hintergründe selbst optimierst kannst du diese Option deaktivieren.
+## Show Overlay
+Shows an overlay over the entire slider, which overlays the background. This can improve the readability of the texts. If you optimize the slide background images yourself you can disable this option.
 
-### Slide-Geschwiindigkeit
-Definiert die Zeit der Wechsel-Anitmation zwischen den Slides in Millisekunden.
+## Slide speed
+Defines the time of the anitmation between the slides in milliseconds.
 
-## Auto-Wiedergabe
-
-Aktiviert die Auto-Wiedergabe Funktion des Sliders. Du kannst ebenfalls den Wiedergabe-Intervall des Sliders in Millisekunden festlegen. Wenn du beispielsweise 5000 festlegst bedeutet dies dass ein Slide 5 Sekunden zu sehen ist, bis zum nächsten Slide gewechselt wird. Die Auto-Wiedergabe wird Standardmäßig pausiert wenn man mit der Maus über den Slider fährt. Die Auto-Wiedergabe berücksichtigt die Einstellung **Slides zurückspulen**.
+## Auto-play
+Activates the Auto-play of the slider. You can also set the playback interval of the slider in milliseconds. For example, if you set 5000 it means that a slide will be visible for 5 seconds before switching to the next slide. Auto-play is paused by default when you hover the mouse over the slider. Auto-play takes the **Rewind slides** setting into account.
