@@ -1,7 +1,13 @@
-# Erlebniswelten Slider
-Der Elysium Slider besteht aus zwei Komponenten, den Slide Elementen und dem **Erlebniswelten Slider**. Im Erlebniswelten Slider legst du eine Slide Auswahl und das Verhalten sowie Aussehen des Sliders fest. Das Slider Element findest du in der Block-Auswahl Gruppe **Text & Bilder** von Erlebniswelten Layouts.  Unter [Einrichtung](/de/documentation/setup) findest du die ersten Schritte.  
+---
+title: "Anleitung: Erlebniswelten Slider"
+description: "Erfahre mehr über das Erlebniswelten Slider Element, seine Verwendung und Einstellungen"
+---
 
-Hier möchten wir die ein genaueren EInblick über die Konfigurationen des Erlebniswelten Slider geben.
+# Erlebniswelten Slider Element
+Der Elysium Slider besteht aus zwei Modulen, den Slide Elementen und dem **Erlebniswelten Slider Element**. Im Erlebniswelten Slider legst du eine Slide Auswahl und das Verhalten sowie Aussehen des Sliders fest. Das Slider Element findest du in der Block-Auswahl Gruppe **Text & Bilder** in den Erlebniswelten.  
+Unter [Einrichtung](/de/documentation/setup) findest du die ersten Schritte.  
+
+Auf den folgenden Seiten möchten wir die ein genaueren EInblick über die Einstellungen des Erlebniswelten Slider Elements geben.
 
 <Image 
     src="/screenshots/de/admin-cms-block-selection.png" 

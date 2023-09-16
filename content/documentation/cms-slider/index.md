@@ -1,8 +1,14 @@
-# Erlebniswelten Slider
-Der Elysium Slider besteht aus zwei Komponenten, den Slide Elementen und dem **Erlebniswelten Slider**. Im Erlebniswelten Slider legst du eine Slide Auswahl und das Verhalten sowie Aussehen des Sliders fest. Das Slider Element findest du in der Block-Auswahl Gruppe **Text & Bilder** von Erlebniswelten Layouts.  Unter [Einrichtung](/de/documentation/setup) findest du die ersten Schritte.  
+---
+title: "Manual: Shopping expierence Slider"
+description: "Learn more about the Shopping expierence Slider element, their usage and settings"
+---
 
-Hier möchten wir die ein genaueren EInblick über die Konfigurationen des Erlebniswelten Slider geben.
+# Shopping expierence Slider element
+The Elysium Slider consists of two modules, the Slide Elements and the **Shopping expierence Slider element**. In the Shopping expierence Slider you define a slide selection and the behavior and appearance of the slider. The slider element can be found in the block selection group **Text & Images** in the Shopping expierences Admin  pge.  
+Under [Setup](/documentation/setup) you will find the setup and first steps.  
+
+On the following pages we would like to give you a more detailed overview about the settings of the slider element.
 
 <Image 
     src="/screenshots/de/admin-cms-block-selection.png" 
-    alt="Erlebiswelt Elysium Slider in Block-Auswahl" />
+    alt="Shopping expierence Slider in Block Selection" />
