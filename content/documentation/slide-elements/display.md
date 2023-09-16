@@ -1,26 +1,31 @@
-# Anzeige
-In diesem Tab findest du weitere Anzeige bezogene Einstellungen.
+---
+title: "Manual: Slide display and appearance"
+description: "In this Tab you define display and appearance related settings for your slide."
+---
 
-## Allgemein
+# Slide display and appearance
+In this Tab you define display and appearance related settings for your slide.
 
-### Ausrichtung Inhalt
-Legt die horizontale Ausrichtung des Inhalts (Überschrift, Kurzbeschreibung, Button) fest.
+## General settings
 
-## Inhalts-Container
-Als Inhalts-Container wird die Box bezeichnet welche die Inhalte des Slides zusammenfasst. In diesen Einstellungen kannst du das Aussehen und Verhalten der Box individualisieren.
+### Text alignment
+Sets the text alignment of the content (heading, short description, button).
 
-### Vertikale Ausrichtung
-Legt die vertikale Ausrichtung des Inhalts-Container relativ zum Slide fest.
+## Content Container
+The Content Container is the box that holds the contents of the slide. In these settings you can define the appearance and behavior of this box.
 
-### Hintergrundfarbe
-Hier kannst du eine Hintergrundfarbe für den Inhalts-Container festlegen.
+### Vertical Container alignment
+Sets the vertical alignment of the Content Container, relative to the slide.
 
-### Innenabstand
-Legt einen Abstand von der Box-Begrenzung zum Inhalt fest. Alle CSS Werte wie px oder rem sind zulässig. Auch kannst du unterschiedliche Werte für den horizontalen und vertikalten Abstand festlegen, indem du zwei Werte einträgst. Der erste Wert steht für den horizontalen und der zweite für den vertikalen Abstand. Also zum Beispiel `10px 20px`.
+### Background color
+Sets the background color of the Content Container.
 
-### Container-Breite begrenzen
-Standardgemäß wird der Inhalts-Container über die gesamte Breite des Slides angezeigt. Bei **aktivierter Begrenzung** wird der Inhalts-Container in seiner Breite begrenzt. Du kannst dann die horizontale Ausrichtung des Inhalts-Container festlegen. Auch kannst du eine maximale Breite des Inhalts-Container festlegen. Alle CSS Werte wie **px, rem oder Prozent** sind zulässig. Standardgemäß beträgt die maximale Breite 50%.
+### Padding
+Sets a spacing from the box border to the content. All CSS values like px or rem are allowed. Also you can set different values for the horizontal and vertical spacing by entering two values. The first value stands for the horizontal spacing and the second for the vertical spacing. So for example `10px 20px`.
 
-::: info Hinweis
-Mobil wird der Inhalts-Container immer über die volle Breite angezeigt. Diese Einstellung greift erst ab dem Theme-Breakpoint SM.
+### Limit container width
+By default, the Content Container is displayed across the entire slide width. With **limit** enabled, the Content Container is limited in its width. You can then specify the horizontal alignment of the content container. You can set a maximum width of the Content Container. All CSS values like **px, rem or percent** are allowed. By default, the maximum width is 50%.
+
+::: info Note
+Mobile, the content container is always displayed across the full slide width. This setting only takes effect from the theme breakpoint **sm**.
 :::
