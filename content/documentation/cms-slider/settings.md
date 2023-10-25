@@ -18,7 +18,7 @@ The slider jumps back to the first slide when it reaches the last slide. If this
 Shows an overlay over the entire slider, which overlays the background. This can improve the readability of the texts. If you optimize the slide background images yourself you can disable this option.
 
 ## Content Container width
-Define the content container width.   
+Define the content container width. This is especially for CMS layouts that cover the entire width of the screen.  
 On <b>Page Content</b> the maximum width of the container follows the paqe content width.  
 On <b>Full width</b> the content container is in full width.
 

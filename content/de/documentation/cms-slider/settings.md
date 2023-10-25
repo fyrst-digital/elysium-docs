@@ -18,7 +18,7 @@ Der Slider springt zum ersten Slide zurück wenn er beim letzten Slide angekomme
 Zeigt einen Overlay über den gesamten Slider, welcher sich über den Hintergrund legt. Dies kann die Lesbarkeit der Texte verbessern. Falls du die Slide Hintergrundbilder selbst optimierst kannst du diese Option deaktivieren.
 
 ## Breite des Inhalts-Container
-Definiert die Breite des Inhaltscontainers.  
+Definiert die Breite des Inhaltscontainers. Dies kommt vor allem bei Erlebniswelten Layouts zum tragen, welche über die gesamte Bildschirmbreite gehen.  
 Bei <b>Seiteninhalt</b> folgt die maximale Breite des Containers der Breite des Seiteninhalts.  
 Bei <b>Volle Breite</b> wird der Inhalts-Container über die gesamte Breite angezeigt.
 
