@@ -1,5 +1,14 @@
-# Navigation
+---
+title: "Anleitung: Einstellungen zur Slider Navigation"
+---
+
+# Einstellungen zur Slider Navigation
 Hier finden sich verschiedene Einstellungen für die Navigation des Slider. Die Navigation wird üblicherweise unter dem Slider dargestellt und erlaubt das schnelle Navigieren zwischen den Slides.
+
+<Image
+    src="/screenshots/de/admin-cms-setting-navigation.png" 
+    alt="Einstellungen zur Slider Navigation"
+    :caption="true" />
 
 ## Allgemein
 Neben der Option, ob die Navigation gezeigt werden soll oder nicht, gibt es Optionen für die Position der gesamten Navigation und die Ausrichtung der einzelnen Navigations-Punkte.
