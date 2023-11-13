@@ -59,6 +59,7 @@ export default {
                 collapsed: false,
                 items: [
                     { text: 'Slider-Größe', link: '/de/documentation/slider-sizing' },
+                    { text: 'Mehrere Slides pro Ansicht', link: '/de/documentation/multi-slides-per-view' },
                     { text: 'Individuelle Slide-Templates', link: '/de/documentation/custom-slide-templates' },
                     { text: 'Update Hinweise', link: '/de/documentation/update-notes' }
                 ]
@@ -135,6 +136,7 @@ export default {
                 collapsed: false,
                 items: [
                     { text: 'Slider Sizing', link: '/documentation/slider-sizing' },
+                    { text: 'Multiple Slides per View', link: '/documentation/multi-slides-per-view' },
                     { text: 'Custom Slide Templates', link: '/documentation/custom-slide-templates' },
                     { text: 'Update Notes', link: '/documentation/update-notes' }
                 ]
