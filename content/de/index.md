@@ -11,7 +11,7 @@ description: "Flexibler und wiederverwendbarer Slider für Shopware 6"
 
 hero:
   name: "Elysium Slider"
-  text: "Flexibler und wiederverwendbarer Slider für Shopware"
+  text: "Erlebniswelten Slider für Shopware"
   actions:
     - theme: brand
       external: true

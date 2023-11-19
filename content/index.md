@@ -7,7 +7,7 @@ description: "Flexible and reusable slider for Shopware 6 Shopping experience"
 
 hero:
   name: "Elysium Slider"
-  text: "Flexible and reusable slider for Shopware 6"
+  text: "Shopping Experiences Slider for Shopware 6"
   actions:
     - theme: brand
       external: true
