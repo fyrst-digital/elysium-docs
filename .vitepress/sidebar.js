@@ -11,18 +11,9 @@ export default {
                         link: '/de/documentation/slide-elements/', 
                         collapsed: true,
                         items: [
-                            {
-                            text: 'Inhalt',
-                            link: '/de/documentation/slide-elements/content' 
-                            },
-                            {
-                            text: 'Anzeige',
-                            link: '/de/documentation/slide-elements/display' 
-                            },
-                            {
-                            text: 'Erweitert',
-                            link: '/de/documentation/slide-elements/advanced' 
-                            }
+                            { text: 'Inhalt', link: '/de/documentation/slide-elements/content' },
+                            { text: 'Anzeige', link: '/de/documentation/slide-elements/display' },
+                            { text: 'Erweitert', link: '/de/documentation/slide-elements/advanced' }
                         ]
                     },
                     { 
@@ -30,26 +21,11 @@ export default {
                         link: '/de/documentation/cms-slider/',
                         collapsed: true,
                         items: [
-                            {
-                            text: 'Inhalt',
-                            link: '/de/documentation/cms-slider/content' 
-                            },
-                            {
-                            text: 'Einstellungen',
-                            link: '/de/documentation/cms-slider/settings' 
-                            },
-                            {
-                            text: 'Größen',
-                            link: '/de/documentation/cms-slider/sizing' 
-                            },
-                            {
-                            text: 'Navigation',
-                            link: '/de/documentation/cms-slider/navigation' 
-                            },
-                            {
-                            text: 'Pfeile',
-                            link: '/de/documentation/cms-slider/arrows' 
-                            }
+                            { text: 'Inhalt', link: '/de/documentation/cms-slider/content' },
+                            { text: 'Einstellungen', link: '/de/documentation/cms-slider/settings' },
+                            { text: 'Größen', link: '/de/documentation/cms-slider/sizing' },
+                            { text: 'Navigation', link: '/de/documentation/cms-slider/navigation' },
+                            { text: 'Pfeile', link: '/de/documentation/cms-slider/arrows' }
                         ]
                     }
                 ]
@@ -60,6 +36,7 @@ export default {
                 items: [
                     { text: 'Slider-Größe', link: '/de/documentation/slider-sizing' },
                     { text: 'Mehrere Slides pro Ansicht', link: '/de/documentation/multi-slides-per-view' },
+                    { text: 'Slide Cover Thumbnails', link: '/de/documentation/slide-cover-thumbnails' },
                     { text: 'Individuelle Slide-Templates', link: '/de/documentation/custom-slide-templates' },
                     { text: 'Update Hinweise', link: '/de/documentation/update-notes' }
                 ]
