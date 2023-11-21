@@ -114,6 +114,7 @@ export default {
                 items: [
                     { text: 'Slider Sizing', link: '/documentation/slider-sizing' },
                     { text: 'Multiple Slides per View', link: '/documentation/multi-slides-per-view' },
+                    { text: 'Slide Cover Thumbnails', link: '/documentation/slide-cover-thumbnails' },
                     { text: 'Custom Slide Templates', link: '/documentation/custom-slide-templates' },
                     { text: 'Update Notes', link: '/documentation/update-notes' }
                 ]
