@@ -3,16 +3,13 @@
 layout: home
 
 hero:
-  name: "Elysium: Section, Slider and Banner for Shopware 6"
-  text: "Documentation "
+  name: "Elysium"
+  text: "Section, Slider and Banner for Shopware"
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Overview
+      link: /manual/overview
 
 features:
   - title: Feature A
