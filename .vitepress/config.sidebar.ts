@@ -63,5 +63,70 @@ export default {
                 ]
             }
         ]
+    },
+    de: {
+        '/de/manual/': [
+            {
+                text: 'Übersicht',
+                link: '/de/manual/overview/index',
+                collapsed: false,
+                items: [
+                    { 
+                        text: 'Sektionen', 
+                        link: '/de/manual/overview/sections'
+                    },
+                    { 
+                        text: 'Slide Builder'
+                    },
+                    { 
+                        text: 'Slider & Banner Elemente'
+                    }
+                ]
+            }, 
+            {
+                text: 'Sektionen',
+                collapsed: false,
+                items: [
+                    { 
+                        text: 'Blöcke platzieren'
+                    }
+                ]
+            },
+            {
+                text: 'Slide Builder',
+                collapsed: false,
+                items: [
+                    { 
+                        text: 'Allgemeine Einstellungen'
+                    }
+                ]
+            }
+        ],
+        '/de/examples/': [
+            {
+                text: 'Sektionen',
+                collapsed: false,
+                items: [
+                    {
+                        text: 'Responsives Raster',
+                    },
+                    {
+                        text: 'Zeilen zusammenführen',
+                    }
+                ]
+            },
+            {
+                text: 'Slider & Banner',
+                collapsed: false,
+                items: [
+                    {
+                        text: 'Bild Slider & Banner',
+                    },
+                    {
+                        text: 'SEO Slider & Banner',
+                    }
+                ]
+            }
+        ]
     }
 }
