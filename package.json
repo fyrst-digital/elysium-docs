@@ -2,6 +2,7 @@
   "dependencies": {},
   "devDependencies": {
     "@pandacss/dev": "^0.47.0",
+    "@types/styled-system__css": "^5.0.21",
     "vitepress": "^1.4.1",
     "vue": "^3.5.12"
   },

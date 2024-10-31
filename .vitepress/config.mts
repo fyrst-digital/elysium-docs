@@ -8,11 +8,9 @@ export default defineConfig({
     // https://vitejs.dev/config/
     resolve: {
       alias: {
-        'styled-system': fileURLToPath(new URL('./../styled-system', import.meta.url))
+        'styled-system': fileURLToPath(new URL('./../styled-system', import.meta.url)),
       }
     },
-    server: {
-    }
   },
   cleanUrls: true,
   lastUpdated: true,
@@ -28,7 +26,7 @@ export default defineConfig({
     sidebar: sidebar.en,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'x', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })

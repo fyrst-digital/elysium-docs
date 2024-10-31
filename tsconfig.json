@@ -1,10 +1,17 @@
 {
-    "compilerOptions": {
-      "baseUrl": ".",
-      "moduleResolution": "node",
-      "paths": {
-        "styled-system/css/*": ["./styled-system/css/*"],
-      },
-      "typeRoots": ["./styled-system/types", "./types"]
-    }
+  "include": [
+    ".vitepress/**/*.ts",
+    ".vitepress/**/*.mts",
+    ".vitepress/theme/**/*.vue",
+    ".vitepress/theme/**/*.ts",
+  ],
+  "compilerOptions": {
+    "module": "es2022",
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "paths": {
+      "styled-system/css/*": ["styled-system/css/*"],
+    },
+    "typeRoots": ["./styled-system/types", "./types", "./node_modules/@types"],
   }
+}
