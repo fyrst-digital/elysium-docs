@@ -18,7 +18,7 @@ export default defineConfig({
           replacement: fileURLToPath(
             new URL('./components/NavBarTranslations.vue', import.meta.url)
           )          
-        }
+        },
       ]
     },
   },

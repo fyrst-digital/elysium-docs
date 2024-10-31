@@ -12,6 +12,7 @@
     "moduleResolution": "node",
     "paths": {
       "styled-system/css/*": ["styled-system/css/*"],
+      "styled-system/recipes/*": ["styled-system/recipes/*"],
     },
     "typeRoots": ["./styled-system/types", "./types", "./node_modules/@types"],
   }

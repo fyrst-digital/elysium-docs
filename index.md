@@ -3,8 +3,7 @@
 layout: home
 
 hero:
-  name: "Elysium"
-  text: "Section, Slider and Banner for Shopware"
+  text: "Sections, Slider and Banner for Shopware"
   tagline: My great project tagline
   actions:
     - theme: brand

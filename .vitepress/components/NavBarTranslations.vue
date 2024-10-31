@@ -2,7 +2,7 @@
     import { computed } from 'vue';
     import { useData } from 'vitepress'
     import Flyout from '../components/Flyout.vue'
-    import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
+    import {css} from 'styled-system/css';
     
     const { theme, site, frontmatter, localeIndex, page, hash } = useData()
 
@@ -19,28 +19,40 @@
         frontmatter.value.slug?.[langId] 
         || link 
         || (langId === 'root' ? '/' : `/${langId}/`)
+
+    const styeLangBtn = (isActive: boolean) => {
+        return css({
+            display: 'flex',
+            alignItems: 'center',
+            bg: isActive ? 'rgba(0,0,0,.2)' : 'transparent',
+            color: { base: 'white', _hover: isActive ? null : 'primary !important' },
+            fontSize: 'sm',
+            cursor: isActive ? 'default' : 'pointer',
+            paddingInline: '2',
+            paddingBlock: '1',
+            borderRadius: '6px',
+            transition: 'color 200ms',
+        })
+    }
 </script>
 
 <template>
     <Flyout
         icon="vpi-languages"
         :label="theme.langMenuLabel || 'Change language'"
-        :button="theme.langMenuLabel || 'Change language'"
+        :button="theme.langMenuLabel || 'Language'"
     >
-        <div class="items">
-            <template v-for="locale in locales" :key="locale.link">
-                <div v-if="locale.active">
-                    {{ locale.label }}
-                </div>
-                <VPLink
-                    v-else
-                    :href="locale.link"
-                    :no-icon="true"
-                    >
-                    <span v-html="locale.label"></span>
-                </VPLink>
-            </template>
-        </div>
+        <template v-for="locale in locales" :key="locale.link">
+            <div v-if="locale.active"
+                :class="styeLangBtn(true)">
+                {{ locale.label }}
+            </div>
+            <a v-else
+                :class="styeLangBtn(false)"
+                :href="locale.link"
+                v-html="locale.label" />
+
+        </template>
     </Flyout>
 </template>
   

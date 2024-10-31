@@ -4,14 +4,13 @@
     import { useFlyout } from 'vitepress/dist/client/theme-default/composables/flyout.js'
     import VPMenu from 'vitepress/dist/client/theme-default/components/VPMenu.vue'
 
-
     defineProps<{
         icon?: string
         label?: string
         button?: string
     }>()
 
-    const open = ref(false)
+    const open = ref(true)
     const el = ref<HTMLElement>()
 
     useFlyout({ el, onBlur })
@@ -24,6 +23,8 @@
 <template>
     <div
         :class="css({
+            display: 'flex',
+            alignItems: 'center',
             position: 'relative',
             zIndex: 1
         })"
@@ -34,16 +35,29 @@
       <button
         type="button"
         :class="css({
+            display: 'flex',
+            alignItems: 'center',
             fontSize: 'sm',
         })"
         aria-haspopup="true"
         :aria-expanded="open"
         @click="open = !open"
       >
-        <span v-if="button || icon" class="text">
-          <span v-if="icon" :class="[icon, 'option-icon']" />
-          <span v-if="button" v-html="button"></span>
-          <span class="vpi-chevron-down text-icon" />
+        <span 
+            v-if="button || icon" 
+            :class="css({
+                display: 'inline-flex' ,
+                alignItems: 'center',
+                gap: '2'
+            })">
+            <span :class="[
+                'icon icon-translate',
+                css({
+                    fontSize: 'lg',
+                })
+            ]"></span>
+            <span v-if="button" v-html="button"></span>
+            <span class="icon icon-caret-down" />
         </span>
   
         <span v-else class="vpi-more-horizontal icon" />
@@ -51,17 +65,26 @@
   
       <div 
         :class="css({
+            width: '200px',
             display: 'block',
             opacity: open ? 1 : 0,
             visibility: open ? 'visible' : 'hidden',
             position: 'absolute',
             top: '100%',
-            left: 0,
-            zIndex: 2
+            right: 0,
+            left: 'auto',
+            paddingBlock: '2',
+            zIndex: 2,
+            transition: 'all 200ms',
         })">
 
-        <VPMenu>
-          <slot />
+        <VPMenu
+            :class="css({
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '2',
+            })">
+            <slot />
         </VPMenu>
       </div>
     </div>
