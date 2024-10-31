@@ -8,19 +8,30 @@ export default defineConfig({
   vite: {
     // https://vitejs.dev/config/
     resolve: {
-      alias: {
-        'styled-system': fileURLToPath(new URL('./../styled-system', import.meta.url)),
-      }
+      alias: [
+        {
+          find: 'styled-system',
+          replacement: fileURLToPath(new URL('./../styled-system', import.meta.url))
+        },
+        {
+          find: /^.*\/VPNavBarTranslations\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./components/NavBarTranslations.vue', import.meta.url)
+          )          
+        }
+      ]
     },
   },
   locales: {
     root: {
       label: 'English',
-      lang: 'en'
+      lang: 'en',
+      link: '/',
     },
     de: {
       label: 'Deutsch',
       lang: 'de',
+      link: '/de/',
       themeConfig: {
         nav: nav.de,
         sidebar: sidebar.de

@@ -65,15 +65,15 @@ export default {
         ]
     },
     de: {
-        '/de/manual/': [
+        '/de/anleitung/': [
             {
                 text: 'Übersicht',
-                link: '/de/manual/overview/index',
+                link: '/de/anleitung/uebersicht/index',
                 collapsed: false,
                 items: [
                     { 
                         text: 'Sektionen', 
-                        link: '/de/manual/overview/sections'
+                        link: '/de/anleitung/uebersicht/sektionen'
                     },
                     { 
                         text: 'Slide Builder'

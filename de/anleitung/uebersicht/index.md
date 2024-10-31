@@ -1,7 +1,9 @@
 ---
+slug:
+    root: '/manual/overview/'
 next:
     text: 'Sections'
-    link: '/manual/overview/sections'
+    link: '/de/anleitung/uebersicht/sektionen'
 ---
 
 - Elysium ist eine Sammlung von Komponenten, welche bei der Erstellung von Erlebniswelten Layouts helfen

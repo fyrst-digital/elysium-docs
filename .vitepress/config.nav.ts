@@ -4,7 +4,7 @@ export default {
         { text: 'Examples', link: '/examples' }
     ],
     de: [
-        { text: 'Anleitung', link: 'de/manual/overview' },
+        { text: 'Anleitung', link: 'de/anleitung/uebersicht' },
         { text: 'Beispiele', link: 'de/examples' }
     ],
 }

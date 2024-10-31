@@ -1,4 +1,6 @@
 ---
+slug:
+    de: '/de/anleitung/uebersicht/'
 next:
     text: 'Sections'
     link: '/manual/overview/sections'
