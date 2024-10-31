@@ -1,7 +1,7 @@
 <script lang="ts" setup>
     import { computed } from 'vue';
     import { useData } from 'vitepress'
-    import VPFlyout from 'vitepress/dist/client/theme-default/components/VPFlyout.vue'
+    import Flyout from '../components/Flyout.vue'
     import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
     
     const { theme, site, frontmatter, localeIndex, page, hash } = useData()
@@ -22,10 +22,10 @@
 </script>
 
 <template>
-    <VPFlyout
-        class="VPNavBarTranslations"
+    <Flyout
         icon="vpi-languages"
         :label="theme.langMenuLabel || 'Change language'"
+        :button="theme.langMenuLabel || 'Change language'"
     >
         <div class="items">
             <template v-for="locale in locales" :key="locale.link">
@@ -41,6 +41,6 @@
                 </VPLink>
             </template>
         </div>
-    </VPFlyout>
+    </Flyout>
 </template>
   

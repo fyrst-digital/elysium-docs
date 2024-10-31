@@ -5,7 +5,12 @@ export default defineConfig({
   preflight: true,
 
   // Where to look for your css declarations
-  include: ["./src/**/*.{js,jsx,ts,tsx}", "./pages/**/*.{js,jsx,ts,tsx}", "./.vitepress/theme/**/*.{js,jsx,ts,tsx,vue}"],
+  include: [
+    "./src/**/*.{js,jsx,ts,tsx}", 
+    "./pages/**/*.{js,jsx,ts,tsx}", 
+    "./.vitepress/components/**/*.{js,jsx,ts,tsx,vue}",
+    "./.vitepress/theme/**/*.{js,jsx,ts,tsx,vue}"
+  ],
 
   // Files to exclude
   exclude: [],

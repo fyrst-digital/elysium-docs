@@ -2,6 +2,7 @@
   "include": [
     ".vitepress/**/*.ts",
     ".vitepress/**/*.mts",
+    ".vitepress/components/**/*.vue",
     ".vitepress/theme/**/*.vue",
     ".vitepress/theme/**/*.ts",
   ],
