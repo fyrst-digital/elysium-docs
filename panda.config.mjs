@@ -13,20 +13,21 @@ export default defineConfig({
   // Files to exclude
   exclude: [],
   globalVars: {
-    // Useful for theme customization
     '--vp-c-brand-1': 'var(--colors-primary) !important',
+    '--vp-button-brand-bg': 'var(--colors-primary) !important',
   },
-  // Useful for theme customization
   theme: {
     extend: {
-      // tokens: {
-      //   colors: {
-      //     primary: { value: '#a8b1ff' },
-      //   },
-      // },
       semanticTokens: {
         colors: {
-          primary: { value: '{colors.fuchsia.300}' },
+          primary: { 
+            value: { base: '{colors.fuchsia.700}', _dark: '{colors.fuchsia.300}' },
+          },
+          contrast: { 
+            soft: {
+              value: { base: 'var(--vp-c-bg-soft)', _dark: 'var(--vp-c-bg)' },
+            }
+          },
         },
       }
     },

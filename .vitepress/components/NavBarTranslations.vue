@@ -24,9 +24,10 @@
         return css({
             display: 'flex',
             alignItems: 'center',
-            bg: isActive ? 'rgba(0,0,0,.2)' : 'transparent',
-            color: { base: 'white', _hover: isActive ? null : 'primary !important' },
+            bg: isActive ? 'contrast.soft' : 'transparent',
+            color: { base: 'var(--vp-c-text-1)', _hover: isActive ? null : 'primary !important' },
             fontSize: 'sm',
+            userSelect: 'none',
             cursor: isActive ? 'default' : 'pointer',
             paddingInline: '2',
             paddingBlock: '1',

@@ -38,6 +38,9 @@
             display: 'flex',
             alignItems: 'center',
             fontSize: 'sm',
+            _hover: {
+                color: 'primary !important',
+            },
         })"
         aria-haspopup="true"
         :aria-expanded="open"
