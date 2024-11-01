@@ -10,6 +10,9 @@ hero:
     - theme: primary
       text: Overview
       link: /manual/overview
+    - theme: outlinePrimary
+      text: Overview
+      link: /manual/overview
 
 features:
   - title: Feature A

@@ -36,6 +36,8 @@
         :target="isExternal ? '_blank' : undefined"
         :rel="props.rel ?? (isExternal ? 'noreferrer' : undefined)"
     >
-        {{ text }}
+        <slot name="prefix" />
+        <span v-html="text" />
+        <slot name="suffix" />
     </component>
 </template>
