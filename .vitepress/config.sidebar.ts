@@ -76,10 +76,12 @@ export default {
                         link: '/de/anleitung/uebersicht/sektionen'
                     },
                     { 
-                        text: 'Slide Builder'
+                        text: 'Slide Builder',
+                        link: '/de/anleitung/uebersicht/slide-builder'
                     },
                     { 
-                        text: 'Slider & Banner Elemente'
+                        text: 'Slider & Banner Elemente',
+                        link: '/de/anleitung/uebersicht/slider-banner-elemente'
                     }
                 ]
             }, 
