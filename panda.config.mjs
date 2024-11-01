@@ -15,6 +15,7 @@ export default defineConfig({
   exclude: [],
   globalVars: {
     '--vp-c-brand-1': 'var(--colors-primary) !important',
+    '--vp-c-gutter': 'var(--vp-c-divider) !important',
     '--vp-button-brand-bg': 'var(--colors-primary) !important',
   },
   staticCss: {
