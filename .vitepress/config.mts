@@ -19,6 +19,12 @@ export default defineConfig({
             new URL('./components/NavBarTranslations.vue', import.meta.url)
           )          
         },
+        {
+          find: /^.*\/VPButton\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./components/Button.vue', import.meta.url)
+          )          
+        },
       ]
     },
   },

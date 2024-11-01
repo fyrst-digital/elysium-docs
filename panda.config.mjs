@@ -1,4 +1,5 @@
-import { defineConfig } from "@pandacss/dev";
+import { defineConfig } from "@pandacss/dev"
+import { buttonRecipe } from './panda.recipes'
 
 export default defineConfig({
   // Whether to use css reset
@@ -16,6 +17,12 @@ export default defineConfig({
     '--vp-c-brand-1': 'var(--colors-primary) !important',
     '--vp-button-brand-bg': 'var(--colors-primary) !important',
   },
+  staticCss: {
+    recipes: {
+      button: ['*']
+    }
+  },
+  jsxFramework: 'vue',
   theme: {
     extend: {
       semanticTokens: {
@@ -26,10 +33,13 @@ export default defineConfig({
           contrast: { 
             soft: {
               value: { base: 'var(--vp-c-bg-soft)', _dark: 'var(--vp-c-bg)' },
-            }
+            },
           },
         },
-      }
+      },
+      recipes: {
+        button: buttonRecipe
+      },
     },
   },
   // The output directory for your css system

@@ -5,6 +5,7 @@
     ".vitepress/components/**/*.vue",
     ".vitepress/theme/**/*.vue",
     ".vitepress/theme/**/*.ts",
+    "*.ts"
   ],
   "compilerOptions": {
     "module": "es2022",

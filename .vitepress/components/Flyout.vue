@@ -10,7 +10,7 @@
         button?: string
     }>()
 
-    const open = ref(true)
+    const open = ref(false)
     const el = ref<HTMLElement>()
 
     useFlyout({ el, onBlur })

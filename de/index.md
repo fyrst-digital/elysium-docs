@@ -7,7 +7,7 @@ hero:
   text: "Section, Slider and Banner for Shopware"
   tagline: My great project tagline
   actions:
-    - theme: brand
+    - theme: primary
       text: Overview
       link: /manual/overview
 
