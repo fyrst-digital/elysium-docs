@@ -1,0 +1,97 @@
+<script setup lang="ts">
+    import { useRoute, useData } from 'vitepress'
+    import { useSidebar } from 'vitepress/theme';
+    import { computed } from 'vue'
+    import { css } from 'styled-system/css';
+    import VPDocAside from 'vitepress/dist/client/theme-default/components/VPDocAside.vue'
+    import VPDocFooter from 'vitepress/dist/client/theme-default/components/VPDocFooter.vue'
+
+    const { theme } = useData()
+    const { hasSidebar, hasAside, leftAside } = useSidebar()
+
+    const route = useRoute()
+
+    const pageName = computed(() =>
+        route.path.replace(/[./]+/g, '_').replace(/_html$/, '')
+    )
+</script>
+
+<template>
+    <div
+        class="VPDoc"
+        :class="[
+            css({
+                paddingBlock: '32px',
+                paddingInline: '24px',
+            }),
+            { 'has-sidebar': hasSidebar, 'has-aside': hasAside }
+        ]"
+    >
+        <slot name="doc-top" />
+        <div class="container"
+            :class="css({
+                display: 'flex',
+                flexDirection: 'row',
+                flexWrap: 'wrap',
+            })">
+
+            <div v-if="hasAside" 
+                class="aside" 
+                :class="[
+                    css({
+                        display: 'none',
+                        flex: '0 auto',
+                        width: '100%',
+                        maxWidth: '180px',
+                        order: 2,
+                        xl: { display: 'block' }
+                    }),
+                    {'left-aside': leftAside}
+                ]">
+
+                <div class="aside-curtain" />
+                <div class="aside-container">
+                    <div class="aside-content">
+                        <VPDocAside>
+                            <template #aside-top><slot name="aside-top" /></template>
+                            <template #aside-bottom><slot name="aside-bottom" /></template>
+                            <template #aside-outline-before><slot name="aside-outline-before" /></template>
+                            <template #aside-outline-after><slot name="aside-outline-after" /></template>
+                            <template #aside-ads-before><slot name="aside-ads-before" /></template>
+                            <template #aside-ads-after><slot name="aside-ads-after" /></template>
+                        </VPDocAside>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content"
+                :class="css({
+                    flex: '1 0%',
+                    order: 1,
+                    md: { padding: '24px' }
+                })">
+
+                <div class="content-container"
+                    :class="css({
+                        marginInline: 'auto',
+                    })">
+                    <slot name="doc-before" />
+                    <main class="main">
+                        <Content
+                            class="vp-doc"
+                            :class="[
+                                pageName,
+                                theme.externalLinkIcon && 'external-link-icon-enabled'
+                            ]"
+                        />
+                    </main>
+                    <VPDocFooter>
+                        <template #doc-footer-before><slot name="doc-footer-before" /></template>
+                    </VPDocFooter>
+                    <slot name="doc-after" />
+                </div>
+            </div>
+        </div>
+        <slot name="doc-bottom" />
+    </div>
+</template>

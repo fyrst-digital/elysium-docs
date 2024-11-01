@@ -20,6 +20,12 @@ export default defineConfig({
           )          
         },
         {
+          find: /^.*\/VPDoc\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./components/Doc.vue', import.meta.url)
+          )          
+        },
+        {
           find: /^.*\/VPButton\.vue$/,
           replacement: fileURLToPath(
             new URL('./components/Button.vue', import.meta.url)

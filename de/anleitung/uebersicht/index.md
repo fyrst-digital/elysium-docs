@@ -13,3 +13,5 @@ next:
 - Komponenten haben geräteabhängige Einstellungen, welche für die Ansichten Smartphone, Tablet und Desktop festgelegt werden können
 - Dabei kommt der **Mobile-first** Ansatz zum tragen. Einstellungen werden über alle Ansichten veererbt, beginnend ab Smartphone Ansicht
 - So müssen geräteabhängige Einstellungen nicht für jede Ansicht gepflegt werden. Hier gibt es nur wenige Ausnahmen
+
+## test
