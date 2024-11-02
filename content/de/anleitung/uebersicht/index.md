@@ -19,10 +19,12 @@ next:
 - So müssen geräteabhängige Einstellungen nicht für jede Ansicht gepflegt werden. Hier gibt es nur wenige Ausnahmen
 
 <Grid>
-    <div :style="'grid-column-end: span 12'">
+    <Column
+        :cols-md="6"
+        :cols-xl="3">
         <Image 
             src="/images/admin-cms-block-auswahl.png" 
             alt="Elysium Slides Verwaltung" 
             />
-    </div>
+    </Column>
 </Grid>
