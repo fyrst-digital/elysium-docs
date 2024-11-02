@@ -6,8 +6,7 @@ export default defineConfig({
   preflight: true,
   // Where to look for your css declarations
   include: [
-    "./src/**/*.{js,jsx,ts,tsx}", 
-    "./pages/**/*.{js,jsx,ts,tsx}", 
+    "./content/**/*.{vue,md}", 
     "./.vitepress/components/**/*.{js,jsx,ts,tsx,vue}",
     "./.vitepress/theme/**/*.{js,jsx,ts,tsx,vue}"
   ],

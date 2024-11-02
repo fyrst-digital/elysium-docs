@@ -5,7 +5,10 @@
     ".vitepress/components/**/*.vue",
     ".vitepress/theme/**/*.vue",
     ".vitepress/theme/**/*.ts",
-    "*.ts"
+    "*.ts",
+    "content/**/*.ts",
+    "content/**/*.vue",
+    "content/**/*.md",
   ],
   "compilerOptions": {
     "module": "es2022",
@@ -16,5 +19,10 @@
       "styled-system/recipes/*": ["styled-system/recipes/*"],
     },
     "typeRoots": ["./styled-system/types", "./types", "./node_modules/@types"],
+  },
+  "vueCompilerOptions": {
+    "vitePressExtensions": [
+      ".md"
+    ]
   }
 }
