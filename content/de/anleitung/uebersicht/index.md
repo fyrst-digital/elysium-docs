@@ -14,4 +14,6 @@ next:
 - Dabei kommt der **Mobile-first** Ansatz zum tragen. Einstellungen werden über alle Ansichten veererbt, beginnend ab Smartphone Ansicht
 - So müssen geräteabhängige Einstellungen nicht für jede Ansicht gepflegt werden. Hier gibt es nur wenige Ausnahmen
 
-## test
+<Image 
+    src="/images/admin-cms-block-selection.png" 
+    alt="Elysium Slides Verwaltung" />

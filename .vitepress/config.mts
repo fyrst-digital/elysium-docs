@@ -34,6 +34,7 @@ export default defineConfig({
       ]
     },
   },
+  srcDir: './content',
   locales: {
     root: {
       label: 'English',

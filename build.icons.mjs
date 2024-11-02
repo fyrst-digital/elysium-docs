@@ -10,7 +10,8 @@ import { locate } from '@iconify/json';
 const icons = {
    'ph': [
         'caret-down',
-        'translate'
+        'translate',
+        'x',
    ]
 };
 
