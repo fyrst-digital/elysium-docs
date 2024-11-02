@@ -133,12 +133,14 @@
             @touchend="handleTouchEnd"
             @mousedown="handleDragStart"
             @mousemove="handleDragMove" 
-            @mouseup="handleDragEnd">
+            @mouseup="handleDragEnd"
+            @click.stop>
 
             <img 
                 :src="src" 
                 :alt="alt"
                 :class="css({
+                    userSelect: 'none',
                     maxWidth: '100%',
                     maxHeight: '100%',
                     objectFit: 'contain',
@@ -154,14 +156,14 @@
         <button type="button"
 
             :class="css({
-                color: 'white',
+                color: 'white !important',
                 position: 'absolute',
                 inset: '0 0 auto auto',
                 margin: '6',
                 fontWeight: '500',
                 fontSize: '24px'
             })">
-            <span class="icon icon-x"></span>
+            <span class="icon icon-x" />
         </button>
         </div>
 </template>

@@ -15,5 +15,5 @@ next:
 - So müssen geräteabhängige Einstellungen nicht für jede Ansicht gepflegt werden. Hier gibt es nur wenige Ausnahmen
 
 <Image 
-    src="/images/admin-cms-block-selection.png" 
+    src="/images/admin-cms-block-auswahl.png" 
     alt="Elysium Slides Verwaltung" />

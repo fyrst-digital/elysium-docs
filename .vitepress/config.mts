@@ -57,6 +57,9 @@ export default defineConfig({
   description: "Section, Slider and Banner for Shopware",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local',
+    },
     nav: nav.en,
     sidebar: sidebar.en,
     socialLinks: [
