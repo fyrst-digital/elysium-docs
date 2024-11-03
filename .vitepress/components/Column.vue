@@ -1,8 +1,8 @@
 <script setup lang="ts">
-    import { ref, onMounted, onUnmounted, PropType, computed } from 'vue'
+    import { ref, onMounted, onUnmounted, PropType, computed, CSSProperties } from 'vue'
     import { css } from 'styled-system/css'
-    import { useViewStyle } from './../composables/view-style'
-    
+    import { useViewStyle, ResponsiveStyles } from './../composables/view-style'
+
     const { viewStyle } = useViewStyle({
         xl: 1440
     })
@@ -21,7 +21,7 @@
     })
 
     const colStyle = computed(() => {
-        const styles = {
+        const styles: ResponsiveStyles = {
             xs: {
                 gridColumnEnd: `span ${props.colsXs}`
             }
@@ -53,9 +53,7 @@
         })"
         :style="{
             ...viewStyle(colStyle)
-        }"
-        >
-        {{ viewStyle(colStyle) }}
+        }">
         <slot />
     </div>
 </template>

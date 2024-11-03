@@ -21,7 +21,7 @@ next:
 <Grid>
     <Column
         :cols-md="6"
-        :cols-xl="3">
+        :cols-xl="4">
         <Image 
             src="/images/admin-cms-block-auswahl.png" 
             alt="Elysium Slides Verwaltung" 

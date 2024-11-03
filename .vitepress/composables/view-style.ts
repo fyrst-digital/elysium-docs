@@ -6,7 +6,7 @@ interface Breakpoints {
     xl: number
 }
 
-interface ResponsiveStyles {
+export interface ResponsiveStyles {
     xs: Partial<CSSProperties>
     md?: Partial<CSSProperties>
     xl?: Partial<CSSProperties>
