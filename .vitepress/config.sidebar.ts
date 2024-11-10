@@ -90,7 +90,20 @@ export default {
                 collapsed: false,
                 items: [
                     { 
-                        text: 'Blöcke platzieren'
+                        text: 'Blöcke platzieren',
+                        link: '/de/anleitung/sektionen/bloecke-platzieren'
+                    },
+                    { 
+                        text: 'Blockgröße anpassen',
+                        link: '/de/anleitung/sektionen/blockgroesse-anpassen'
+                    },
+                    { 
+                        text: 'Sektion Einstellungen',
+                        link: '/de/anleitung/sektionen/sektion-einstellungen'
+                    },
+                    { 
+                        text: 'Block Einstellungen',
+                        link: '/de/anleitung/sektionen/block-einstellungen'
                     }
                 ]
             },
