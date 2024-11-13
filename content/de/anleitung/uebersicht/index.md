@@ -6,10 +6,6 @@ next:
     link: '/de/anleitung/uebersicht/sektionen'
 ---
 
-<script setup lang="ts">
-    import { css } from 'styled-system/css'
-</script>
-
 - Elysium ist eine Sammlung von Komponenten, welche bei der Erstellung von Erlebniswelten Layouts helfen
 - Es beinhaltet eine **Erlebniswelt Sektion**, einen **Slide Builder** sowie **Slider und Banner Elemente** um Slides anzuordnen
 - In jeder Komponente liegt Fokus auf einfacher und effektiver Bedienung um schnell zum gewünschten Ergebnis zu kommen
@@ -19,12 +15,7 @@ next:
 - So müssen geräteabhängige Einstellungen nicht für jede Ansicht gepflegt werden. Hier gibt es nur wenige Ausnahmen
 
 <Grid>
-    <Column
-        :cols-md="6"
-        :cols-xl="4">
-        <Image 
-            src="/images/admin-cms-block-auswahl.png" 
-            alt="Elysium Slides Verwaltung" 
-            />
+    <Column :cols-md="6" :cols-xl="4">
+        <Image src="/images/admin-cms-block-auswahl.png" alt="Elysium Slides Verwaltung" />
     </Column>
 </Grid>

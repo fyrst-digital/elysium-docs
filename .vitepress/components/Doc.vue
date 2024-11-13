@@ -23,6 +23,19 @@
             css({
                 paddingBlock: '32px',
                 paddingInline: '24px',
+                maxWidth: { 
+                    base: '360px', 
+                    sm: '420px', 
+                    md: '560px', 
+                    lg: '640px', 
+                    xl: '760px',
+                    '2xl': '680px',
+                    '3xl': '760px',
+                    '4xl': '860px',
+                    '5xl': '1000px',
+                    '6xl': '1200px',
+                },
+                marginInline: 'auto',
             }),
             { 'has-sidebar': hasSidebar, 'has-aside': hasAside }
         ]"
@@ -44,7 +57,7 @@
                         width: '100%',
                         maxWidth: '180px',
                         order: 2,
-                        xl: { display: 'block' }
+                        '2xl': { display: 'block' }
                     }),
                     {'left-aside': leftAside}
                 ]">

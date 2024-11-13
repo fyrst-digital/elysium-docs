@@ -42,17 +42,13 @@
 
 <template>
 
-    <div 
-        :class="css({
-            marginBlock: '12'
-        })">
+    <div>
 
         <div 
             :class="css({
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
-                padding: '6',
                 bg: { base: 'var(--vp-c-bg-soft)', _dark: 'var(--vp-c-bg-alt)' },
                 borderRadius: '12'
             })"

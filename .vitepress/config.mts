@@ -51,6 +51,10 @@ export default defineConfig({
       }
     }
   },
+  markdown: {
+    html: true,
+    component: {}
+  },
   cleanUrls: true,
   lastUpdated: true,
   title: "Elysium",

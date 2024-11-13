@@ -37,6 +37,17 @@ export default defineConfig({
           },
         },
       },
+      breakpoints: {
+        sm: '420px',
+        md: '560px',
+        lg: '640px',
+        xl: '768px',
+        '2xl': '960px',
+        '3xl': '1024px',
+        '4xl': '1140px',
+        '5xl': '1280px',
+        '6xl': '1440px',
+      },
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0' },

@@ -112,7 +112,23 @@ export default {
                 collapsed: false,
                 items: [
                     { 
+                        text: 'Erste Schritte',
+                        link: '/de/anleitung/slide-builder/erste-schritte'
+                    },
+                    { 
                         text: 'Allgemeine Einstellungen'
+                    }
+                ]
+            },
+            {
+                text: 'Erlebniswelt Elemente',
+                collapsed: false,
+                items: [
+                    { 
+                        text: 'Slider'
+                    },
+                    { 
+                        text: 'Banner'
                     }
                 ]
             }

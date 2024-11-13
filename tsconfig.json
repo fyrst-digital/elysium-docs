@@ -11,6 +11,7 @@
     "content/**/*.md",
   ],
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "module": "es2022",
     "baseUrl": ".",
     "moduleResolution": "node",
