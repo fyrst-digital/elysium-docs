@@ -18,6 +18,7 @@
     }
 
     interface Props {
+        basePath?: string
         src: string
         alt?: string
         caption?: boolean
@@ -27,6 +28,7 @@
     }
 
     const props = withDefaults(defineProps<Props>(), {
+        basePath: "/images/",
         src: "",
         alt: "",
         caption: true,
@@ -41,7 +43,7 @@
     const srcSet = computed(() => thumbnailSizes.map(size => {
         const srcPath = props.src.split('.')[0]
         const srcSuffix = props.src.split('.')[1]
-        return `${srcPath}_${size}.${srcSuffix} ${size}w`
+        return `${props.basePath}thumbnails/${srcPath}_${size}.webp ${size}w`
     }).join(', '))
 
     /**
@@ -101,7 +103,7 @@
 
                 <slot />
                 <img 
-                    :src="src"
+                    :src="`${basePath}source/${src}`" 
                     :srcset="srcSet"
                     :sizes="srcSizes"
                     :alt="alt"
@@ -176,7 +178,7 @@
             @click.stop>
 
             <img 
-                :src="src" 
+                :src="`${basePath}source/${src}`" 
                 :alt="alt"
                 :class="css({
                     userSelect: 'none',

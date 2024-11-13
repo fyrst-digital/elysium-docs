@@ -8,7 +8,7 @@ const outputDir = './content/public/images/thumbnails/';
 
 const createThumbnails = async (filePath: string, relativePath: string) => {
     const fileName = path.basename(filePath, path.extname(filePath));
-    const outputFilePath = (size: number) => path.join(outputDir, relativePath, `${fileName}-${size}.webp`);
+    const outputFilePath = (size: number) => path.join(outputDir, relativePath, `${fileName}_${size}.webp`);
 
     for (const size of thumbnailSizes) {
         await sharp(filePath)
@@ -16,6 +16,7 @@ const createThumbnails = async (filePath: string, relativePath: string) => {
             .toFormat('webp')
             .toFile(outputFilePath(size));
     }
+    console.info(`Created thumbnails for ${relativePath}/${fileName}`);
 };
 
 const processDirectory = async (dir: string, relativePath: string = '') => {
