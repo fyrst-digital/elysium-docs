@@ -10,10 +10,14 @@
     "vue": "^3.5.12"
   },
   "scripts": {
+    "generate:thumbnails": "bun run generate.thumbnails.mts",
     "build:icons": "bun run build.icons.mjs",
     "prepare": "panda codegen",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
   }
 }
