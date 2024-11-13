@@ -1,14 +1,29 @@
 <script setup lang="ts">
     import { type Ref, inject, ref, computed } from 'vue'
     import { css } from 'styled-system/css'
+    import { breakpoints, Breakpoints } from '../../theme.config.mts';
     import { useImageZoom } from './../composables/image-zoom'
     
+    interface Sizes {
+        xs: number
+        sm: number
+        md: number,
+        lg: number,
+        xl: number,
+        '2xl': number,
+        '3xl': number,
+        '4xl': number,
+        '5xl': number,
+        '6xl': number,
+    }
+
     interface Props {
         src: string
         alt?: string
         caption?: boolean
         aspectRatio?: string
-        lazy?: boolean
+        lazy?: boolean,
+        sizes?: Partial<Sizes>
     }
 
     const props = withDefaults(defineProps<Props>(), {
@@ -16,8 +31,12 @@
         alt: "",
         caption: true,
         aspectRatio: "16 / 10",
-        lazy: true
+        lazy: true,
     })
+
+    const defaultSizes: Partial<Sizes> = {
+        xs: 200
+    }
 
     const thumbnailSizes = [
         200, 300, 400, 500, 
@@ -41,7 +60,9 @@
      * }
      */
     const srcSizes = computed(() => {
-        return `(min-width: 960px) 200px, (min-width: 600px) 300px`
+        return Object.entries({...defaultSizes, ...props.sizes}).reverse().map(([key, value]) => {
+            return `(min-width: ${breakpoints[key] ?? '0px'}) ${value}px`
+        }).join(', ')
     })
 
     const {

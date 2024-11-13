@@ -11,6 +11,8 @@
     "content/**/*.md",
   ],
   "compilerOptions": {
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
     "module": "es2022",
     "baseUrl": ".",
