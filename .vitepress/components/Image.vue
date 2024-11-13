@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import { type Ref, inject, ref } from 'vue'
+    import { type Ref, inject, ref, computed } from 'vue'
     import { css } from 'styled-system/css'
     import { useImageZoom } from './../composables/image-zoom'
     
@@ -17,6 +17,31 @@
         caption: true,
         aspectRatio: "16 / 10",
         lazy: true
+    })
+
+    const thumbnailSizes = [
+        200, 300, 400, 500, 
+        600, 800, 1200, 1600
+    ]
+
+    const srcSet = computed(() => thumbnailSizes.map(size => {
+        const srcPath = props.src.split('.')[0]
+        const srcSuffix = props.src.split('.')[1]
+        return `${srcPath}_${size}.${srcSuffix} ${size}w`
+    }).join(', '))
+
+    /**
+     * @todo make an object as prop with the following structure and 
+     * build the according sizes media queries string
+     * {
+     *   xs: 600, // xs refers to the theme breakpoint with value 0px
+     *   sm: 200, // sm refers to the theme breakpoint with value 420px
+     *   md: 300,
+     *   xl: 500,
+     * }
+     */
+    const srcSizes = computed(() => {
+        return `(min-width: 960px) 200px, (min-width: 600px) 300px`
     })
 
     const {
@@ -60,7 +85,9 @@
 
                 <slot />
                 <img 
-                    :src="src" 
+                    :src="src"
+                    :srcset="srcSet"
+                    :sizes="srcSizes"
                     :alt="alt"
                     :class="css({
                         alignSelf: 'center',
