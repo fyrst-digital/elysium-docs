@@ -1,7 +1,7 @@
 <script setup lang="ts">
     import { type Ref, inject, ref, computed } from 'vue'
     import { css } from 'styled-system/css'
-    import { breakpoints, Breakpoints } from '../../theme.config.mts';
+    import { breakpoints, thumbnailSizes } from '../../theme.config.mts';
     import { useImageZoom } from './../composables/image-zoom'
     
     interface Sizes {
@@ -37,12 +37,7 @@
     const defaultSizes: Partial<Sizes> = {
         xs: 200
     }
-
-    const thumbnailSizes = [
-        200, 300, 400, 500, 
-        600, 800, 1200, 1600
-    ]
-
+    
     const srcSet = computed(() => thumbnailSizes.map(size => {
         const srcPath = props.src.split('.')[0]
         const srcSuffix = props.src.split('.')[1]

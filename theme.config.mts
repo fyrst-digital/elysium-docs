@@ -21,3 +21,8 @@ export const breakpoints: Breakpoints = {
     '5xl': '1280px',
     '6xl': '1440px',
 }
+
+export const thumbnailSizes = [
+    200, 300, 400, 500, 
+    600, 800, 1200, 1600
+]
