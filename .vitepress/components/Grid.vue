@@ -5,11 +5,13 @@
 <template>
     <div 
         :class="css({
-            display: 'grid',
-            gridTemplateColumns: 'repeat(12, minmax(0, 1fr))',
             gap: '24px',
             paddingBlock: '24px',
-        })">
+        })"
+        :style="{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(12, minmax(0, 1fr))',
+        }">
         <slot />
     </div>
 </template>

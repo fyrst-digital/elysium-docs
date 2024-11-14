@@ -10,12 +10,14 @@
 <Grid>
     <Column :cols-md="6" :cols-xl="4">
         <Image src="sektion/admin-auswahl-blank.png" alt="Sektion Auswahl bei leerer Erlebniswelt"
-        :sizes="{xs: 300, lg: 600}" />
+        :sizes="{xs: 200, lg: 600, '6xl': 300}" :lazy="false" />
     </Column>
     <Column :cols-md="6" :cols-xl="4">
-        <Image src="sektion/admin-auswahl-wizard.png" alt="Sektion Auswahl beim erstellen einer Erlebniswelt" />
+        <Image src="sektion/admin-auswahl-wizard.png" alt="Sektion Auswahl beim erstellen einer Erlebniswelt" 
+        :sizes="{xs: 200, lg: 600, '6xl': 300}" :lazy="false"/>
     </Column>
     <Column :cols-md="6" :cols-xl="4">
-        <Image src="sektion/admin-auswahl-add.png" alt="Sektion Auswahl beim hinzufügen einer Sektion" />
+        <Image src="sektion/admin-auswahl-add.png" alt="Sektion Auswahl beim hinzufügen einer Sektion" 
+        :sizes="{xs: 200, lg: 600, '6xl': 300}" :lazy="false"/>
     </Column>
 </Grid>
