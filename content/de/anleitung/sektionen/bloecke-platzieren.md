@@ -8,15 +8,15 @@
 - Im näcchsten Artikel erfährst du wie du die Blockgröße anpassen kannst
 
 <Grid>
-    <Column :cols-md="6" :cols-xl="4">
+    <Column :cols="{xs: 12, lg: 6, '5xl': 4}">
         <Image src="sektion/admin-auswahl-blank.png" alt="Sektion Auswahl bei leerer Erlebniswelt"
         :sizes="{xs: 200, lg: 600, '6xl': 300}" :lazy="false" />
     </Column>
-    <Column :cols-md="6" :cols-xl="4">
+    <Column :cols="{xs: 12, lg: 6, '5xl': 4}">
         <Image src="sektion/admin-auswahl-wizard.png" alt="Sektion Auswahl beim erstellen einer Erlebniswelt" 
         :sizes="{xs: 200, lg: 600, '6xl': 300}" :lazy="false"/>
     </Column>
-    <Column :cols-md="6" :cols-xl="4">
+    <Column :cols="{xs: 12, lg: 6, '5xl': 4}">
         <Image src="sektion/admin-auswahl-add.png" alt="Sektion Auswahl beim hinzufügen einer Sektion" 
         :sizes="{xs: 200, lg: 600, '6xl': 300}" :lazy="false"/>
     </Column>

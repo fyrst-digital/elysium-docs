@@ -1,58 +1,74 @@
 <script setup lang="ts">
-    import { ref, onMounted, onUnmounted, PropType, computed, CSSProperties } from 'vue'
+    import { ref, onMounted, onBeforeMount, onUnmounted, PropType, computed, CSSProperties, reactive, watch, getCurrentInstance } from 'vue'
     import { css } from 'styled-system/css'
-    import { useViewStyle, ResponsiveStyles } from './../composables/view-style'
-
-    const { viewStyle } = useViewStyle({
-        xl: 1440
-    })
+    import { breakpoints } from '../../theme.config.mts';
+    import { v4 as uuidv4 } from 'uuid'
 
     const props = defineProps({
-        colsXs: {
-            type: Number,
-            default: 12
-        },
-        colsMd: {
-            type: Number
-        },
-        colsXl: {
-            type: Number
+        cols: {
+            type: Object
         }
     })
 
-    const colStyle = computed(() => {
-        const styles: ResponsiveStyles = {
-            xs: {
-                gridColumnEnd: `span ${props.colsXs}`
-            }
-        }
+    const id = ref(null)
 
-        if (props.colsMd) {
-            styles.md = {
-                gridColumnEnd: `span ${props.colsMd}`
-            }
-        }
+    const defaultCols = {
+        xs: 12,
+        sm: null,
+        md: null,
+        lg: null,
+        xl: null,
+        '2xl': null,
+        '3xl': null,
+        '4xl': null,
+        '5xl': null,
+        '6xl': null,
+    }
 
-        if (props.colsXl) {
-            styles.xl = {
-                gridColumnEnd: `span ${props.colsXl}`
-            }
-        }
-
-        return styles
+    const columnId = computed(() => {
+        console.log(id.value)
+        return `column-${id.value}`
     })
+
+    const style = computed(() => {
+        const arr = []
+
+        const mergedCols = {
+            ...defaultCols,
+            ...props.cols
+        }
+        
+        for (const [key, value] of Object.entries(mergedCols)) {
+            if (value !== null) {
+                arr.push(`@media screen and (min-width: ${breakpoints[key] ?? '0px'}) { #column-${id.value} { grid-column-end: span ${value}; } }`)
+            }
+        }
+
+        return arr
+    })
+
+    onBeforeMount(() => {
+        id.value = uuidv4()
+    })
+
 </script>
 
 <template>
 
-    <div
-        :class="css({
+    <component 
+        v-if="id"
+        :is="'style'"> 
+            {{style.join(' ')}}
+    </component>
+
+    <div 
+        v-if="id"
+        :class="[css({
             display: 'flex',
             flexDirection: 'column',
-        })"
-        :style="{
-            ...viewStyle(colStyle)
-        }">
+        }),]"
+        :id="columnId">
         <slot />
     </div>
+
 </template>
