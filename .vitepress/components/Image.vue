@@ -85,7 +85,12 @@
 
 <template>
 
-    <div>
+    <div 
+        :class="css({
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '4',
+        })">
 
         <div 
             :class="css({
@@ -128,7 +133,6 @@
                 fontSize: '80%',
                 fontStyle: 'italic',
                 color: 'var(--vp-c-text-2)',
-                paddingBlock: '4'
             })">
             {{ alt }}
         </div>

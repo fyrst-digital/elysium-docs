@@ -1,13 +1,29 @@
 <script setup lang="ts">
     import { useRoute, useData } from 'vitepress'
     import { useSidebar } from 'vitepress/theme';
-    import { computed } from 'vue'
+    import { computed, useSlots, ref, onBeforeMount, onMounted } from 'vue'
     import { css } from 'styled-system/css';
     import VPDocAside from 'vitepress/dist/client/theme-default/components/VPDocAside.vue'
     import VPDocFooter from 'vitepress/dist/client/theme-default/components/VPDocFooter.vue'
 
     const { theme } = useData()
     const { hasSidebar, hasAside, leftAside } = useSidebar()
+    const slots = useSlots()
+    const content = ref<HTMLElement | null>(null)
+
+    const asideSlots = computed(() => {
+        return Object.entries(slots).filter(([key, slot]) => {
+            // slot().filter((s) => s.children.length > 0)
+            // console.log(key, slot())
+            return /aside/.test(key)
+        })
+    }, {})
+
+    const hasOutline = computed(() => {
+        if (!content.value) return false
+        const headers = content.value.querySelectorAll(':where(h2,h3,h4,h5,h6)')
+        return headers.length > 0
+    })
 
     const route = useRoute()
 
@@ -57,13 +73,24 @@
                         width: '100%',
                         maxWidth: '180px',
                         order: 2,
-                        '2xl': { display: 'block' }
+                        '2xl': { 
+                            display: hasOutline ? 'block' : 'none',
+                        }
                     }),
                     {'left-aside': leftAside}
                 ]">
 
                 <div class="aside-curtain" />
-                <div class="aside-container">
+                <div :class="[
+                    css({
+                        position: 'sticky',
+                        top: {
+                            base: '150px',
+                            '5xl': '100px'
+                        }
+                    }),
+                    'aside-container'
+                    ]">
                     <div class="aside-content">
                         <VPDocAside>
                             <template #aside-top><slot name="aside-top" /></template>
@@ -78,6 +105,7 @@
             </div>
 
             <div class="content"
+                ref="content"
                 :class="css({
                     flex: '1 0%',
                     order: 1,
