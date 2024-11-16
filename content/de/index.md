@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Elysium DE"
+  name: "Elysium"
   text: "Section, Slider and Banner for Shopware"
   tagline: My great project tagline
   actions:
     - theme: primary
-      text: Overview
-      link: /manual/overview
+      text: Übersicht
+      link: /de/anleitung/uebersicht
     - theme: outlinePrimary
       text: Overview
       link: /manual/overview
 
 features:
-  - title: Feature A
+  - title: Erlebniswelt Sektion
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Slide Builder
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Slider und Banner Element
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

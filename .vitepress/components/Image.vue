@@ -89,7 +89,9 @@
         :class="css({
             display: 'flex',
             flexDirection: 'column',
-            gap: '4',
+            bg: { base: 'var(--vp-c-bg-soft)', _dark: 'var(--vp-c-bg-alt)' },
+            borderRadius: '12',
+            padding: '1',
         })">
 
         <div 
@@ -97,8 +99,6 @@
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
-                bg: { base: 'var(--vp-c-bg-soft)', _dark: 'var(--vp-c-bg-alt)' },
-                borderRadius: '12'
             })"
             :style="{
                 aspectRatio: aspectRatio
@@ -114,10 +114,12 @@
                     :alt="alt"
                     :class="css({
                         alignSelf: 'center',
-                        borderRadius: '6',
+                        borderRadius: '8',
+                        borderWidth: '1px',
+                        borderStyle: 'solid',
+                        borderColor: { base: 'rgba(0,0,0,.15)', _dark: 'rgba(255,255,255,.25)' },
                         width: '100%',
                         cursor: 'pointer',
-                        boxShadow: '0 0 1rem rgba(0, 0, 0, 0.2)',
                         transition: 'all .3s',
                         _hover: {
                             transform: 'scale(1.05)'
@@ -133,6 +135,9 @@
                 fontSize: '80%',
                 fontStyle: 'italic',
                 color: 'var(--vp-c-text-2)',
+                paddingBlock: '2',
+                paddingInline: '4',
+                lineHeight: '1.25',
             })">
             {{ alt }}
         </div>
