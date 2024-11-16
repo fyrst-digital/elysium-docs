@@ -26,7 +26,6 @@
     }
 
     const columnId = computed(() => {
-        console.log(id.value)
         return `column-${id.value}`
     })
 

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-    import { useRoute, useData } from 'vitepress'
+    import { useRoute, useData, onContentUpdated } from 'vitepress'
     import { useSidebar } from 'vitepress/theme';
-    import { computed, useSlots, ref, onBeforeMount, onMounted } from 'vue'
+    import { computed, useSlots, ref } from 'vue'
     import { css } from 'styled-system/css';
     import VPDocAside from 'vitepress/dist/client/theme-default/components/VPDocAside.vue'
     import VPDocFooter from 'vitepress/dist/client/theme-default/components/VPDocFooter.vue'
@@ -9,7 +9,7 @@
     const { theme } = useData()
     const { hasSidebar, hasAside, leftAside } = useSidebar()
     const slots = useSlots()
-    const content = ref<HTMLElement | null>(null)
+    const hasOutline = ref<Boolean>(false)
 
     const asideSlots = computed(() => {
         return Object.entries(slots).filter(([key, slot]) => {
@@ -19,17 +19,16 @@
         })
     }, {})
 
-    const hasOutline = computed(() => {
-        if (!content.value) return false
-        const headers = content.value.querySelectorAll(':where(h2,h3,h4,h5,h6)')
-        return headers.length > 0
-    })
-
     const route = useRoute()
 
     const pageName = computed(() =>
         route.path.replace(/[./]+/g, '_').replace(/_html$/, '')
     )
+
+    onContentUpdated(() => {
+        const headers = document.querySelectorAll('.vp-doc :where(h2,h3,h4,h5,h6)')
+        hasOutline.value = headers.length > 0
+    })
 </script>
 
 <template>
@@ -105,7 +104,6 @@
             </div>
 
             <div class="content"
-                ref="content"
                 :class="css({
                     flex: '1 0%',
                     order: 1,

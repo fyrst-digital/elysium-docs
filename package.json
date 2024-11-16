@@ -1,15 +1,15 @@
 {
   "devDependencies": {
     "@iconify-json/ph": "^1.2.1",
-    "@iconify/json": "^2.2.266",
+    "@iconify/json": "^2.2.273",
     "@iconify/utils": "^2.1.33",
-    "@pandacss/dev": "^0.47.0",
+    "@pandacss/dev": "^0.47.1",
     "@types/styled-system__css": "^5.0.21",
     "@vueuse/core": "^11.2.0",
     "panda-iconify": "^0.8.0",
     "uuid": "^11.0.3",
-    "vitepress": "^1.4.1",
-    "vue": "^3.5.12"
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.13"
   },
   "scripts": {
     "generate:thumbnails": "bun run generate.thumbnails.mts",
