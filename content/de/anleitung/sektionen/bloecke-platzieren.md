@@ -17,7 +17,6 @@ Um einen Block in einer Elysium Sektion zu platzieren, wähle sie zunächst in d
 </Grid>
 
 ## Weitere Blöcke hinzufügen
-
 Wenn du weitere Blöcke hinzufügen möchtest, ziehe einfach einen neuen Block über einen bereits bestehenden. Der neue Block wird immer rechts vom Bestehenden angefügt. Zum Beispiel: Wenn du einen Textblock über einen Bildblock ziehst, wird der Textblock rechts vom Bildblock platziert. 
 Der neue Block fügt sich also immer an den Block an, auf dem er abgelegt wurde. 
 

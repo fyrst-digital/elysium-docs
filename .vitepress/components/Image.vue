@@ -92,6 +92,7 @@
             bg: { base: 'var(--vp-c-bg-soft)', _dark: 'var(--vp-c-bg-alt)' },
             borderRadius: '12',
             padding: '1',
+            minHeight: '100%',
         })">
 
         <div 
@@ -138,6 +139,7 @@
                 paddingBlock: '2',
                 paddingInline: '4',
                 lineHeight: '1.25',
+                marginBlock: 'auto',
             })">
             {{ alt }}
         </div>

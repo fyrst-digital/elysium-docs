@@ -61,6 +61,7 @@
                 display: 'flex',
                 flexDirection: 'row',
                 flexWrap: 'wrap',
+                gap: '24px',
             })">
 
             <div v-if="hasAside" 

@@ -1,12 +1,7 @@
 # Erlebniswelten Sektion zur freien Layout Gestaltung
 
-- Problem: Shopware Sektionen sind starr und erlauben Nutzer kaum Möglichkeiten Layouts frei und Responsive zu gestalten
-- Es gibt Pseudo Layout Blöcke, welche nur vorgefertigte Layouts bieten die in der meisten Fällen wenig anpassbar sind
-- In Elysium Sektionen lässt sich die Breite eines jeden Blocks dynamisch, durch ziehen des Mauszeigers, anpassen 
-- Außerdem lassen sich eine optische Reihenfolgen festlegen und Block-Zeilen zusammenführen
-- In der Sektion selbst finden sich Raster Optionen wie Ausrichtung der Blöcke oder der Abstand des Zwischenraums
-- Und das Beste: Alles lässt sich für **jede Ansicht separart einstellen**
+Ein häufiges Problem bei Shopware Sektionen ist ihre Starrheit, die den Nutzern kaum Möglichkeiten bietet, Layouts frei und responsiv zu gestalten. Oft gibt es nur Pseudo-Layout-Blöcke, die vorgefertigte Layouts bieten und in den meisten Fällen wenig anpassbar sind.
 
-- Elysium Sektionen finden sich als Auswahl im Erlebniswelt Editor wieder. Keine ausgelagerte Lösung, alles nahtlos im Shopware Standard gelöst.
-- Maximale Kompatibilität, auch zu Erlebniswelt Elementen von Drittanbietern 
-- Ab Elysium 3.6.0 verfügbar
+Mit den Elysium Sektionen kannst du zum Beispiel die Breite jedes Blocks dynamisch durch Ziehen des Mauszeigers anpassen. Auch kannst du die optische Reihenfolge festlegen und Block-Zeilen zusammenführen. Innerhalb der Sektion stehen dir Rasteroptionen wie die Ausrichtung der Blöcke oder der Abstand des Zwischenraums zur Verfügung. Das Beste daran ist, dass sich vieles seperat für die Smartphone-, Tablet- oder Desktop-Ansicht einstellen lässt.
+
+Elysium Sektionen sind nahtlos im Erlebniswelt-Editor integriert und bieten maximale Kompatibilität, auch mit Erlebniswelt-Elementen von Drittanbietern. Diese Funktion ist ab Elysium Version 3.6.0 verfügbar.
