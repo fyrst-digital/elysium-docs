@@ -51,6 +51,7 @@
                     '6xl': '1200px',
                 },
                 marginInline: 'auto',
+                transition: 'max-width 200ms',
             }),
             { 'has-sidebar': hasSidebar, 'has-aside': hasAside }
         ]"

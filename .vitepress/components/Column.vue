@@ -1,73 +1,78 @@
 <script setup lang="ts">
-    import { ref, onMounted, onBeforeMount, onUnmounted, PropType, computed, CSSProperties, reactive, watch, getCurrentInstance } from 'vue'
+    import { ref, onBeforeMount, computed } from 'vue'
     import { css } from 'styled-system/css'
-    import { breakpoints } from '../../theme.config.mts';
+    import { breakpoints, breakpointsStruct } from '../../theme.config.mts'
     import { v4 as uuidv4 } from 'uuid'
 
     const props = defineProps({
         cols: {
+            type: Object
+        },
+        colStart: {
             type: Object
         }
     })
 
     const id = ref(null)
 
-    const defaultCols = {
-        xs: 12,
-        sm: null,
-        md: null,
-        lg: null,
-        xl: null,
-        '2xl': null,
-        '3xl': null,
-        '4xl': null,
-        '5xl': null,
-        '6xl': null,
-    }
+    const defaultCols = { ...breakpointsStruct, xs: 12 }
+    const defaultColStart = { ...breakpointsStruct, xs: 'auto' }
 
     const columnId = computed(() => {
         return `column-${id.value}`
     })
 
-    const style = computed(() => {
-        const arr = []
+    function generateRules(key: string, styles: any) {
+        const { colsValue, colStartValue } = styles
 
-        const mergedCols = {
-            ...defaultCols,
-            ...props.cols
-        }
-        
-        for (const [key, value] of Object.entries(mergedCols)) {
-            if (value !== null) {
-                arr.push(`@media screen and (min-width: ${breakpoints[key] ?? '0px'}) { #column-${id.value} { grid-column-end: span ${value}; } }`)
-            }
-        }
+        const rules = []
+        if (colsValue != null) rules.push(`grid-column-end: span ${colsValue};`)
+        if (colStartValue != null && colStartValue !== 'auto') rules.push(`grid-column-start: ${colStartValue};`)
 
-        return arr
-    })
+        if (rules.length) {
+            return `#${columnId.value} { ${rules.join(' ')} }`
+        }
+    }
+
+    function wrapWithMediaQuery(key: string, content: string) {
+        const minWidth = breakpoints[key] ?? '0px'
+        return key === 'xs'
+            ? content
+            : `@media screen and (min-width: ${minWidth}) { ${content} }`
+    }
+
+    const style = computed(() =>
+        Object.keys(breakpointsStruct)
+            .map((key) => {
+                const rules = generateRules(key, { 
+                    colsValue: props.cols?.[key] ?? defaultCols[key], 
+                    colStartValue: props.colStart?.[key] ?? defaultColStart[key] 
+                })
+                if (rules) {
+                    return wrapWithMediaQuery(key, rules)
+                }
+            })
+            .filter(Boolean)
+    )
 
     onBeforeMount(() => {
         id.value = uuidv4()
     })
-
 </script>
 
 <template>
-
-    <component 
-        v-if="id"
-        :is="'style'"> 
-            {{style.join(' ')}}
+    <component v-if="id" :is="'style'">
+        {{ style.join(' ') }}
     </component>
 
-    <div 
+    <div
         v-if="id"
-        :class="[css({
+        :class="css({
             display: 'flex',
             flexDirection: 'column',
-        }),]"
-        :id="columnId">
+        })"
+        :id="columnId"
+    >
         <slot />
     </div>
-
 </template>

@@ -35,6 +35,9 @@ export default defineConfig({
     },
   },
   srcDir: './content',
+  head: [
+    ['link', { rel: 'icon', href: '/icon-elysium.svg' }]
+  ],
   locales: {
     root: {
       label: 'English',
@@ -60,6 +63,7 @@ export default defineConfig({
   title: "Elysium",
   description: "Section, Slider and Banner for Shopware",
   themeConfig: {
+    logo: '/icon-elysium.svg',
     // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: 'local',
