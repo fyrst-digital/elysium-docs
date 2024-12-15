@@ -25,7 +25,7 @@ Nachdem du einen Slide angelegt hast kannst du ihn im Elysium Slider oder Banner
 Nutze zur Aufbereitung eines Erlebniswelten Layouts auch die neue Elysium Sektion (ab Version 3.6). Sie bietet die viele Möglichkeiten zur responsiven und individuellen Gestaltung.
 :::
 
-::: tip Beispiele für Slides
+::: info Beispiele für Slides
 [Auf unseren Beispiel-Seiten](#todo-url) haben wir Sammlungen bereit gestellt, um dir zu zeigen was mit dem Slide Builder möglich ist.
 :::
 
