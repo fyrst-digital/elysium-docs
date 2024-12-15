@@ -120,7 +120,8 @@ export default {
                         link: '/de/anleitung/slide-builder/allgemeine-einstellungen'
                     },
                     { 
-                        text: 'Medien'
+                        text: 'Medien',
+                        link: '/de/anleitung/slide-builder/medien'
                     },
                     { 
                         text: 'Erscheinungsbild'
