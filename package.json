@@ -1,8 +1,8 @@
 {
   "devDependencies": {
     "@iconify-json/ph": "^1.2.1",
-    "@iconify/json": "^2.2.278",
-    "@iconify/utils": "^2.1.33",
+    "@iconify/json": "^2.2.282",
+    "@iconify/utils": "^2.2.0",
     "@pandacss/dev": "^0.47.1",
     "@types/styled-system__css": "^5.0.21",
     "@vueuse/core": "^11.3.0",

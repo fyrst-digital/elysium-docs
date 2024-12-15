@@ -116,8 +116,19 @@ export default {
                         link: '/de/anleitung/slide-builder/erste-schritte'
                     },
                     { 
-                        text: 'Allgemeine Einstellungen'
-                    }
+                        text: 'Allgemeine Einstellungen',
+                        link: '/de/anleitung/slide-builder/allgemeine-einstellungen'
+                    },
+                    { 
+                        text: 'Medien',
+                        link: '/de/anleitung/slide-builder/medien'
+                    },
+                    { 
+                        text: 'Erscheinungsbild'
+                    },
+                    { 
+                        text: 'Erweiterte Einstellungen'
+                    },
                 ]
             },
             {
