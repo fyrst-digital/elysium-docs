@@ -7,6 +7,9 @@ import nav from './config.nav'
 export default defineConfig({
   vite: {
     // https://vitejs.dev/config/
+    esbuild: {
+      target: 'es2022'
+    },
     resolve: {
       alias: [
         {
