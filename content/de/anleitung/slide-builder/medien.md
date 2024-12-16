@@ -25,4 +25,6 @@ Bedenke dies beim erstellen deiner Grafiken.
 
 ## Eigenständiges Fokusbild neben Slide-Inhalt
 
-...
+Für einen Slide kann ein Fokusbild festgelegt werden. Das Fokusbild wird als separates Bild neben dem Inhaltsbereich angezeigt.
+
+Das Bild lässt sich dabei **auf volle Breite strecken** oder in der **Breite beschränken**. Diese Optionen sind geräteabhängig.
