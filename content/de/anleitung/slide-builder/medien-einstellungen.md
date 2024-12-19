@@ -1,5 +1,5 @@
 ---
-title: Medien — Slide Cover und Fokusbild festlegen
+title: "Medien Einstellungen:  Slide Cover und Fokusbild festlegen"
 description: In den Medien Einstellungen können Slide Cover oder ein Fokusbild festgelegt werden.
 ---
 

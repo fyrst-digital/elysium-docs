@@ -128,7 +128,8 @@ export default {
                         link: '/de/anleitung/slide-builder/design-einstellungen'
                     },
                     { 
-                        text: 'Erweiterte Einstellungen'
+                        text: 'Erweiterte Einstellungen',
+                        link: '/de/anleitung/slide-builder/erweiterte-einstellungen'
                     },
                 ]
             },
