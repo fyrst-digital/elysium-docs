@@ -138,7 +138,8 @@ export default {
                 collapsed: false,
                 items: [
                     { 
-                        text: 'Slider'
+                        text: 'Slider',
+                        link: '/de/anleitung/cms-elemente/slider'
                     },
                     { 
                         text: 'Banner'

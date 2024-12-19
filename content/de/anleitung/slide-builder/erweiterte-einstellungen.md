@@ -1,5 +1,5 @@
 ---
-title: Erweiterte Einstellungen für Slides
+title: "Slides durch eigene Templates und Zusatzfelder erweitern"
 description: Hier finden sich erweiterte Einstellungen für fortgeschrittene Nutzer oder Entwickler.
 ---
 
