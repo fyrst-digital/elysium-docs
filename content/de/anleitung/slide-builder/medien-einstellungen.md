@@ -27,4 +27,11 @@ Bedenke dies beim erstellen deiner Grafiken.
 
 Für einen Slide kann ein Fokusbild festgelegt werden. Das Fokusbild wird als separates Bild neben dem Inhaltsbereich angezeigt.
 
+<Grid>
+    <Column :cols="{xs: 12, 'lg': 6, '2xl': 12, '4xl': 6}">
+        <Image src="placeholder.svg" alt="Visualisierung des Fokusbild"
+        :lazy="false" />
+    </Column>
+</Grid>
+
 Das Bild lässt sich dabei **auf volle Breite strecken** oder in der **Breite beschränken**. Diese Optionen sind geräteabhängig.
