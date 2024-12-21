@@ -1,0 +1,1 @@
+Im Erlebniswelten Slider legst du eine Slide Auswahl und das Verhalten sowie Aussehen des Sliders fest. Das Slider Element findest du in der Block-Auswahl Gruppe Text & Bilder in den Erlebniswelten.
