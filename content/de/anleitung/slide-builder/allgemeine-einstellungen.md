@@ -3,9 +3,6 @@ title: Allgemeine Einstellungen und Inhalte festlegen
 description: In den Allgemeinen Einstellungen lassen sich Inhalte wie Überschrift und Beschreibung, sowie die Verlinkung des Slides festlegen
 ---
 
-# {{ $frontmatter.title }}
-{{ $frontmatter.description }}
-
 ## Inhalte eines Slides festlegen
 
 Der **Slide Name** ist das einzige Pflichtfeld in einem Slide. Dieser muss einzigartig sein und dient der internen Bezeichnung des Slides um ihn in der Administration zu identifizieren. So kannst du deine Slides in der Übersicht, Suche oder im Slider Einkaufswelt-Element schneller finden.

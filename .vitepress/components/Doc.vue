@@ -6,7 +6,7 @@
     import VPDocAside from 'vitepress/dist/client/theme-default/components/VPDocAside.vue'
     import VPDocFooter from 'vitepress/dist/client/theme-default/components/VPDocFooter.vue'
 
-    const { theme } = useData()
+    const { theme, frontmatter } = useData()
     const { hasSidebar, hasAside, leftAside } = useSidebar()
     const slots = useSlots()
     const hasOutline = ref<Boolean>(false)
@@ -29,6 +29,8 @@
         const headers = document.querySelectorAll('.vp-doc :where(h2,h3,h4,h5,h6)')
         hasOutline.value = headers.length > 0
     })
+
+    console.log(frontmatter.value)
 </script>
 
 <template>
@@ -118,6 +120,30 @@
                     })">
                     <slot name="doc-before" />
                     <main class="main">
+
+                        <div v-if="frontmatter.title || frontmatter.description"
+                            :class="css({
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '16px',
+                            })">
+                            <h1 v-if="frontmatter.title"
+                                :class="css({
+                                    fontSize: '32px !important',
+                                    fontWeight: '600 !important',
+                                    lineHeight: '1.5 !important',
+                                })">
+                                {{ frontmatter.title }}
+                            </h1>
+                            <p v-if="frontmatter.description"
+                                :class="css({
+                                    fontSize: '20px',
+                                    lineHeight: '1.5',
+                                })">
+                                {{ frontmatter.description }}
+                            </p>
+                        </div>
+
                         <Content
                             class="vp-doc"
                             :class="[

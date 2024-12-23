@@ -3,9 +3,6 @@ title: "Slides durch eigene Templates und Zusatzfelder erweitern"
 description: Hier finden sich erweiterte Einstellungen für fortgeschrittene Nutzer oder Entwickler.
 ---
 
-# {{ $frontmatter.title }}
-{{ $frontmatter.description }}
-
 ## Eigene Template Datei festlegen
 
 Hier kann eine eigene Twig Datei festgelegt werden. Wenn du also Kenntnisse in Twig hast kannst du dir so individuelle Templates für deine Slides erstellen, welche nach belieben wiederverwendet werden können.

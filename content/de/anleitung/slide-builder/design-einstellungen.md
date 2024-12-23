@@ -3,9 +3,6 @@ title: Slide-Design und Erscheinungsbild anpassen
 description: In den Design-Einstellungen kann das Erscheinungsbild des Slides angepasst werden.
 ---
 
-# {{ $frontmatter.title }}
-{{ $frontmatter.description }}
-
 ## Gesamten Slide anpassen
 Unter **Slide** kann das Design des gesamten Slides angepasst werden.
 

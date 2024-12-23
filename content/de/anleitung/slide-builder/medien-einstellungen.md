@@ -3,9 +3,6 @@ title: "Medien Einstellungen:  Slide Cover und Fokusbild festlegen"
 description: In den Medien Einstellungen können Slide Cover oder ein Fokusbild festgelegt werden.
 ---
 
-# {{ $frontmatter.title }}
-{{ $frontmatter.description }}
-
 ## Slide Hintergründe als Bild oder Video Cover
 Das Slide Cover ist das Hintergrund-Medium eines Slides. Es kann entweder ein Bild oder ein Video sein.  
 
