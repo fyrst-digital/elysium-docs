@@ -17,7 +17,7 @@ Mit der Option **Zeige Overlay** wird eine Überblendung über den gesamten Slid
 
 Mit **Slides pro Ansicht** lassen sich mehrere Slides innerhalb einer Slider Ansicht anzeigen. So kann zum Beispiel auf dem Smartphone nur ein und auf dem Desktop drei Slides angezeigt werden.
 
-Die **Slide-Geschwindigkeit** definiert die Zeit der Anitmation zwischen den Slides in Millisekunden.
+Die **Slide-Geschwindigkeit** definiert die Zeit der Animation zwischen den Slides in Millisekunden.
 
 Es kann die **Breite des Inhaltscontainers** festgelegt werden. Das kommt vor allem bei Erlebniswelten Layouts zum tragen, welche über die gesamte Bildschirmbreite verlaufen.
 Bei **Seiteninhalt** folgt die maximale Breite des Containers der Breite des Seiteninhalts. Bei **Volle Breite** wird der Inhalts-Container über die gesamte Breite angezeigt.
@@ -38,3 +38,4 @@ Mit der Einstellung **Zeige Slider Navigation** wird die Schnellnavigation aktiv
 Du kannst das **Aussehen** der Navigationspunkte anpassen. Die **Form** der Navigationspunkte kann entweder als Punkt oder Balken dargestellt werden. Es stehen drei verschiedene **Größen** für die Navigationspunkte zur Verfügung. Zudem lassen sich der **Abstand** zwischen den Navigationspunkten und deren **Farbe** einstellen.
 
 ## Pfeile: Pfeilnavigation anpassen
+Die Option **Zeige Slider Pfeile** aktiviert die Pfeilnavigation. Es lässt sich die Icon-Form (Chevron oder Pfeil), -Farbe und -Größe festlegen. Außerdem kann eine Hintergrundfarbe für die Pfeilnavigation definiert werden.
