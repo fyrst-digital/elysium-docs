@@ -7,13 +7,13 @@ description: "Dieser Guide bringt dir das einstellen von Größen als Seitenverh
 Für das bestmögliche Verhalten im responsiven Design, arbeiten sämtliche Elysium Elemente mit Seitenverhältnissen, statt mit statischen Pixel-Werten. So ist eine konsistente Skalierung über alle Bildschirmgrößen möglich, auch unabhängig von verschiedenen Thumbnailgrößen.
 
 <Grid>
-    <Column :cols="{xs: 12, sm: 6}">
+    <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
             src="/screenshots/de/admin-cms-setting-sizing.png" 
             alt="Größen Einstellungen im Slider Element"
             :caption="true" />
     </Column>
-    <Column :cols="{xs: 12, sm: 6}">
+    <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
             src="/screenshots/de/admin-cms-setting-sizing.png" 
             alt="Größen Einstellungen im Banner Element"
@@ -27,13 +27,13 @@ Die verwendeten Theme-Breakpoints können Global in den Elysium Einstellungen an
 In der Elysium Sektion lassen sich alternative Theme-Breakpoints festlegen. Diese funktionieren unabhängigen von den Globalen Breakpoints und sind jeweils für die betroffene Sektion gültig.
 
 <Grid>
-    <Column :cols="{xs: 12, sm: 6}">
+    <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
             src="/screenshots/de/admin-cms-setting-sizing.png" 
             alt="Theme-Breakpoints in den Elysium Einstellungen"
             :caption="true" />
     </Column>
-    <Column :cols="{xs: 12, sm: 6}">
+    <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
             src="/screenshots/de/admin-cms-setting-sizing.png" 
             alt="Theme-Breakpoints in einer Elysium Sektion"
