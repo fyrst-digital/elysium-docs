@@ -142,7 +142,8 @@ export default {
                         link: '/de/anleitung/cms-elemente/slider'
                     },
                     { 
-                        text: 'Banner'
+                        text: 'Banner',
+                        link: '/de/anleitung/cms-elemente/banner'
                     }
                 ]
             }

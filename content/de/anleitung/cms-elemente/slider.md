@@ -1,6 +1,6 @@
 ---
-title: Erlebniswelten Slider Element
-description: "Im Erlebniswelten Slider legst du eine Slide Auswahl und das Verhalten sowie Aussehen des Sliders fest. Das Slider Element findest du in der Block-Auswahl Gruppe Elysium Blöcke in den Erlebniswelten."
+title: Slider Element für Erlebniswelten
+description: "Im Slider kannst du eine Slide Auswahl und das Verhalten sowie Aussehen des Sliders festlegen. Das Slider Element findest du in der Block-Auswahl Gruppe Elysium Blöcke in den Erlebniswelten."
 ---
 
 ## Inhalt: Lege die Slide Auswahl fest
