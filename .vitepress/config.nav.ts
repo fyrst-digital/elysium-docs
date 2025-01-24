@@ -5,7 +5,7 @@ export default {
     ],
     de: [
         { text: 'Anleitung', link: 'de/anleitung/uebersicht' },
-        { text: 'Guides', link: 'de/guides' },
+        { text: 'Guides', link: 'de/guides/groessen-und-seitenverhaeltnis' },
         { text: 'Beispiele', link: 'de/examples' }
     ],
 }

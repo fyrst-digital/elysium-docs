@@ -148,9 +148,30 @@ export default {
                 ]
             }
         ],
+        '/de/guides/': [
+            {
+                text: 'Guides',
+                collapsed: false,
+                items: [
+                    {
+                        text: 'Größen und Seitenverhältnis',
+                        link: '/de/guides/groessen-und-seitenverhaeltnis'
+                    },
+                    {
+                        text: 'Mehrere Slides pro Ansicht',
+                    },
+                    {
+                        text: 'Slide Cover Thumbnails',
+                    },
+                    {
+                        text: 'Individuelle Slide-Templates',
+                    },
+                ]
+            },
+        ],
         '/de/examples/': [
             {
-                text: 'Sektionen',
+                text: 'Sektion',
                 collapsed: false,
                 items: [
                     {
