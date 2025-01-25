@@ -158,13 +158,16 @@ export default {
                         link: '/de/guides/groessen-und-seitenverhaeltnis'
                     },
                     {
-                        text: 'Mehrere Slides pro Ansicht',
+                        text: 'Slides pro Ansicht',
+                        link: '/de/guides/slides-pro-slider-ansicht'
                     },
                     {
                         text: 'Slide Cover Thumbnails',
+                        link: '/de/guides/slide-cover-thumbnails'
                     },
                     {
                         text: 'Individuelle Slide-Templates',
+                        link: '/de/guides/individuelle-slide-templates'
                     },
                 ]
             },
