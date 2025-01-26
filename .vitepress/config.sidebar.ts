@@ -172,31 +172,31 @@ export default {
                 ]
             },
         ],
-        '/de/examples/': [
-            {
-                text: 'Sektion',
-                collapsed: false,
-                items: [
-                    {
-                        text: 'Responsives Raster',
-                    },
-                    {
-                        text: 'Zeilen zusammenführen',
-                    }
-                ]
-            },
-            {
-                text: 'Slider & Banner',
-                collapsed: false,
-                items: [
-                    {
-                        text: 'Bild Slider & Banner',
-                    },
-                    {
-                        text: 'SEO Slider & Banner',
-                    }
-                ]
-            }
-        ]
+        // '/de/examples/': [
+        //     {
+        //         text: 'Sektion',
+        //         collapsed: false,
+        //         items: [
+        //             {
+        //                 text: 'Responsives Raster',
+        //             },
+        //             {
+        //                 text: 'Zeilen zusammenführen',
+        //             }
+        //         ]
+        //     },
+        //     {
+        //         text: 'Slider & Banner',
+        //         collapsed: false,
+        //         items: [
+        //             {
+        //                 text: 'Bild Slider & Banner',
+        //             },
+        //             {
+        //                 text: 'SEO Slider & Banner',
+        //             }
+        //         ]
+        //     }
+        // ]
     }
 }
