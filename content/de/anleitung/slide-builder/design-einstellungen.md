@@ -8,8 +8,7 @@ Unter **Slide** kann das Design des gesamten Slides angepasst werden.
 
 <Grid>
     <Column :cols="{xs: 12, 'lg': 6, '2xl': 12, '4xl': 6}">
-        <Image src="placeholder.svg" alt="Visualisierung des gesamten Slides"
-        :lazy="false" />
+        <img src="/images/source/slide-builder/visualize-slide.svg" alt="Visualisierung des gesamten Slides" />
     </Column>
 </Grid>
 
@@ -24,8 +23,7 @@ Unter **Container** kann das Design des inneren Containers angepasst werden. Der
 
 <Grid>
     <Column :cols="{xs: 12, 'lg': 6, '2xl': 12, '4xl': 6}">
-        <Image src="placeholder.svg" alt="Visualisierung des inneren Container"
-        :lazy="false" />
+        <img src="/images/source/slide-builder/visualize-container.svg" alt="Visualisierung des inneren Container" />
     </Column>
 </Grid>
 
@@ -41,8 +39,7 @@ Das Inhaltselement umschließt Überschrift, Beschreibung und Button des Slides.
 
 <Grid>
     <Column :cols="{xs: 12, 'lg': 6, '2xl': 12, '4xl': 6}">
-        <Image src="placeholder.svg" alt="Visualisierung der Inhaltselemente"
-        :lazy="false" />
+        <img src="/images/source/slide-builder/visualize-content.svg" alt="Visualisierung der Inhaltselemente" />
     </Column>
 </Grid>
 
