@@ -11,15 +11,15 @@ Elysium stellt zahlreiche Features bereit, die dich bei der Erstellung von Erleb
 
 <Grid>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
-        <Image src="placeholder.svg" alt="Erlebniswelt Sektion"
+        <Image src="section/admin-auswahl-add.png" alt="Erlebniswelt Sektion"
         :lazy="false" />
     </Column>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
-        <Image src="placeholder.svg" alt="Slide Builder"
+        <Image src="slide-builder/de-admin-slide-builder-overview.png" alt="Slide Builder"
         :lazy="false" />
     </Column>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
-        <Image src="placeholder.svg" alt="Slider und Banner Elemente"
+        <Image src="section/de-admin-cms-block-selection.png" alt="Slider und Banner Elemente"
         :lazy="false" />
     </Column>
 </Grid>

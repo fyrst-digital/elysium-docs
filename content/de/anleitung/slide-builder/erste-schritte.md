@@ -3,9 +3,9 @@
 Nachdem du das Plugin installiert und aktiviert hast, findest du im **Menüpunkt Inhalte den neuen Eintrag Slide Builder**. Hier werden alle Slides verwaltet. Du kannst neue Slides erstellen, dupplizieren oder nicht mehr benötigte löschen. Hast du einen oder mehrere Slides erstellt kannst du diese im Elysium Slider oder Banner Erlebniswelten Element festlegeniders festlegen.
 
 <Grid>
-    <Column :cols="{xs: 12, '6xl': 8}" :col-start="{'6xl': 3}">
-        <Image src="placeholder.svg" alt="Slide Builder Übersicht"
-        :lazy="false" />
+    <Column :cols="{xs: 12, '6xl': 10}" :col-start="{'6xl': 2}">
+        <Image src="slide-builder/de-admin-slide-builder-overview.png" alt="Slide Builder Übersicht"
+        :sizes="{xs: 200, lg: 600, '6xl': 800}" :lazy="false" />
     </Column>
 </Grid>
 
@@ -40,12 +40,8 @@ Der zwei Spalten Block ist ab Version 3.6 als veraltet markiert und wird mit **V
 :::
 
 <Grid>
-    <Column :cols="{xs: 12, 'lg': 6, '2xl': 12, '4xl': 6}">
-        <Image src="placeholder.svg" alt="Elysium Elemente in der Erlebniswelten Block-Auswahl"
-        :lazy="false" />
-    </Column>
-    <Column :cols="{xs: 12, 'lg': 6, '2xl': 12, '4xl': 6}">
-        <Image src="placeholder.svg" alt="Auswahl der Elysium Sektion in den Erlebniswelten"
-        :lazy="false" />
+    <Column :cols="{xs: 12, '6xl': 10}" :col-start="{'6xl': 2}">
+        <Image src="section/de-admin-cms-block-selection.png" alt="Elysium Elemente in der Erlebniswelten Block-Auswahl"
+        :sizes="{xs: 200, lg: 600, '6xl': 800}" :lazy="false" />
     </Column>
 </Grid>

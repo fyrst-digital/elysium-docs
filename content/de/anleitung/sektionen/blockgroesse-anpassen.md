@@ -8,7 +8,14 @@ description: "Erfahre wie du die Größe eines Blocks für verschiedene Ansichte
 Um die Größe eines Blocks anzupassen, gehe mit dem Mauszeiger über die rechte Kante eines Blocks. Wenn sich der Mauszeiger ändert und sich der Block-Rahmen ändert, kannst du den Block vergrößern oder verkleinern, indem du die Maustaste gedrückt hältst und in die gewünschte Richtung ziehst.
 
 Diese Größen-Einstellungen **sind nur innerhalb von Elysium Sektionen** wirksam. Sobald du einen Block in eine andere Sektion verschiebst, werden die Größen ignoriert.
-Die Einstellungen werden jedoch gespeichert. Wenn also ein Block wieder zurück in eine Elysium Sektion verschoben wird, sind die Größen-Einstellungen wie vorher.
+Die Einstellungen werden jedoch gespeichert. Wenn also ein Block wieder zurück in eine Elysium Sektion verschoben wird, sind die Größen-Einstellungen wie gehabt.
+
+<Grid>
+    <Column :cols="{xs: 12, '6xl': 10}" :col-start="{'6xl': 2}">
+        <Image src="section/de-admin-cms-block-sizing.png" alt="Anpassung der Blockgröße"
+        :sizes="{xs: 200, lg: 600, '6xl': 800}" :lazy="false" />
+    </Column>
+</Grid>
 
 ## Geräteabhängige Anpassung der Blockgröße
 
