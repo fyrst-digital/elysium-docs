@@ -1,5 +1,5 @@
 ---
-title: "Sizes and Aspect Ratio"
+title: "Sizing and aspect ratio"
 description: "This guide will help you set sizes as aspect ratios"
 ---
 
