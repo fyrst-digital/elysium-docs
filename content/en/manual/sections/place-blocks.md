@@ -1,5 +1,5 @@
 # Select Section and Place Blocks
-To place a block in an Elysium section, first select it in the section selection. Then add a first block by drag & drop.
+To place a block in an Elysium section, first select it in the section selection. Then add a block by drag & drop.
 
 <Grid>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
@@ -16,8 +16,8 @@ To place a block in an Elysium section, first select it in the section selection
     </Column>
 </Grid>
 
-## Add more blocks
-If you want to add more blocks, simply drag a new block over an existing one. The new block will always be added to the right of the existing one. For example: If you drag a text block over an image block, the text block will be placed to the right of the image block.
+## Add More Blocks
+To add more blocks, simply drag a new block over an existing one. The new block will always be added to the right of the existing one. For example, if you drag a text block over an image block, the text block will be placed to the right of the image block.
 The new block always attaches to the block on which it was dropped.
 
 <Grid>
@@ -31,10 +31,10 @@ The new block always attaches to the block on which it was dropped.
     </Column>
 </Grid>
 
-## Move blocks via the block navigator
+## Move Blocks via the Block Navigator
 Blocks can be structurally moved via the block navigator. This allows you to change the arrangement of the blocks.
 
-In the Elysium specific block settings, a different visual order can be set. The visual order can be distinguished for smartphone, tablet, and desktop. The structural arrangement remains the same on each view.
+In the Elysium-specific block settings, a different visual order can be set. The visual order can be distinguished for smartphone, tablet, and desktop. The structural arrangement remains the same on each view.
 <!-- @todo(#4) [Details on the visual order can be found here](#todo-url). -->
 
 <Grid>

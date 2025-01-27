@@ -5,7 +5,7 @@ description: Here you will find advanced settings for advanced users or develope
 
 ## Specify your own template file
 
-Here you can specify your own Twig file. So if you have knowledge of Twig, you can create individual templates for your slides that can be reused as desired.
+Here you can specify your own Twig file. If you have knowledge of Twig, you can create individual templates for your slides that can be reused as desired.
 
 If you have entered a Twig file, a path will be displayed below where the file must be created. It is best to do this within a custom theme or plugin to stay update-safe. Template files that are not found will be ignored, so no error message will be displayed.
 

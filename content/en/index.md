@@ -19,7 +19,7 @@ hero:
 
 features:
   - title: Experience Worlds Section
-    details: Design layouts according to your wishes, maximally flexible and optimizable for every device view
+    details: Design layouts according to your preferences, with maximum flexibility and optimization for every device view
     icon:
       src: /icon-layout.svg
   - title: Slide Builder
