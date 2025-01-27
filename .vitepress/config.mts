@@ -53,7 +53,39 @@ export default defineConfig({
       link: '/de/',
       themeConfig: {
         nav: nav.de,
-        sidebar: sidebar.de
+        sidebar: sidebar.de,
+        outline: {
+          label: 'Inhaltsverzeichnis',
+        },
+        langMenuLabel: 'Sprache',
+        lastUpdated: {
+          text: 'Zuletzt aktualisiert',
+        },
+        docFooter: {
+          prev: 'Vorherige Seite',
+          next: 'Nächste Seite',
+        },
+        lightModeSwitchTitle: 'Helle Ansicht',
+        darkModeSwitchTitle: 'Dunkle Ansicht',
+        search: {
+          provider: 'local',
+          options: {
+            translations: {
+              button: {
+                buttonText: 'Suche',
+              },
+              modal: {
+                displayDetails: 'Details anzeigen',
+                resetButtonTitle: 'Zurücksetzen',
+                footer: {
+                  selectText: 'Auswählen',
+                  navigateText: 'Navigieren',
+                  closeText: 'Schließen',
+                },
+              }
+            }
+          }
+        }
       }
     }
   },
