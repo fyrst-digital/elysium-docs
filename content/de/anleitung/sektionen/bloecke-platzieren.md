@@ -35,7 +35,7 @@ Der neue Block fügt sich also immer an den Block an, auf dem er abgelegt wurde.
 Blöcke können über den Block-Navigator strukturell verschoben werden. Dies ermöglicht es, die Anordnung der Blöcke zu ändern.
 
 In den Elysium spezifischen Block Einstellungen kann eine abweichende, optische Reihenfolge festgelegt werden. Die optische Reihenfolge kann für Smartphone, Tablet und Desktop unterschieden werden. Die strukturelle Anordnung bleibt auf jeder Ansicht gleich. 
-<!-- [Details zur optischen Reihenfolge findest du hier](#todo-url). -->
+<!-- @todo(#4) [Details zur optischen Reihenfolge findest du hier](#todo-url). -->
 
 <Grid>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">

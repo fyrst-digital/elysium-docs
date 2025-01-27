@@ -9,13 +9,13 @@ Für das bestmögliche Verhalten im responsiven Design, arbeiten sämtliche Elys
 <Grid>
     <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
-            src="/screenshots/de/admin-cms-setting-sizing.png" 
+            src="section/de-admin-cms-slider-sizing.png" 
             alt="Größen Einstellungen im Slider Element"
             :caption="true" />
     </Column>
     <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
-            src="/screenshots/de/admin-cms-setting-sizing.png" 
+            src="section/de-admin-cms-banner-sizing.png" 
             alt="Größen Einstellungen im Banner Element"
             :caption="true" />
     </Column>
@@ -29,13 +29,13 @@ In der Elysium Sektion lassen sich alternative Theme-Breakpoints festlegen. Dies
 <Grid>
     <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
-            src="/screenshots/de/admin-cms-setting-sizing.png" 
+            src="de-admin-elysium-settings.png" 
             alt="Theme-Breakpoints in den Elysium Einstellungen"
             :caption="true" />
     </Column>
     <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
-            src="/screenshots/de/admin-cms-setting-sizing.png" 
+            src="section/de-admin-cms-section-sizing.png" 
             alt="Theme-Breakpoints in einer Elysium Sektion"
             :caption="true" />
     </Column>
