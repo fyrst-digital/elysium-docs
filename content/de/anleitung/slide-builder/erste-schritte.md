@@ -17,7 +17,7 @@ In der Slide Builder Übersicht kannst du einzelne Slides erstellen, kopieren, b
 Der Slide wird immer in deiner Standardsprache erstellt. Willst du den Slide in einer anderen Sprache pflegen, erstelle und speichere ihn zuerst in deiner Standardsprache.
 :::
 
-Um einen Slide hinzuzufügen klicke oben rechts auf den Button Slide erstellen. So gelangst du zur Detailansicht und kannst den Slide pflegen. [Hier findest du mehr Details zu den Einstellungsmöglichkeiten.](#todo-url)
+Um einen Slide hinzuzufügen klicke oben rechts auf den Button Slide erstellen. So gelangst du zur Detailansicht und kannst den Slide pflegen. In den nachfolgenden Seiten findest du mehr Details zu den Einstellungsmöglichkeiten
 
 Nachdem du einen Slide angelegt hast kannst du ihn im Elysium Slider oder Banner Element einer Erlebniswelt verknüpfen.
 
@@ -25,15 +25,15 @@ Nachdem du einen Slide angelegt hast kannst du ihn im Elysium Slider oder Banner
 Nutze zur Aufbereitung eines Erlebniswelten Layouts auch die neue Elysium Sektion (ab Version 3.6). Sie bietet die viele Möglichkeiten zur responsiven und individuellen Gestaltung.
 :::
 
-::: info Beispiele für Slides
+<!-- ::: info Beispiele für Slides
 [Auf unseren Beispiel-Seiten](#todo-url) haben wir Sammlungen bereit gestellt, um dir zu zeigen was mit dem Slide Builder möglich ist.
-:::
+::: -->
 
 ## Slide in Erlebniswelt-Elementen verknüpfen
 
 In einem Erlebniswelten Layout kannst du unter der Block Gruppe **Elysium Blöcke** das Slider oder Banner Element auswählen und wie gewohnt, per Drag & Drop, an die gewünschte Position ziehen.
 
-Nutze für die Gestaltung und Anordung der Elemente die neue Elysium Sektion. [Mehr dazu findest du hier.](#todo-url)
+Nutze für die Gestaltung und Anordung der Elemente die neue Elysium Sektion. [Mehr dazu findest du hier.](/de/anleitung/sektionen/bloecke-platzieren)
 
 ::: warning Zwei Spalten Block wird ab Version 4.0 entfernt
 Der zwei Spalten Block ist ab Version 3.6 als veraltet markiert und wird mit **Version 4.0** vollständig entfernt. Achte vor einem Update darauf diese Blöcke in den Erlebniswelten zu entfernen, ansonsten werden diese Inhalte nicht mehr im Storefront angezeigt.

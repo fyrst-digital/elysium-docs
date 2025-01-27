@@ -30,7 +30,7 @@ Aktiviert die Auto-Wiedergabe des Sliders. Du kannst den **Wiedergabe-Intervall*
 
 Definiere das **Seitenverhätlnis** und bestimme somit die Größe des Sliders. Es lässt sich eine **maximale Höhe** festlegen, welche der Slider nicht überschreiten darf. Diese Einstellungen sind geräteabhängig und können jeweils für Smartphone, Tablet und Desktop festgelegt werden.
 
-Einen ausführlichen Guide zum Seitenverhältnis [findest du hier](#todo-url)
+Einen ausführlichen Guide zum Seitenverhältnis [findest du hier](/de/guides/groessen-und-seitenverhaeltnis)
 
 ## Navigation: Schnellnavigation anpassen
 Mit der Einstellung **Zeige Slider Navigation** wird die Schnellnavigation aktiviert. Die **Position** kann **unterhalb** oder **innerhalb** des Sliders sein. Unter **Ausrichtung** lassen sich die Navigationspunkte flexibel platzieren.  
