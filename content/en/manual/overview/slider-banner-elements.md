@@ -1,3 +1,3 @@
-# Slides in Slider oder Banner Erlebniswelt Elementen platzieren
+# Place slides in Slider or Banner Experience World elements
 
-In der Erlebniswelten Block-Auswahl findest du unter der Kategorie **Elysium Blöcke** die Elemente **Elysium Slider und Banner**. Diese Elemente ermöglichen es dir, Slides aus dem Slide Builder zu verknüpfen und bieten zusätzliche Einstellungsmöglichkeiten. In beiden Elementen kannst du die Größe der Slides festlegen. Das Slider Element bietet darüber hinaus spezifische Slider Einstellungen.
+In the Experience World block selection, you will find the elements **Elysium Slider and Banner** under the category **Elysium Blocks**. These elements allow you to link slides from the Slide Builder and offer additional settings. In both elements, you can set the size of the slides. The Slider element also provides specific slider settings.

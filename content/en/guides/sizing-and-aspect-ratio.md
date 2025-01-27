@@ -1,50 +1,50 @@
 ---
-title: "Größen und Seitenverhätnis"
-description: "Dieser Guide bringt dir das einstellen von Größen als Seitenverhältnis näher"
+title: "Sizes and Aspect Ratio"
+description: "This guide will help you set sizes as aspect ratios"
 ---
 
-## Anpassung der Slider-Größen
-Für das bestmögliche Verhalten im responsiven Design, arbeiten sämtliche Elysium Elemente mit Seitenverhältnissen, statt mit statischen Pixel-Werten. So ist eine konsistente Skalierung über alle Bildschirmgrößen möglich, auch unabhängig von verschiedenen Thumbnailgrößen.
+## Adjusting Slider Sizes
+For the best behavior in responsive design, all Elysium elements work with aspect ratios instead of static pixel values. This ensures consistent scaling across all screen sizes, regardless of different thumbnail sizes.
 
 <Grid>
     <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
             src="section/de-admin-cms-slider-sizing.png" 
-            alt="Größen Einstellungen im Slider Element"
+            alt="Size settings in the Slider element"
             :caption="true" />
     </Column>
     <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
             src="section/de-admin-cms-banner-sizing.png" 
-            alt="Größen Einstellungen im Banner Element"
+            alt="Size settings in the Banner element"
             :caption="true" />
     </Column>
 </Grid>
 
-Die Seitenverhätlnise für Slider und Banner Elemente lässt sich jeweils für die Smartphone, Tablet und Desktop Ansicht festlegen.  
-Die verwendeten Theme-Breakpoints können Global in den Elysium Einstellungen angepasst werden. 
+The aspect ratios for Slider and Banner elements can be set separately for smartphone, tablet, and desktop views.  
+The theme breakpoints used can be adjusted globally in the Elysium settings.
 
-In der Elysium Sektion lassen sich alternative Theme-Breakpoints festlegen. Diese funktionieren unabhängigen von den Globalen Breakpoints und sind jeweils für die betroffene Sektion gültig.
+In the Elysium section, alternative theme breakpoints can be set. These work independently of the global breakpoints and are valid for the affected section.
 
 <Grid>
     <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
             src="de-admin-elysium-settings.png" 
-            alt="Theme-Breakpoints in den Elysium Einstellungen"
+            alt="Theme breakpoints in the Elysium settings"
             :caption="true" />
     </Column>
     <Column :cols="{xs: 12, md: 6, '2xl': 12, '4xl': 6}">
         <Image
             src="section/de-admin-cms-section-sizing.png" 
-            alt="Theme-Breakpoints in einer Elysium Sektion"
+            alt="Theme breakpoints in an Elysium section"
             :caption="true" />
     </Column>
 </Grid>
 
-::: info Hinweis für Entwickler
-Intern wird die Twig Funktion `theme_config('breakpoint.<viewport>')` genutzt
+::: info Note for developers
+Internally, the Twig function `theme_config('breakpoint.<viewport>')` is used
 :::
 
-## Maximale Höhe
-Du kannst in Slider und Banner Elementen auch eine maximale Höhe in `px` festlegen. Das ist sinnvoll wenn du zum Beispiel ein Erlebniswelten Layout nutzt welches über die volle Bildschirmbreite geht. Das Element wird auf diese maximale Höhe begrenzt.  
-Wenn du eine maximale Höhe festlegen möchtest, die für alle Bildschirmgrößen gilt, kannst du das in der kleinsten Bildschirmgröße zu tun. Standardgemäß ist das **Smartphone**.
+## Maximum Height
+You can also set a maximum height in `px` for Slider and Banner elements. This is useful if you are using an experience world layout that spans the full screen width. The element will be limited to this maximum height.  
+If you want to set a maximum height that applies to all screen sizes, you can do so in the smallest screen size. By default, this is **smartphone**.

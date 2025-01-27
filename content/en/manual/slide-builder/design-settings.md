@@ -1,49 +1,49 @@
 ---
-title: Slide-Design und Erscheinungsbild anpassen
-description: In den Design-Einstellungen kann das Erscheinungsbild des Slides angepasst werden.
+title: "Customize Slide Design and Appearance"
+description: "In the design settings, the appearance of the slide can be adjusted."
 ---
 
-## Gesamten Slide anpassen
-Unter **Slide** kann das Design des gesamten Slides angepasst werden.
+## Adjust the entire slide
+Under **Slide**, the design of the entire slide can be adjusted.
 
 <Grid>
     <Column :cols="{xs: 12, 'lg': 10, '2xl': 12, '4xl': 10}" :col-start="{'lg': 2, '4xl': 2}">
-        <Image src="slide-builder/visualize-slide.svg" alt="Visualisierung des gesamten Slides"
+        <Image src="slide-builder/visualize-slide.svg" alt="Visualization of the entire slide"
         :lazy="false" aspect-ratio="2 / 1" />
     </Column>
 </Grid>
 
-Es können eine **Hintergrundfarbe** sowie ein **Farbverlauf** festgelegt werden. Dabei wird das Slide-Cover priorisiert. Wenn also ein Slide-Cover für die entsprechende Geräteansicht eingestellt ist, sind die Hintergrundfarbe und der Farbverlauf nicht ersichtlich.
+A **background color** and a **gradient** can be set. The slide cover is prioritized. So if a slide cover is set for the corresponding device view, the background color and gradient will not be visible.
 
-Es lässt sich auch der innere **Abstand des Slides** (Horizontal und Vertikal), sowie eine Kantenrundung einstellen. Diese Einstellungen sind geräteabhängig.
+The inner **spacing of the slide** (horizontal and vertical) and a border radius can also be set. These settings are device-dependent.
 
-Unter **Ausrichtung** lässt sich die Ausrichtung des inneren Containers bestimmen. Der innere Container umschließt das Inhaltselement und das Fokusbild.
+Under **Alignment**, the alignment of the inner container can be determined. The inner container encloses the content element and the focus image.
 
-## Inneren Container anpassen
-Unter **Container** kann das Design des inneren Containers angepasst werden. Der innere Container umschließt das Inhaltselement und das Fokusbild.
+## Adjust the inner container
+Under **Container**, the design of the inner container can be adjusted. The inner container encloses the content element and the focus image.
 
 <Grid>
     <Column :cols="{xs: 12, 'lg': 10, '2xl': 12, '4xl': 10}" :col-start="{'lg': 2, '4xl': 2}">
-        <Image src="slide-builder/visualize-container.svg" alt="Visualisierung des inneren Container"
+        <Image src="slide-builder/visualize-container.svg" alt="Visualization of the inner container"
         :lazy="false" aspect-ratio="2 / 1" />
     </Column>
 </Grid>
 
-Die Option **Elemente untereinander anzeigen** legt fest ob die Elemente innerhalb des Container untereinander angezeigt werden sollen oder nicht. Diese Einstellung ist geräteabhängig.
+The option **Display elements below each other** determines whether the elements within the container should be displayed below each other or not. This setting is device-dependent.
 
-Die **Layout Reihenfolge** legt fest in welcher Reihenfolge das Inhaltselement und das Fokusbild angezeigt werden sollen. Dies hat nur einen Effekt wenn ein Fokusbild hinterlegt ist. Ausßerdem kann dem Container eine **Hintergrundfarbe** zugewiesen werden und er lässt sich in der **Breite beschränken**.
+The **Layout order** determines the order in which the content element and the focus image should be displayed. This only has an effect if a focus image is set. Additionally, a **background color** can be assigned to the container and it can be restricted in **width**.
 
-Es lassen sich **Abstände und Kantenrundung**, sowie die **Ausrichtung** des Containers festlegen. In den Abständen lässt sich auch **Zwischenraum** zwischen dem Inhaltselement und dem Fokusbild festlegen. Die Kantenrundung hat nur einen sichtbaren Effekt wenn dem Container eine Hintergrundfarbe zugewiesen wurde.  
-Die Ausrichtung beeinflusst die Ausrichtung der inneren Containerelemente, also Inhaltselement und Fokusbild. Wenn die Elemente untereinander angezeigt werden, werden diese Einstellungen umgekehrt.
+**Spacing and border radius**, as well as the **alignment** of the container, can be set. In the spacing, a **gap** between the content element and the focus image can also be set. The border radius only has a visible effect if a background color is assigned to the container.  
+The alignment affects the alignment of the inner container elements, i.e., the content element and the focus image. If the elements are displayed below each other, these settings are reversed.
 
-## Inhaltselement anpassen
-Das Inhaltselement umschließt Überschrift, Beschreibung und Button des Slides.
+## Adjust the content element
+The content element encloses the slide's heading, description, and button.
 
 <Grid>
     <Column :cols="{xs: 12, 'lg': 10, '2xl': 12, '4xl': 10}" :col-start="{'lg': 2, '4xl': 2}">
-        <Image src="slide-builder/visualize-content.svg" alt="Visualisierung des Inhaltselements"
+        <Image src="slide-builder/visualize-content.svg" alt="Visualization of the content element"
         :lazy="false" aspect-ratio="2 / 1" />
     </Column>
 </Grid>
 
-Es lässt sich in der **Breite beschränken** und die **inneren Abstände** können angepasst werden. Außerdem lässt sich die **Textausrichtung** festlegen.
+It can be restricted in **width** and the **inner spacing** can be adjusted. The **text alignment** can also be set.

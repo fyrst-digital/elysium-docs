@@ -1,18 +1,18 @@
 ---
-title: "Slides durch eigene Templates und Zusatzfelder erweitern"
-description: Hier finden sich erweiterte Einstellungen für fortgeschrittene Nutzer oder Entwickler.
+title: "Extend slides with custom templates and additional fields"
+description: Here you will find advanced settings for advanced users or developers.
 ---
 
-## Eigene Template Datei festlegen
+## Specify your own template file
 
-Hier kann eine eigene Twig Datei festgelegt werden. Wenn du also Kenntnisse in Twig hast kannst du dir so individuelle Templates für deine Slides erstellen, welche nach belieben wiederverwendet werden können.
+Here you can specify your own Twig file. So if you have knowledge of Twig, you can create individual templates for your slides that can be reused as desired.
 
-Hast du eine Twig Datei eingetragen, wird dir darunter ein Pfad angezeigt, in dem die Datei angelegt werden muss. Das machst du am besten innerhalb eines Custom Themes oder eines Plugins um Updatesicher zu bleiben. Nicht gefundene Template Dateien werden ignoriert, eine Fehlerausgabe wird also unterdrückt.
+If you have entered a Twig file, a path will be displayed below where the file must be created. It is best to do this within a custom theme or plugin to stay update-safe. Template files that are not found will be ignored, so no error message will be displayed.
 
-## Zusatzfelder anlegen und verknüpfen
+## Create and link additional fields
 
-Du kannst einem Slide auch Zusatzfelder zuweisen. Wenn du einen neuen Slide erstellst speichere diesen zuerst, damit du auf die Zusatzfelder zugreifen kannst. Um in Shopware Zusatzfelder anzulegen kannst du der [offiziellen Shopware Dokumentation](https://docs.shopware.com/de/shopware-6-de/einstellungen/zusatzfelder) folgen.
+You can also assign additional fields to a slide. When you create a new slide, save it first so that you can access the additional fields. To create additional fields in Shopware, you can follow the [official Shopware documentation](https://docs.shopware.com/en/shopware-6-en/settings/custom-fields).
 
 ::: tip 
-Zusatzfelder müssen manuell mit dem Slide Template verknüpft werden und setzen daher Kentnisse im Shopware Templating/Twig voraus. Hier bietet es sich auch an eine **eigene Template Datei** zu erstellen.
+Additional fields must be manually linked to the slide template and therefore require knowledge of Shopware templating/Twig. It is also a good idea to create your own template file.
 :::

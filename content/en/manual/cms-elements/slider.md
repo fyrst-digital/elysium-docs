@@ -1,41 +1,41 @@
 ---
-title: Slider Element für Erlebniswelten
-description: "Im Slider kannst du eine Slide Auswahl und das Verhalten sowie Aussehen des Sliders festlegen. Das Slider Element findest du in der Block-Auswahl Gruppe Elysium Blöcke in den Erlebniswelten."
+title: Slider Element for Experience Worlds
+description: "In the slider, you can set a slide selection and the behavior and appearance of the slider. You can find the slider element in the block selection group Elysium Blocks in the Experience Worlds."
 ---
 
-## Inhalt: Lege die Slide Auswahl fest
+## Content: Set the Slide Selection
 
-Du kannst optional eine **Überschrift** festlegen welche über dem Slider angezeigt wird.
+You can optionally set a **title** that will be displayed above the slider.
 
-In der **Slide Auswahl** kannst du Slides und deren Reihenfolge festlegen. Die Reihenfolge kann entweder per Drag & Drop oder über die Schnellaktionen geändert werden. Einzelne Slides kannst du ebenfalls über die Schnellaktionen oder die Suchresultate aus der Slidesuche entfernen. Ebenso findest du eine Bearbeitungsfunktion in den Schnellaktionen, diese führt direkt zur Bearbeitungsmske des Slides.
+In the **Slide Selection**, you can set the slides and their order. The order can be changed either by drag & drop or through the quick actions. Individual slides can also be removed through the quick actions or the search results from the slide search. You will also find an edit function in the quick actions, which leads directly to the slide editing mask.
 
-## Einstellungen: Allgemeines Slider Verhalten
+## Settings: General Slider Behavior
 
-Bei **Slides zurückspulen** springt der Slider zum ersten Slide zurück, wenn dieser am letzten Slide angekommen ist. Ansonsten bleibt der Slider beim letzten Slide stehen und das "nächster Slide" Pfeil Symbol wird ausgeblendet.
+With **Rewind Slides**, the slider jumps back to the first slide when it reaches the last slide. Otherwise, the slider stays on the last slide and the "next slide" arrow symbol is hidden.
 
-Mit der Option **Zeige Overlay** wird eine Überblendung über den gesamten Slider aktiviert. Dieser legt sich nur über den Hintergrund und kann die Lesbarkeit von Texten verbessern.
+The **Show Overlay** option activates an overlay over the entire slider. This only covers the background and can improve the readability of texts.
 
-Mit **Slides pro Ansicht** lassen sich mehrere Slides innerhalb einer Slider Ansicht anzeigen. So kann zum Beispiel auf dem Smartphone nur ein und auf dem Desktop drei Slides angezeigt werden.
+With **Slides per View**, multiple slides can be displayed within a slider view. For example, only one slide can be displayed on a smartphone and three slides on a desktop.
 
-Die **Slide-Geschwindigkeit** definiert die Zeit der Animation zwischen den Slides in Millisekunden.
+The **Slide Speed** defines the time of the animation between the slides in milliseconds.
 
-Es kann die **Breite des Inhaltscontainers** festgelegt werden. Das kommt vor allem bei Erlebniswelten Layouts zum tragen, welche über die gesamte Bildschirmbreite verlaufen.
-Bei **Seiteninhalt** folgt die maximale Breite des Containers der Breite des Seiteninhalts. Bei **Volle Breite** wird der Inhalts-Container über die gesamte Breite angezeigt.
+You can set the **Width of the Content Container**. This is especially useful for experience world layouts that span the entire screen width.
+With **Page Content**, the maximum width of the container follows the width of the page content. With **Full Width**, the content container is displayed across the entire width.
 
-### Auto-Wiedergabe
+### Auto-Play
 
-Aktiviert die Auto-Wiedergabe des Sliders. Du kannst den **Wiedergabe-Intervall** des Sliders in Millisekunden festlegen. Wenn du beispielsweise 5000 festlegst bedeutet dies dass ein Slide 5 Sekunden zu sehen ist, bis zum nächsten Slide gewechselt wird. Die Auto-Wiedergabe wird Standardmäßig pausiert wenn man mit der Maus über den Slider fährt. Die Auto-Wiedergabe berücksichtigt die Einstellung Slides zurückspulen.
+Activates the auto-play of the slider. You can set the **Playback Interval** of the slider in milliseconds. For example, if you set 5000, it means that a slide is visible for 5 seconds before switching to the next slide. Auto-play is paused by default when you hover over the slider with the mouse. Auto-play takes into account the Rewind Slides setting.
 
-## Größen: Abstände und Seitenverhältnis
+## Sizes: Spacing and Aspect Ratio
 
-Definiere das **Seitenverhätlnis** und bestimme somit die Größe des Sliders. Es lässt sich eine **maximale Höhe** festlegen, welche der Slider nicht überschreiten darf. Diese Einstellungen sind geräteabhängig und können jeweils für Smartphone, Tablet und Desktop festgelegt werden.
+Define the **Aspect Ratio** and thus determine the size of the slider. You can set a **maximum height** that the slider should not exceed. These settings are device-dependent and can be set separately for smartphone, tablet, and desktop.
 
-Einen ausführlichen Guide zum Seitenverhältnis [findest du hier](/de/guides/groessen-und-seitenverhaeltnis)
+A detailed guide on aspect ratio [can be found here](/en/guides/sizing-and-aspect-ratio)
 
-## Navigation: Schnellnavigation anpassen
-Mit der Einstellung **Zeige Slider Navigation** wird die Schnellnavigation aktiviert. Die **Position** kann **unterhalb** oder **innerhalb** des Sliders sein. Unter **Ausrichtung** lassen sich die Navigationspunkte flexibel platzieren.  
+## Navigation: Customize Quick Navigation
+The **Show Slider Navigation** setting activates quick navigation. The **Position** can be **below** or **within** the slider. Under **Alignment**, the navigation points can be flexibly placed.
 
-Du kannst das **Aussehen** der Navigationspunkte anpassen. Die **Form** der Navigationspunkte kann entweder als Punkt oder Balken dargestellt werden. Es stehen drei verschiedene **Größen** für die Navigationspunkte zur Verfügung. Zudem lassen sich der **Abstand** zwischen den Navigationspunkten und deren **Farbe** einstellen.
+You can customize the **Appearance** of the navigation points. The **Shape** of the navigation points can be displayed either as a dot or a bar. There are three different **Sizes** available for the navigation points. You can also set the **Spacing** between the navigation points and their **Color**.
 
-## Pfeile: Pfeilnavigation anpassen
-Die Option **Zeige Slider Pfeile** aktiviert die Pfeilnavigation. Es lässt sich die Icon-Form (Chevron oder Pfeil), -Farbe und -Größe festlegen. Außerdem kann eine Hintergrundfarbe für die Pfeilnavigation definiert werden.
+## Arrows: Customize Arrow Navigation
+The **Show Slider Arrows** option activates arrow navigation. You can set the icon shape (chevron or arrow), color, and size. You can also define a background color for the arrow navigation.

@@ -1,47 +1,47 @@
-# Einrichtung und erste Schritte
+# Setup and First Steps
 
-Nachdem du das Plugin installiert und aktiviert hast, findest du im **Menüpunkt Inhalte den neuen Eintrag Slide Builder**. Hier werden alle Slides verwaltet. Du kannst neue Slides erstellen, dupplizieren oder nicht mehr benötigte löschen. Hast du einen oder mehrere Slides erstellt kannst du diese im Elysium Slider oder Banner Erlebniswelten Element festlegeniders festlegen.
+After you have installed and activated the plugin, you will find the new entry **Slide Builder** under the **Content** menu item. Here, all slides are managed. You can create new slides, duplicate them, or delete those that are no longer needed. Once you have created one or more slides, you can set them in the Elysium Slider or Banner experience world element.
 
 <Grid>
     <Column :cols="{xs: 12, '6xl': 10}" :col-start="{'6xl': 2}">
-        <Image src="slide-builder/de-admin-slide-builder-overview.png" alt="Slide Builder Übersicht"
+        <Image src="slide-builder/de-admin-slide-builder-overview.png" alt="Slide Builder Overview"
         :sizes="{xs: 200, lg: 600, '6xl': 800}" :lazy="false" />
     </Column>
 </Grid>
 
-## Slide erstellen
+## Create a Slide
 
-In der Slide Builder Übersicht kannst du einzelne Slides erstellen, kopieren, bearbeiten oder löschen. Fangen wir an und erstellen unseren ersten Slide.
+In the Slide Builder overview, you can create, copy, edit, or delete individual slides. Let's start by creating our first slide.
 
-::: info Standardsprache
-Der Slide wird immer in deiner Standardsprache erstellt. Willst du den Slide in einer anderen Sprache pflegen, erstelle und speichere ihn zuerst in deiner Standardsprache.
+::: info Default Language
+The slide is always created in your default language. If you want to maintain the slide in another language, create and save it first in your default language.
 :::
 
-Um einen Slide hinzuzufügen klicke oben rechts auf den Button Slide erstellen. So gelangst du zur Detailansicht und kannst den Slide pflegen. In den nachfolgenden Seiten findest du mehr Details zu den Einstellungsmöglichkeiten
+To add a slide, click the **Create Slide** button in the top right corner. This will take you to the detail view where you can maintain the slide. On the following pages, you will find more details about the setting options.
 
-Nachdem du einen Slide angelegt hast kannst du ihn im Elysium Slider oder Banner Element einer Erlebniswelt verknüpfen.
+After you have created a slide, you can link it in the Elysium Slider or Banner element of an experience world.
 
-::: tip Elysium Sektion zur Gestaltung und Anordnung
-Nutze zur Aufbereitung eines Erlebniswelten Layouts auch die neue Elysium Sektion (ab Version 3.6). Sie bietet die viele Möglichkeiten zur responsiven und individuellen Gestaltung.
+::: tip Elysium Section for Design and Arrangement
+Use the new Elysium section (from version 3.6) to prepare an experience world layout. It offers many options for responsive and individual design.
 :::
 
-<!-- ::: info Beispiele für Slides
-[Auf unseren Beispiel-Seiten](#todo-url) haben wir Sammlungen bereit gestellt, um dir zu zeigen was mit dem Slide Builder möglich ist.
+<!-- ::: info Slide Examples
+[On our example pages](#todo-url), we have provided collections to show you what is possible with the Slide Builder.
 ::: -->
 
-## Slide in Erlebniswelt-Elementen verknüpfen
+## Link Slide in Experience World Elements
 
-In einem Erlebniswelten Layout kannst du unter der Block Gruppe **Elysium Blöcke** das Slider oder Banner Element auswählen und wie gewohnt, per Drag & Drop, an die gewünschte Position ziehen.
+In an experience world layout, you can select the Slider or Banner element under the **Elysium Blocks** block group and drag and drop it to the desired position.
 
-Nutze für die Gestaltung und Anordung der Elemente die neue Elysium Sektion. [Mehr dazu findest du hier.](/de/anleitung/sektionen/bloecke-platzieren)
+Use the new Elysium section for the design and arrangement of the elements. [You can find more about it here.](/en/manual/sections/place-blocks)
 
-::: warning Zwei Spalten Block wird ab Version 4.0 entfernt
-Der zwei Spalten Block ist ab Version 3.6 als veraltet markiert und wird mit **Version 4.0** vollständig entfernt. Achte vor einem Update darauf diese Blöcke in den Erlebniswelten zu entfernen, ansonsten werden diese Inhalte nicht mehr im Storefront angezeigt.
+::: warning Two-Column Block will be removed in version 4.0
+The two-column block is marked as deprecated from version 3.6 and will be completely removed with **version 4.0**. Make sure to remove these blocks in the experience worlds before an update, otherwise, these contents will no longer be displayed in the storefront.
 :::
 
 <Grid>
     <Column :cols="{xs: 12, '6xl': 10}" :col-start="{'6xl': 2}">
-        <Image src="section/de-admin-cms-block-selection.png" alt="Elysium Elemente in der Erlebniswelten Block-Auswahl"
+        <Image src="section/de-admin-cms-block-selection.png" alt="Elysium elements in the experience world block selection"
         :sizes="{xs: 200, lg: 600, '6xl': 800}" :lazy="false" />
     </Column>
 </Grid>

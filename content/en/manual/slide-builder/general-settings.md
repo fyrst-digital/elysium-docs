@@ -1,30 +1,30 @@
 ---
-title: Allgemeine Einstellungen und Inhalte festlegen
-description: In den Allgemeinen Einstellungen lassen sich Inhalte wie Überschrift und Beschreibung, sowie die Verlinkung des Slides festlegen
+title: General Settings and Content
+description: In the General Settings, you can set content such as the title and description, as well as the linking of the slide.
 ---
 
-## Inhalte eines Slides festlegen
+## Set the content of a slide
 
-Der **Slide Name** ist das einzige Pflichtfeld in einem Slide. Dieser muss einzigartig sein und dient der internen Bezeichnung des Slides um ihn in der Administration zu identifizieren. So kannst du deine Slides in der Übersicht, Suche oder im Slider Einkaufswelt-Element schneller finden.
+The **Slide Name** is the only required field in a slide. It must be unique and serves as the internal designation of the slide to identify it in the administration. This way, you can quickly find your slides in the overview, search, or in the slider experience world element.
 
-Eine optimale Bezeichnung ist in Kleinbuchstaben und getrennt durch Bindestriche, also ohne Leerzeichen. Zum Beispiel: `mein-erster-slide`oder `summer-sale-2023`.
+An optimal designation is in lowercase letters and separated by hyphens, without spaces. For example: `my-first-slide` or `summer-sale-2023`.
 
-Es können verschiedene Optionen für die **Überschrift des Slides** festgelegt werden. Es kann die Textfarbe und das HTML-Element festgelegt werden. Außerdem kannst du die Schriftgröße für die Smartphone, Tablet und Desktop Ansicht im Storefront festlegen.  
-Außerdem können Im Inhaltsfeld einfache HTML-Tags geschrieben werden, welche dann im Storefront entsprechend ausgegeben werden. Zulässige Tags sind `<br>`, `<b>`, `<i>`, `<u>` und `<strong>`.  
+Various options can be set for the **Slide Title**. You can set the text color and the HTML element. You can also set the font size for the smartphone, tablet, and desktop view in the storefront.  
+Additionally, simple HTML tags can be written in the content field, which will then be output accordingly in the storefront. Allowed tags are `<br>`, `<b>`, `<i>`, `<u>`, and `<strong>`.  
 
-Ebenso kann eine **Beschreibung des Slides**, in der HTML Markup hinterlegt werden kann, festgelegt werden. Hier können zusätzlich noch Textfarbe und Schriftgröße eingestellt werden. 
+You can also set a **Slide Description**, in which HTML markup can be stored. Here, you can also set the text color and font size.
 
-Du kannst eine oder mehrere, durch Leerzeichen getrennte, **CSS Klassen** festlegen und deinen Slide so noch weiter individualisieren.
+You can set one or more **CSS classes**, separated by spaces, to further customize your slide.
 
-## Verlinkung eines Slides festlegen
+## Set the linking of a slide
 
-Aktuell lässt sich ein Slide individuell oder mit einem Produkt verknüpfen.
+Currently, a slide can be linked individually or with a product.
 
-Bei einer **individuellen Verlinkung** kannst du eine entsprechende Adresse festlegen. Dies kann ein Anker (`#ein-seitenabschnitt`), eine relative ('`/eine-kategorie`') oder eine absolute (`https://beispiel.de`) Verlinkung sein.
+For an **individual link**, you can set the appropriate address. This can be an anchor (`#a-section`), a relative ('`/a-category`') or an absolute (`https://example.com`) link.
 
-Bei einer **Produkt Verlinkung** kannst du ein entsprechendes Produkt auswählen. Dabei wird der Produktname als Slide-Überschrift und die Produktbeschreibung als Slide-Beschreibung verwendet. Dies gilt aber nur wenn die entsprechenden Felder im Slide nicht befüllt sind.  
-Außerdem wird das Produktvorschaubild, falls hinterlegt, als Slide Fokusbild genutzt. Dies kann mit der Option **Produktbild anzeigen** ein- oder ausgeblendet werden.
+For a **product link**, you can select the appropriate product. The product name is used as the slide title and the product description as the slide description. However, this only applies if the corresponding fields in the slide are not filled.  
+Additionally, the product preview image, if stored, is used as the slide focus image. This can be shown or hidden with the **Show product image** option.
 
-Es kann ein Button angezeigt werden, wenn das Feld **Buttonbeschriftung** befüllt ist. Dabei kann das **Erscheinungbild** und die **Größe** des Buttons eingestellt werden.
+A button can be displayed if the **Button label** field is filled. The **Appearance** and **Size** of the button can be set.
 
-Außerdem kann die Verlinkung **In einem neuen Fenster** geöffnet oder die **Verlinkung als Overlay** dargestellt werden. Bei aktiven Overlay wird der gesamte Slide verlinkt und der Button ausgeblendet.
+Additionally, the link can be opened **in a new window** or displayed **as an overlay**. When the overlay is active, the entire slide is linked, and the button is hidden.

@@ -1,24 +1,24 @@
 ---
-title: "Blockgröße in Elysium Sektionen anpassen"
-description: "Erfahre wie du die Größe eines Blocks für verschiedene Ansichten innerhalb einer Elysium Sektion anpassen kannst."
+title: "Adjust Block Size in Elysium Sections"
+description: "Learn how to adjust the size of a block for different views within an Elysium section."
 ---
 
-## Breite eines Blocks durch Drag and Drop anpassen
+## Adjust Block Width by Drag and Drop
 
-Um die Größe eines Blocks anzupassen, gehe mit dem Mauszeiger über die rechte Kante eines Blocks. Wenn sich der Mauszeiger ändert und sich der Block-Rahmen ändert, kannst du den Block vergrößern oder verkleinern, indem du die Maustaste gedrückt hältst und in die gewünschte Richtung ziehst.
+To adjust the size of a block, hover your mouse pointer over the right edge of a block. When the mouse pointer changes and the block frame changes, you can enlarge or reduce the block by holding down the mouse button and dragging in the desired direction.
 
-Diese Größen-Einstellungen **sind nur innerhalb von Elysium Sektionen** wirksam. Sobald du einen Block in eine andere Sektion verschiebst, werden die Größen ignoriert.
-Die Einstellungen werden jedoch gespeichert. Wenn also ein Block wieder zurück in eine Elysium Sektion verschoben wird, sind die Größen-Einstellungen wie gehabt.
+These size settings **are only effective within Elysium sections**. Once you move a block to another section, the sizes are ignored.
+However, the settings are saved. So if a block is moved back to an Elysium section, the size settings remain as they were.
 
 <Grid>
     <Column :cols="{xs: 12, '6xl': 10}" :col-start="{'6xl': 2}">
-        <Image src="section/de-admin-cms-block-sizing.png" alt="Anpassung der Blockgröße"
+        <Image src="section/de-admin-cms-block-sizing.png" alt="Adjusting block size"
         :sizes="{xs: 200, lg: 600, '6xl': 800}" :lazy="false" />
     </Column>
 </Grid>
 
-## Geräteabhängige Anpassung der Blockgröße
+## Device-Dependent Adjustment of Block Size
 
-Die Größe eines Blocks kann für die Smartphone-, Tablet- und Desktop-Ansicht separat angepasst werden. Wechsle im Erlebniswelt-Editor die Ansicht, um die Blockgrößen pro Ansicht anzupassen.
+The size of a block can be adjusted separately for smartphone, tablet, and desktop views. Switch the view in the Experience World editor to adjust the block sizes per view.
 
-Es gibt geräteabhängige Sektions-Einstellungen, die sich ebenfalls auf die Blockgrößen auswirken können. Mehr dazu erfährst du im nächsten Artikel.
+There are device-dependent section settings that can also affect block sizes. You can learn more about this in the next article.

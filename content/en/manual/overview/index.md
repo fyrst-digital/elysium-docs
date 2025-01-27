@@ -3,15 +3,15 @@ slug:
     root: '/manual/overview/'
 next:
     text: 'Sections'
-    link: '/de/anleitung/uebersicht/sektionen'
+    link: '/en/manual/overview/sections'
 ---
 
-# Gestalte eindrucksvolle Erlebniswelten Layouts mithilfe von Elysium
-Elysium stellt zahlreiche Features bereit, die dich bei der Erstellung von Erlebniswelten Layouts unterstützen. Es beinhaltet eine **Erlebniswelt Sektion**, einen **Slide Builder** sowie **Slider und Banner Elemente**, um Slides in Erlebniswelten anzuordnen. Der Fokus liegt dabei stets auf einer einfachen Bedienung, um schnell und effizient das gewünschten Ergebnis zu erreichen.
+# Create impressive experience world layouts with Elysium
+Elysium provides numerous features to support you in creating experience world layouts. It includes an **Experience World Section**, a **Slide Builder**, and **Slider and Banner Elements** to arrange slides in experience worlds. The focus is always on ease of use to quickly and efficiently achieve the desired result.
 
 <Grid>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
-        <Image src="section/admin-auswahl-add.png" alt="Erlebniswelt Sektion"
+        <Image src="section/admin-auswahl-add.png" alt="Experience World Section"
         :lazy="false" />
     </Column>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
@@ -19,12 +19,12 @@ Elysium stellt zahlreiche Features bereit, die dich bei der Erstellung von Erleb
         :lazy="false" />
     </Column>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
-        <Image src="section/de-admin-cms-block-selection.png" alt="Slider und Banner Elemente"
+        <Image src="section/de-admin-cms-block-selection.png" alt="Slider and Banner Elements"
         :lazy="false" />
     </Column>
 </Grid>
 
-## Mobile-first Ansatz und geräteabhängige Einstellungen
-Elysium bietet geräteabhängige Einstellungen, die für Smartphone-, Tablet- und Desktop-Ansichten angepasst werden können. Der Mobile-first Ansatz wird dabei konsequent verfolgt. Einstellungen werden von der Smartphone-Ansicht ausgehend auf alle anderen Ansichten vererbt. Dadurch müssen geräteabhängige Einstellungen nicht für jede Ansicht separat gepflegt werden, mit nur wenigen Ausnahmen.
+## Mobile-first approach and device-dependent settings
+Elysium offers device-dependent settings that can be adjusted for smartphone, tablet, and desktop views. The mobile-first approach is consistently followed. Settings are inherited from the smartphone view to all other views. This means that device-dependent settings do not need to be maintained separately for each view, with only a few exceptions.
 
-Auf den nachfolgenden Seiten erhältst du einen Übersicht über die Kern-Features von Elysium.
+On the following pages, you will get an overview of the core features of Elysium.

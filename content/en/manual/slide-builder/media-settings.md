@@ -1,34 +1,34 @@
 ---
-title: "Medien Einstellungen:  Slide Cover und Fokusbild festlegen"
-description: In den Medien Einstellungen können Slide Cover oder ein Fokusbild festgelegt werden.
+title: "Media Settings: Set Slide Cover and Focus Image"
+description: In the media settings, you can set slide covers or a focus image.
 ---
 
-## Slide Hintergründe als Bild oder Video Cover
-Das Slide Cover ist das Hintergrund-Medium eines Slides. Es kann entweder ein Bild oder ein Video sein.  
+## Slide Backgrounds as Image or Video Cover
+The slide cover is the background medium of a slide. It can be either an image or a video.
 
-Das **Cover Bild** kann für Smartphone-, Tablet- und Desktop-Ansicht unterschieden werden. Das Desktop Bild dient als Standard. Gültige Bildformate sind `jpg`, `png`, `webp`, `svg`, `avif`.
+The **cover image** can be differentiated for smartphone, tablet, and desktop views. The desktop image serves as the default. Valid image formats are `jpg`, `png`, `webp`, `svg`, `avif`.
 
-Das **Cover Video** ist für alle Ansichten gleich und kann nicht unterschieden werden. Gültige Videoformate sind `mp4` und `webm`.
+The **cover video** is the same for all views and cannot be differentiated. Valid video formats are `mp4` and `webm`.
 
-Für Bild und Video lassen sich **Objekt-Positionen und -Anpassung** festlegen. Diese Einstellungen kommen vor allem zum tragen, wenn das Bild oder Video nicht dem Größenverhätniss des Slides entspricht. So kann das Bild oder Video noch nachjustiert werden.  
-Diese Einstellungen können für die Smartphone-, Tablet- und Desktop-Ansicht unterschieden werden.
+For both images and videos, you can set **object positions and adjustments**. These settings are especially useful when the image or video does not match the aspect ratio of the slide. This allows you to fine-tune the image or video.
+These settings can be differentiated for smartphone, tablet, and desktop views.
 
-### Tipp: Bildgrößen als Seitenverhältniss definieren
+### Tip: Define Image Sizes as Aspect Ratios
 
-In modernen Grafikdesign macht es Sinn Bildgrößen für das resposive Web im Seitenverhältniss zu denken. Zum einen funktioniert so die Skalierung für Thumbnail-Varianten besser, CLS (Cumulative Layout Shift) lässt sich einfacher vermeiden und eine konistenz im Shop-Design wird gewährleitet.
+In modern graphic design, it makes sense to think of image sizes for the responsive web in terms of aspect ratios. This way, scaling for thumbnail variants works better, CLS (Cumulative Layout Shift) is easier to avoid, and consistency in shop design is ensured.
 
-Aufgrund dieser Vorteile definieren wir die Größen in Slider und Banner Elementen als Seitenverhältnisse, anstatt festen Pixeln.
-Bedenke dies beim erstellen deiner Grafiken.
+Due to these advantages, we define sizes in slider and banner elements as aspect ratios instead of fixed pixels.
+Keep this in mind when creating your graphics.
 
-## Eigenständiges Fokusbild neben Slide-Inhalt
+## Independent Focus Image Next to Slide Content
 
-Für einen Slide kann ein Fokusbild festgelegt werden. Das Fokusbild wird als separates Bild neben dem Inhaltsbereich angezeigt.
+A focus image can be set for a slide. The focus image is displayed as a separate image next to the content area.
 
 <Grid>
     <Column :cols="{xs: 12, 'lg': 6, '2xl': 12, '4xl': 6}">
-        <Image src="placeholder.svg" alt="Visualisierung des Fokusbild"
+        <Image src="placeholder.svg" alt="Visualization of the focus image"
         :lazy="false" />
     </Column>
 </Grid>
 
-Das Bild lässt sich dabei **auf volle Breite strecken** oder in der **Breite beschränken**. Diese Optionen sind geräteabhängig.
+The image can be **stretched to full width** or **restricted in width**. These options are device-dependent.

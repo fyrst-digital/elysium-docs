@@ -1,5 +1,5 @@
-# Gestalte ansprechende und wiederverwendbar Slides
+# Create appealing and reusable slides
 
-Mit dem Slide Builder kannst du ansprechende und wiederverwendbare Slides gestalten. Diese Slides kannst du mithilfe des Slider- oder Banner-Elements in deinen Erlebniswelt-Layouts anordnen. Der Slide Builder ermöglicht es dir, sowohl einfache "Image only" Banner als auch komplexe SEO-Banner zu erstellen. Auch ohne Kenntnisse von Grafikprogrammen oder Programmierkenntnisse lassen sich ansprechende Banner gestalten.
+With the Slide Builder, you can create appealing and reusable slides. These slides can be arranged in your experience world layouts using the Slider or Banner element. The Slide Builder allows you to create both simple "Image only" banners and complex SEO banners. Even without knowledge of graphic programs or programming skills, you can create appealing banners.
 
-Falls du einfache Kenntnisse in Twig, dem Shopware Template System und CSS hast, kannst du eigene Slide-Vorlagen als Twig-Datei erstellen und ein Slide exakt nach den gegebenen Anforderungen umsetzen. Zusätzlich kannst du Slides mit Zusatzfeldern erweitern, um sie noch vielseitiger zu gestalten.
+If you have basic knowledge of Twig, the Shopware template system, and CSS, you can create your own slide templates as a Twig file and implement a slide exactly according to the given requirements. Additionally, you can extend slides with custom fields to make them even more versatile.

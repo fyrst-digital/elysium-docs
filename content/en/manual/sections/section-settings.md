@@ -1,16 +1,16 @@
 ---
-title: "Einstellungen der Elysium Sektion"
+title: "Settings of the Elysium Section"
 ---
 
-Um die Einstellungen einer Sektion zu ändern, gehe auf das Layout-Symbol, welches links von der Sektion angezeigt wird. Daraufhin öffnet sich die Sidebar mit den Standardeinstellungen der Sektion. Klicke in der Sidebar auf das Layout-Symbol, um die Elysium Sektions-Einstellungen zu öffnen. In diesen Einstellungen kannst du die horizontale Ausrichtung der Blöcke, den Abstand des Raums zwischen den Blöcken und die äußeren Abstände der Sektion anpassen. Diese Einstellungen sind geräteabhängig und können für Smartphone, Tablet und Desktop separat eingestellt werden.
+To change the settings of a section, go to the layout icon displayed to the left of the section. This will open the sidebar with the default settings of the section. Click on the layout icon in the sidebar to open the Elysium section settings. In these settings, you can adjust the horizontal alignment of the blocks, the spacing between the blocks, and the outer margins of the section. These settings are device-dependent and can be set separately for smartphone, tablet, and desktop.
 
 <Grid>
     <Column :cols="{xs: 12, '6xl': 10}" :col-start="{'6xl': 2}">
-        <Image src="section/de-admin-cms-section-settings.png" alt="Einstellungen der Elysium Sektion"
+        <Image src="section/de-admin-cms-section-settings.png" alt="Settings of the Elysium Section"
         :sizes="{xs: 200, lg: 600, '6xl': 800}" :lazy="false" />
     </Column>
 </Grid>
 
-## Breakpoint pro Sektion ändern
+## Change Breakpoint per Section
 
-Es gibt auch die Möglichkeit, Breakpoints pro Sektion anzupassen. Breakpoints legen fest, ab welcher Bildschirmbreite die Ansicht im Theme greifen soll.
+There is also the option to adjust breakpoints per section. Breakpoints determine at which screen width the view in the theme should take effect.

@@ -1,21 +1,21 @@
 ---
-title: "Block Einstellungen in einer Elysium Sektion"
+title: "Block Settings in an Elysium Section"
 ---
 
-Es gibt spezifische Einstellungen für Blöcke innerhalb einer ElysiumSektion. Diese Einstellungen findest du in der Sidebar, indem du auf das Layout-Symbol klickst. Alle Block-Einstellungen sind geräteabhängig und können separat für Smartphone, Tablet und Desktop festgelegt werden.
+There are specific settings for blocks within an Elysium section. You can find these settings in the sidebar by clicking on the layout icon. All block settings are device-dependent and can be set separately for smartphone, tablet, and desktop.
 
-Diese Einstellungen **sind nur innerhalb von Elysium Sektionen** wirksam. Sobald du einen Block in eine andere Sektion verschiebst, werden die Einstellungen ignoriert.
-Die Einstellungen werden jedoch gespeichert. Wenn also ein Block wieder zurück in eine Elysium Sektion verschoben wird, sind die Einstellungen wie gehabt.
+These settings **are only effective within Elysium sections**. Once you move a block to another section, the settings are ignored.
+However, the settings are saved. So if a block is moved back to an Elysium section, the settings remain as they were.
 
 <Grid>
     <Column :cols="{xs: 12, '6xl': 10}" :col-start="{'6xl': 2}">
-        <Image src="section/de-admin-cms-block-settings.png" alt="Block Einstellungen in einer Elysium Sektion"
+        <Image src="section/de-admin-cms-block-settings.png" alt="Block settings in an Elysium section"
         :sizes="{xs: 200, lg: 600, '6xl': 800}" :lazy="false" />
     </Column>
 </Grid>
 
-Du kannst die **optische Reihenfolge** von Blöcken festlegen. Dies ist nützlich, wenn ein Block beispielsweise auf einem Smartphone an einer anderen Position angezeigt werden soll als auf einem Desktop. Wenn keine Reihenfolge für einen Block festgelegt wurde (auto), wird dieser immer als letztes angezeigt. Beachte, dass dies nur die optische und nicht die strukturelle Reihenfolge betrifft. Die strukturelle Reihenfolge bleibt immer so bestehen, wie sie im Block-Navigator zu sehen ist.
+You can set the **visual order** of blocks. This is useful if a block should be displayed in a different position on a smartphone than on a desktop. If no order is set for a block (auto), it will always be displayed last. Note that this only affects the visual order and not the structural order. The structural order always remains as seen in the block navigator.
 
-Mit der Einstellung **Zeilen** kannst du festlegen, wie viele Zeilen ein Block einnehmen soll. Zum Beispiel können Blöcke zu einem sogenannten "Grid Layout" zusammengefügt werden, sodass auf der linken Seite zwei Blöcke untereinander und auf der rechten Seite ein Block dargestellt wird, der über diese zwei Blöcke geht. Dies ist nur ein einfaches Beispiel, komplexere Grid-Layouts sind natürlich auch möglich.
+With the **Rows** setting, you can specify how many rows a block should occupy. For example, blocks can be combined into a so-called "grid layout," where two blocks are displayed one below the other on the left side and one block is displayed on the right side, spanning these two blocks. This is just a simple example; more complex grid layouts are, of course, also possible.
 
-<!-- Die Kombination aus Reihenfolge und Zeilen ist ein mächtiges Werkzeug, um einfache, aber auch komplexe Layouts zu erstellen, **optional auch pro Ansicht**. Auf unserer Beispielseite (Link zur Seite) findest du einige Layouts und Anleitungen, wie diese nachzubilden sind. -->
+<!-- The combination of order and rows is a powerful tool for creating simple but also complex layouts, **optionally per view**. On our example page (link to page), you will find some layouts and instructions on how to replicate them. -->
