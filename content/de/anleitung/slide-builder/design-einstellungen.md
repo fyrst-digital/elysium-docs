@@ -41,7 +41,7 @@ Das Inhaltselement umschließt Überschrift, Beschreibung und Button des Slides.
 
 <Grid>
     <Column :cols="{xs: 12, 'lg': 10, '2xl': 12, '4xl': 10}" :col-start="{'lg': 2, '4xl': 2}">
-        <Image src="slide-builder/visualize-container.svg" alt="Visualisierung der Inhaltselemente"
+        <Image src="slide-builder/visualize-content.svg" alt="Visualisierung des Inhaltselements"
         :lazy="false" aspect-ratio="2 / 1" />
     </Column>
 </Grid>
