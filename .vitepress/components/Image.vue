@@ -24,7 +24,7 @@
         caption?: boolean
         aspectRatio?: string
         lazy?: boolean,
-        sizes?: Partial<Sizes>
+        sizes?: Partial<Sizes> | false
     }
 
     const props = withDefaults(defineProps<Props>(), {
@@ -40,11 +40,14 @@
         xs: 200
     }
     
-    const srcSet = computed(() => thumbnailSizes.map(size => {
-        const srcPath = props.src.split('.')[0]
-        const srcSuffix = props.src.split('.')[1]
-        return `${props.basePath}thumbnails/${srcPath}_${size}.webp ${size}w`
-    }).join(', '))
+    const srcSet = computed(() => {
+        if (props.sizes === false) return null
+            return thumbnailSizes.map(size => {
+            const srcPath = props.src.split('.')[0]
+            const srcSuffix = props.src.split('.')[1]
+            return `${props.basePath}thumbnails/${srcPath}_${size}.webp ${size}w`
+        }).join(', ')
+    })
 
     /**
      * @todo make an object as prop with the following structure and 
@@ -57,6 +60,7 @@
      * }
      */
     const srcSizes = computed(() => {
+        if (props.sizes === false) return null
         return Object.entries({...defaultSizes, ...props.sizes}).reverse().map(([key, value]) => {
             return `(min-width: ${breakpoints[key] ?? '0px'}) ${value}px`
         }).join(', ')

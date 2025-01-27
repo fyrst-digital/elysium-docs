@@ -7,8 +7,9 @@ description: In den Design-Einstellungen kann das Erscheinungsbild des Slides an
 Unter **Slide** kann das Design des gesamten Slides angepasst werden.
 
 <Grid>
-    <Column :cols="{xs: 12, 'lg': 6, '2xl': 12, '4xl': 6}">
-        <img src="/images/source/slide-builder/visualize-slide.svg" alt="Visualisierung des gesamten Slides" />
+    <Column :cols="{xs: 12, 'lg': 10, '2xl': 12, '4xl': 10}" :col-start="{'lg': 2, '4xl': 2}">
+        <Image src="slide-builder/visualize-slide.svg" alt="Visualisierung des gesamten Slides"
+        :lazy="false" aspect-ratio="2 / 1" />
     </Column>
 </Grid>
 
@@ -22,8 +23,9 @@ Unter **Ausrichtung** lässt sich die Ausrichtung des inneren Containers bestimm
 Unter **Container** kann das Design des inneren Containers angepasst werden. Der innere Container umschließt das Inhaltselement und das Fokusbild.
 
 <Grid>
-    <Column :cols="{xs: 12, 'lg': 6, '2xl': 12, '4xl': 6}">
-        <img src="/images/source/slide-builder/visualize-container.svg" alt="Visualisierung des inneren Container" />
+    <Column :cols="{xs: 12, 'lg': 10, '2xl': 12, '4xl': 10}" :col-start="{'lg': 2, '4xl': 2}">
+        <Image src="slide-builder/visualize-container.svg" alt="Visualisierung des inneren Container"
+        :lazy="false" aspect-ratio="2 / 1" />
     </Column>
 </Grid>
 
@@ -38,8 +40,9 @@ Die Ausrichtung beeinflusst die Ausrichtung der inneren Containerelemente, also 
 Das Inhaltselement umschließt Überschrift, Beschreibung und Button des Slides.
 
 <Grid>
-    <Column :cols="{xs: 12, 'lg': 6, '2xl': 12, '4xl': 6}">
-        <img src="/images/source/slide-builder/visualize-content.svg" alt="Visualisierung der Inhaltselemente" />
+    <Column :cols="{xs: 12, 'lg': 10, '2xl': 12, '4xl': 10}" :col-start="{'lg': 2, '4xl': 2}">
+        <Image src="slide-builder/visualize-container.svg" alt="Visualisierung der Inhaltselemente"
+        :lazy="false" aspect-ratio="2 / 1" />
     </Column>
 </Grid>
 
