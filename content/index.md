@@ -14,7 +14,7 @@ hero:
       link: /en/manual/overview
     - theme: outlinePrimary
       text: Shopware Store
-      link: https://store.shopware.com/en/blur358402810171f/elysium-slider-and-banner-for-shopping-experiences.html
+      link: https://store.shopware.com/en/blur358402810171f/elysium-slider-and-banner-for-cms-layouts.html
       target: _blank
 
 features:
