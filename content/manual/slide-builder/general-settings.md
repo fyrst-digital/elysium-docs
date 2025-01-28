@@ -5,7 +5,7 @@ description: In the General Settings, you can set content such as the title and 
 
 ## Set the content of a slide
 
-The **Slide Name** is the only required field in a slide. It must be unique and serves as the internal designation of the slide to identify it in the administration. This way, you can quickly find your slides in the overview, search, or in the slider experience world element.
+The **Slide Name** is the only required field in a slide. It must be unique and serves as the internal designation of the slide to identify it in the administration. This way, you can quickly find your slides in the overview, search, or in the slider shopping experience element.
 
 An optimal designation is in lowercase letters and separated by hyphens, without spaces. For example: `my-first-slide` or `summer-sale-2023`.
 

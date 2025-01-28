@@ -46,5 +46,5 @@ Internally, the Twig function `theme_config('breakpoint.<viewport>')` is used
 :::
 
 ## Maximum Height
-You can also set a maximum height in `px` for Slider and Banner elements. This is useful if you are using an experience world layout that spans the full screen width. The element will be limited to this maximum height.  
+You can also set a maximum height in `px` for Slider and Banner elements. This is useful if you are using a shopping experience layout that spans the full screen width. The element will be limited to this maximum height.  
 If you want to set a maximum height that applies to all screen sizes, you can do so in the smallest screen size. By default, this is **smartphone**.

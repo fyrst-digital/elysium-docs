@@ -3,11 +3,11 @@ To place a block in an Elysium section, first select it in the section selection
 
 <Grid>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
-        <Image src="section/admin-auswahl-blank.png" alt="Selection with empty experience world"
+        <Image src="section/admin-auswahl-blank.png" alt="Selection with empty shopping experience"
         :sizes="{xs: 200, lg: 600, '6xl': 300}" :lazy="false" />
     </Column>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
-        <Image src="section/admin-auswahl-wizard.png" alt="Selection when creating an experience world" 
+        <Image src="section/admin-auswahl-wizard.png" alt="Selection when creating a shopping experience" 
         :sizes="{xs: 200, lg: 600, '6xl': 300}" :lazy="false"/>
     </Column>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">

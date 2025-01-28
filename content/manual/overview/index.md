@@ -6,12 +6,12 @@ next:
     link: '/en/manual/overview/sections'
 ---
 
-# Create impressive experience world layouts with Elysium
-Elysium provides numerous features to support you in creating experience world layouts. It includes an **Experience World Section**, a **Slide Builder**, and **Slider and Banner Elements** to arrange slides in experience worlds. The focus is always on ease of use to quickly and efficiently achieve the desired result.
+# Create impressive shopping experience layouts with Elysium
+Elysium provides numerous features to support you in creating shopping experience layouts. It includes an **Shopping Experience Section**, a **Slide Builder**, and **Slider and Banner Elements** to arrange slides in shopping experiences. The focus is always on ease of use to quickly and efficiently achieve the desired result.
 
 <Grid>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
-        <Image src="section/admin-auswahl-add.png" alt="Experience World Section"
+        <Image src="section/admin-auswahl-add.png" alt="Shopping Experience Section"
         :lazy="false" />
     </Column>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">

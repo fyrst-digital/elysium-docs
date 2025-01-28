@@ -1,6 +1,6 @@
 ---
-title: Slider Element for Experience Worlds
-description: "In the slider, you can set a slide selection and the behavior and appearance of the slider. You can find the slider element in the block selection group Elysium Blocks in the Experience Worlds."
+title: Slider Element for Shopping Experiences
+description: "In the slider, you can set a slide selection and the behavior and appearance of the slider. You can find the slider element in the block selection group Elysium Blocks in the Shopping Experiences."
 ---
 
 ## Content: Set the Slide Selection
@@ -19,7 +19,7 @@ With **Slides per View**, multiple slides can be displayed within a slider view.
 
 The **Slide Speed** defines the time of the animation between the slides in milliseconds.
 
-You can set the **Width of the Content Container**. This is especially useful for experience world layouts that span the entire screen width.
+You can set the **Width of the Content Container**. This is especially useful for shopping experience layouts that span the entire screen width.
 With **Page Content**, the maximum width of the container follows the width of the page content. With **Full Width**, the content container is displayed across the entire width.
 
 ### Auto-Play
