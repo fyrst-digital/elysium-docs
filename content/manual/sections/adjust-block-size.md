@@ -19,6 +19,6 @@ However, the settings are saved. So if a block is moved back to an Elysium secti
 
 ## Device-Dependent Adjustment of Block Size
 
-The size of a block can be adjusted separately for smartphone, tablet, and desktop views. Switch the view in the Experience World editor to adjust the block sizes per view.
+The size of a block can be adjusted separately for smartphone, tablet, and desktop views. Switch the view in the Shopping Experience editor to adjust the block sizes per view.
 
 There are device-dependent section settings that can also affect block sizes. You can learn more about this in the next article.
