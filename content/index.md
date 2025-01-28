@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: primary
       text: Overview
-      link: /en/manual/overview
+      link: /manual/overview
     - theme: outlinePrimary
       text: Shopware Store
       link: https://store.shopware.com/en/blur358402810171f/elysium-slider-and-banner-for-cms-layouts.html
