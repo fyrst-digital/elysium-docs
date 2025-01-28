@@ -3,23 +3,31 @@
 layout: home
 
 hero:
-  text: "Sections, Slider and Banner for Shopware"
-  tagline: My great project tagline
+  name: "Elysium"
+  text: "Experience Worlds Extension for Shopware"
+  tagline: Section, Slide Builder, Slider and Banner Elements
+  image: 
+    src: /hero-image.webp
   actions:
     - theme: primary
       text: Overview
-      link: /manual/overview
+      link: /en/manual/overview
+    - theme: outlinePrimary
+      text: Shopware Store
+      link: https://store.shopware.com/en/blur358402810171f/elysium-slider-and-banner-for-experience-worlds.html
+      target: _blank
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature D
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature D
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Experience Worlds Section
+    details: Design layouts according to your preferences, with maximum flexibility and optimization for every device view
+    icon:
+      src: /icon-layout.svg
+  - title: Slide Builder
+    details: Effortlessly create appealing and reusable slides, from simple "Image only" to complex SEO banners
+    icon:
+      src: /icon-slides.svg
+  - title: Slider and Banner Elements
+    details: Link slides in slider or banner experience world elements and create your perfect layout
+    icon:
+      src: /icon-cms-elements.svg
 ---
-

@@ -1,15 +1,30 @@
 ---
 slug:
-    de: '/de/anleitung/uebersicht/'
+    root: '/manual/overview/'
 next:
     text: 'Sections'
-    link: '/manual/overview/sections'
+    link: '/en/manual/overview/sections'
 ---
 
-- Elysium ist eine Sammlung von Komponenten, welche bei der Erstellung von Erlebniswelten Layouts helfen
-- Es beinhaltet eine **Erlebniswelt Sektion**, einen **Slide Builder** sowie **Slider und Banner Elemente** um Slides anzuordnen
-- In jeder Komponente liegt Fokus auf einfacher und effektiver Bedienung um schnell zum gewünschten Ergebnis zu kommen
-  
-- Komponenten haben geräteabhängige Einstellungen, welche für die Ansichten Smartphone, Tablet und Desktop festgelegt werden können
-- Dabei kommt der **Mobile-first** Ansatz zum tragen. Einstellungen werden über alle Ansichten veererbt, beginnend ab Smartphone Ansicht
-- So müssen geräteabhängige Einstellungen nicht für jede Ansicht gepflegt werden. Hier gibt es nur wenige Ausnahmen
+# Create impressive experience world layouts with Elysium
+Elysium provides numerous features to support you in creating experience world layouts. It includes an **Experience World Section**, a **Slide Builder**, and **Slider and Banner Elements** to arrange slides in experience worlds. The focus is always on ease of use to quickly and efficiently achieve the desired result.
+
+<Grid>
+    <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
+        <Image src="section/admin-auswahl-add.png" alt="Experience World Section"
+        :lazy="false" />
+    </Column>
+    <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
+        <Image src="slide-builder/de-admin-slide-builder-overview.png" alt="Slide Builder"
+        :lazy="false" />
+    </Column>
+    <Column :cols="{xs: 12, sm: 6, 'xl': 4}">
+        <Image src="section/de-admin-cms-block-selection.png" alt="Slider and Banner Elements"
+        :lazy="false" />
+    </Column>
+</Grid>
+
+## Mobile-first approach and device-dependent settings
+Elysium offers device-dependent settings that can be adjusted for smartphone, tablet, and desktop views. The mobile-first approach is consistently followed. Settings are inherited from the smartphone view to all other views. This means that device-dependent settings do not need to be maintained separately for each view, with only a few exceptions.
+
+On the following pages, you will get an overview of the core features of Elysium.
