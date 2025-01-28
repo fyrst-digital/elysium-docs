@@ -33,7 +33,7 @@ Use the new Elysium section (from version 3.6) to prepare a Shopping Experience 
 
 In a Shopping Experience layout, you can select the Slider or Banner element under the **Elysium Blocks** block group and drag and drop it to the desired position.
 
-Use the new Elysium section for the design and arrangement of the elements. [You can find more about it here.](/en/manual/sections/place-blocks)
+Use the new Elysium section for the design and arrangement of the elements. [You can find more about it here.](/manual/sections/placing-blocks)
 
 ::: warning Two-Column Block will be removed in version 4.0
 The two-column block is marked as deprecated from version 3.6 and will be completely removed with **version 4.0**. Make sure to remove these blocks in the shopping experiences before an update, otherwise, these contents will no longer be displayed in the storefront.

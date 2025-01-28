@@ -30,7 +30,7 @@ Activates the auto-play of the slider. You can set the **Playback Interval** of 
 
 Define the **Aspect Ratio** and thus determine the size of the slider. You can set a **maximum height** that the slider should not exceed. These settings are device-dependent and can be set separately for smartphone, tablet, and desktop.
 
-A detailed guide on aspect ratio [can be found here](/en/guides/sizing-and-aspect-ratio)
+A detailed guide on aspect ratio [can be found here](/guides/sizing-and-aspect-ratio)
 
 ## Navigation: Customize Quick Navigation
 The **Show Slider Navigation** setting activates quick navigation. The **Position** can be **below** or **within** the slider. Under **Alignment**, the navigation points can be flexibly placed.
