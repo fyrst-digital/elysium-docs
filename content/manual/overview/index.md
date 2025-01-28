@@ -6,7 +6,7 @@ next:
     link: '/en/manual/overview/sections'
 ---
 
-# Create impressive shopping experience layouts with Elysium
+# Create impressive Shopping Experience layouts with Elysium
 Elysium provides numerous features to support you in creating shopping experience layouts. It includes an **Shopping Experience Section**, a **Slide Builder**, and **Slider and Banner Elements** to arrange slides in shopping experiences. The focus is always on ease of use to quickly and efficiently achieve the desired result.
 
 <Grid>

@@ -1,6 +1,6 @@
 # Getting started and general settings
 
-After you have installed and activated the plugin, you will find the new entry **Slide Builder** under the **Content** menu item. Here, all slides are managed. You can create new slides, duplicate them, or delete those that are no longer needed. Once you have created one or more slides, you can set them in the Elysium Slider or Banner shopping experience element.
+After you have installed and activated the plugin, you will find the new entry **Slide Builder** under the **Content** menu item. Here, all slides are managed. You can create new slides, duplicate them, or delete those that are no longer needed. Once you have created one or more slides, you can set them in the Elysium Slider or Banner Shopping Experience element.
 
 <Grid>
     <Column :cols="{xs: 12, '6xl': 10}" :col-start="{'6xl': 2}">
@@ -19,10 +19,10 @@ The slide is always created in your default language. If you want to maintain th
 
 To add a slide, click the **Create Slide** button in the top right corner. This will take you to the detail view where you can maintain the slide. On the following pages, you will find more details about the setting options.
 
-After you have created a slide, you can link it in the Elysium Slider or Banner element of a shopping experience.
+After you have created a slide, you can link it in the Elysium Slider or Banner element of a Shopping Experience.
 
 ::: tip Elysium Section for Design and Arrangement
-Use the new Elysium section (from version 3.6) to prepare a shopping experience layout. It offers many options for responsive and individual design.
+Use the new Elysium section (from version 3.6) to prepare a Shopping Experience layout. It offers many options for responsive and individual design.
 :::
 
 <!-- ::: info Slide Examples
@@ -31,7 +31,7 @@ Use the new Elysium section (from version 3.6) to prepare a shopping experience 
 
 ## Link Slide in Shopping Experience Elements
 
-In a shopping experience layout, you can select the Slider or Banner element under the **Elysium Blocks** block group and drag and drop it to the desired position.
+In a Shopping Experience layout, you can select the Slider or Banner element under the **Elysium Blocks** block group and drag and drop it to the desired position.
 
 Use the new Elysium section for the design and arrangement of the elements. [You can find more about it here.](/en/manual/sections/place-blocks)
 
