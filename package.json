@@ -17,7 +17,8 @@
     "prepare": "panda codegen",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "docs:deploy": "bun generate:thumbnails && bun build:icons && bun docs:build"
   },
   "dependencies": {
     "sharp": "^0.33.5"

@@ -1,6 +1,0 @@
-node_modules
-.vitepress/dist
-.vitepress/cache
-styled-system
-styled-system-studio
-content/public/images/thumbnails
