@@ -1,5 +1,7 @@
-FROM oven/bun:1.1
+# Todo: make version dynamic via build args or env vars
+FROM caddy:2.9.1-alpine
 
-RUN apt-get update && apt-get install -y git
+# install dependencies
+RUN apk add --no-cache shadow bash curl
 
-COPY . ./
+COPY .vitepress/dist /srv
