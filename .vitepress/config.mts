@@ -41,6 +41,9 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/icon-elysium.svg' }]
   ],
+  sitemap: {
+    hostname: 'https://elysium.blurcreative.de'
+  },
   locales: {
     root: {
       label: 'English',
