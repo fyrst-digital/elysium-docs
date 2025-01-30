@@ -1,6 +1,6 @@
 ---
 title: Banner Element for Shopping Experiences
-description: "In the banner, you can link a single slide. You can find the banner element in the block selection group Elysium Blocks in the Shopping Experiences."
+description: "Learn how to link a single slide in the banner element and set its size. The banner element is found in the block selection group Elysium Blocks in the Shopping Experiences."
 ---
 
 ## Link slide and set size

@@ -1,6 +1,6 @@
 ---
 title: "Individuelle Slide Templates einrichten"
-description: "Für Slides können Twig Templates festgelegt und in einem Theme oder Plugin frei angepasst werden. So können individuelle Templates auf Twig-Ebene erstellt werden, die nach belieben wiederverwendet werden können"
+description: "Erfahre, wie du individuelle Slide-Templates mit Twig erstellen und in einem Theme oder Plugin anpassen kannst, um sie nach Belieben wiederzuverwenden."
 reviewNeeded: true
 ---
 

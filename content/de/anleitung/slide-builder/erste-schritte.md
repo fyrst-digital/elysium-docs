@@ -1,4 +1,7 @@
-# Einrichtung und erste Schritte
+---
+title: "Einrichtung und erste Schritte"
+description: "Erfahre, wie du das Plugin installierst, Slides erstellst und sie in Elysium Slider oder Banner Erlebniswelten Elementen verknüpfst."
+---
 
 Nachdem du das Plugin installiert und aktiviert hast, findest du im **Menüpunkt Inhalte den neuen Eintrag Slide Builder**. Hier werden alle Slides verwaltet. Du kannst neue Slides erstellen, dupplizieren oder nicht mehr benötigte löschen. Hast du einen oder mehrere Slides erstellt kannst du diese im Elysium Slider oder Banner Erlebniswelten Element festlegeniders festlegen.
 

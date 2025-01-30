@@ -1,6 +1,6 @@
 ---
 title: "Banner Element für Erlebniswelten"
-description: "Im Banner kannst du einen einzelnen Slide verknüpfen. Das Banner Element findest du in der Block-Auswahl Gruppe Elysium Blöcke in den Erlebniswelten."
+description: "Erfahre, wie du im Banner-Element einen einzelnen Slide verknüpfst und die Größe festlegst. Das Banner-Element findest du in der Block-Auswahl Gruppe Elysium Blöcke in den Erlebniswelten."
 ---
 
 ## Slide verknüpfen und Größe festlegen

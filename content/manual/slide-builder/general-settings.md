@@ -1,6 +1,6 @@
 ---
 title: General Settings and Content
-description: In the General Settings, you can set content such as the title and description, as well as the linking of the slide.
+description: "Learn how to set general settings and content for slides, including title, description, and linking options."
 ---
 
 ## Set the content of a slide

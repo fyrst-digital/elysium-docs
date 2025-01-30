@@ -1,3 +1,7 @@
+---
+description: "Learn how to get started with the Slide Builder, create slides, and link them in Elysium Slider or Banner Shopping Experience elements."
+---
+
 # Getting started and general settings
 
 After you have installed and activated the plugin, you will find the new entry **Slide Builder** under the **Content** menu item. Here, all slides are managed. You can create new slides, duplicate them, or delete those that are no longer needed. Once you have created one or more slides, you can set them in the Elysium Slider or Banner Shopping Experience element.

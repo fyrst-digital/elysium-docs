@@ -1,6 +1,6 @@
 ---
 title: Allgemeine Einstellungen und Inhalte festlegen
-description: In den Allgemeinen Einstellungen lassen sich Inhalte wie Überschrift und Beschreibung, sowie die Verlinkung des Slides festlegen
+description: "Erfahre, wie du allgemeine Einstellungen und Inhalte für Slides festlegst, einschließlich Überschrift, Beschreibung und Verlinkung."
 ---
 
 ## Inhalte eines Slides festlegen

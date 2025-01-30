@@ -1,6 +1,6 @@
 ---
 title: "Extend slides with custom templates and additional fields"
-description: Here you will find advanced settings for advanced users or developers.
+description: "Learn how to extend slides with custom templates and additional fields to customize them as needed."
 ---
 
 ## Specify your own template file

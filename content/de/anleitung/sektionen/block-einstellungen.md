@@ -1,5 +1,6 @@
 ---
 title: "Block Einstellungen in einer Elysium Sektion"
+description: "Erfahre, wie du spezifische Einstellungen für Blöcke innerhalb einer Elysium Sektion anpasst, einschließlich der optischen Reihenfolge und der Anzahl der Zeilen, die ein Block einnehmen soll."
 ---
 
 Es gibt spezifische Einstellungen für Blöcke innerhalb einer ElysiumSektion. Diese Einstellungen findest du in der Sidebar, indem du auf das Layout-Symbol klickst. Alle Block-Einstellungen sind geräteabhängig und können separat für Smartphone, Tablet und Desktop festgelegt werden.

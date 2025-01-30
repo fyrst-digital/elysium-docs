@@ -4,6 +4,7 @@ slug:
 next:
     text: 'Sections'
     link: '/en/manual/overview/sections'
+description: "Learn how to create impressive Shopping Experience layouts with Elysium, including Shopping Experience Section, Slide Builder, and Slider and Banner Elements."
 ---
 
 # Create impressive Shopping Experience layouts with Elysium

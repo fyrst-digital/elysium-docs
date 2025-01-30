@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+description: "Erfahre mehr über Elysium, die Erlebniswelten Erweiterung für Shopware, einschließlich Sektionen, Slide Builder, Slider und Banner Elemente."
 
 hero:
   name: "Elysium"
@@ -31,4 +32,3 @@ features:
     icon:
       src: /icon-cms-elements.svg
 ---
-

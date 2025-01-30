@@ -1,6 +1,6 @@
 ---
 title: "Slide Cover Thumbnailgrößen erweitern und optimieren"
-description: "Dieser Guide bringt dir das einstellen von Größen als Seitenverhältnis näher"
+description: "Erfahre, wie du mehrere Slides pro Slider Ansicht festlegst und die Größe der Slides bei mehreren Slides pro Ansicht anpasst."
 ---
 
 ## Mehrere Slides pro Slider Ansicht festlegen

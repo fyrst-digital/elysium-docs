@@ -1,6 +1,6 @@
 ---
 title: "Blockgröße in Elysium Sektionen anpassen"
-description: "Erfahre wie du die Größe eines Blocks für verschiedene Ansichten innerhalb einer Elysium Sektion anpassen kannst."
+description: "Erfahre, wie du die Größe eines Blocks für verschiedene Ansichten innerhalb einer Elysium Sektion anpassen kannst."
 ---
 
 ## Breite eines Blocks durch Drag and Drop anpassen
