@@ -1,6 +1,6 @@
 ---
 title: "Slides durch eigene Templates und Zusatzfelder erweitern"
-description: Hier finden sich erweiterte Einstellungen für fortgeschrittene Nutzer oder Entwickler.
+description: "Erfahre, wie du Slides durch eigene Templates und Zusatzfelder erweitern kannst, um sie individuell anzupassen."
 ---
 
 ## Eigene Template Datei festlegen

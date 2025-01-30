@@ -1,6 +1,6 @@
 ---
 title: "Größen und Seitenverhätnis"
-description: "Dieser Guide bringt dir das einstellen von Größen als Seitenverhältnis näher"
+description: "Erfahre, wie du Größen und Seitenverhältnisse in Elysium Elementen anpassen kannst, um eine konsistente Skalierung über alle Bildschirmgrößen zu gewährleisten."
 ---
 
 ## Anpassung der Slider-Größen

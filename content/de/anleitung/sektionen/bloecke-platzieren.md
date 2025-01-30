@@ -1,4 +1,8 @@
-# Sektion auswählen und Blöcke platzieren
+---
+title: "Sektion auswählen und Blöcke platzieren"
+description: "Erfahre, wie du Blöcke in einer Elysium Sektion platzierst und die Anordnung der Blöcke änderst."
+---
+
 Um einen Block in einer Elysium Sektion zu platzieren, wähle sie zunächst in der Sektionsauswahl aus. Füge dann einen ersten Block per Drag & Drop hinzu. 
 
 <Grid>

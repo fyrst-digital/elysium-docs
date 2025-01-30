@@ -1,6 +1,6 @@
 ---
 title: "Slide Cover Thumbnailgrößen erweitern und optimieren"
-description: "Wenn für ein Slide Cover-Bild Thumbnails hinterlegt sind, werden diese automatisch verwendet. Durch Thumbnails werden kleinere Bilder ausgespielt, was die Ladezeit und Googles Core Web Vitals positiv beeinflusst."
+description: "Erfahre, wie du die Thumbnailgrößen für Slide Cover-Bilder erweitern und optimieren kannst, um die Bildqualität und Ladezeit zu verbessern."
 reviewNeeded: true
 ---
 

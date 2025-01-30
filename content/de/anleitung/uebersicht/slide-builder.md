@@ -1,4 +1,7 @@
-# Gestalte ansprechende und wiederverwendbar Slides
+---
+title: "Gestalte ansprechende und wiederverwendbare Slides"
+description: "Erfahre, wie du mit dem Slide Builder ansprechende und wiederverwendbare Slides erstellen kannst, die du in deinen Erlebniswelt-Layouts verwenden kannst."
+---
 
 Mit dem Slide Builder kannst du ansprechende und wiederverwendbare Slides gestalten. Diese Slides kannst du mithilfe des Slider- oder Banner-Elements in deinen Erlebniswelt-Layouts anordnen. Der Slide Builder ermöglicht es dir, sowohl einfache "Image only" Banner als auch komplexe SEO-Banner zu erstellen. Auch ohne Kenntnisse von Grafikprogrammen oder Programmierkenntnisse lassen sich ansprechende Banner gestalten.
 

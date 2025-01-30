@@ -1,3 +1,7 @@
+---
+description: "Learn how to place blocks in an Elysium section and change the arrangement of the blocks."
+---
+
 # Select Section and Place Blocks
 To place a block in an Elysium section, first select it in the section selection. Then add a block by drag & drop.
 

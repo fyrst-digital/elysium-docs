@@ -1,5 +1,6 @@
 ---
 title: "Block Settings in an Elysium Section"
+description: "Learn how to configure block settings within an Elysium section, including visual order and row settings for different devices."
 ---
 
 There are specific settings for blocks within an Elysium section. You can find these settings in the sidebar by clicking on the layout icon. All block settings are device-dependent and can be set separately for smartphone, tablet, and desktop.

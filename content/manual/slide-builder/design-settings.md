@@ -1,6 +1,6 @@
 ---
 title: "Customize Slide Design and Appearance"
-description: "In the design settings, the appearance of the slide can be adjusted."
+description: "Learn how to customize the appearance of your slide in the design settings, including background color, gradient, and alignment."
 ---
 
 ## Adjust the entire slide

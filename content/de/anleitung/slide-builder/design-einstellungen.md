@@ -1,6 +1,6 @@
 ---
 title: Slide-Design und Erscheinungsbild anpassen
-description: In den Design-Einstellungen kann das Erscheinungsbild des Slides angepasst werden.
+description: "Erfahre, wie du das Erscheinungsbild deines Slides in den Design-Einstellungen anpassen kannst, einschließlich Hintergrundfarbe, Farbverlauf und Ausrichtung."
 ---
 
 ## Gesamten Slide anpassen

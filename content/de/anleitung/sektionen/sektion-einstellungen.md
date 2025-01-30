@@ -1,5 +1,6 @@
 ---
 title: "Einstellungen der Elysium Sektion"
+description: "Erfahre, wie du die Einstellungen einer Elysium Sektion anpassen kannst, einschließlich der horizontalen Ausrichtung der Blöcke, des Abstands zwischen den Blöcken und der äußeren Abstände der Sektion."
 slug:
     root: '/manual/sections/section-settings'
 ---

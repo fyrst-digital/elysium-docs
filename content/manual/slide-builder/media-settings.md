@@ -1,6 +1,6 @@
 ---
 title: "Media Settings: Set Slide Cover and Focus Image"
-description: In the media settings, you can set slide covers or a focus image.
+description: "Learn how to set slide covers or a focus image in the media settings to optimize the appearance of your slides."
 ---
 
 ## Slide Backgrounds as Image or Video Cover

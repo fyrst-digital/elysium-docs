@@ -1,3 +1,7 @@
+---
+description: "Erfahre, wie du mit Elysium Sektionen flexible und responsive Layouts in Shopware Erlebniswelten erstellst, einschließlich der Anpassung der Breite, Reihenfolge und Ausrichtung von Blöcken."
+---
+
 # Erlebniswelten Sektion zur freien Layout Gestaltung
 
 Ein häufiges Problem bei Shopware Sektionen ist ihre Starrheit, die den Nutzern kaum Möglichkeiten bietet, Layouts frei und responsiv zu gestalten. Oft gibt es nur Pseudo-Layout-Blöcke, die vorgefertigte Layouts bieten und in den meisten Fällen wenig anpassbar sind.

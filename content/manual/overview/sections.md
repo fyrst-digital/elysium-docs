@@ -1,3 +1,7 @@
+---
+description: "Learn how to use Elysium sections to create dynamic and responsive layouts in Shopware, offering maximum compatibility and customization options."
+---
+
 # Shopping Experiences Section for Free Layout Design
 
 A common problem with Shopware sections is their rigidity, which offers users little opportunity to design layouts freely and responsively. Often, there are only pseudo-layout blocks that provide pre-made layouts and, in most cases, are not very customizable.

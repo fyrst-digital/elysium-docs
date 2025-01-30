@@ -1,6 +1,6 @@
 ---
 title: "Medien Einstellungen:  Slide Cover und Fokusbild festlegen"
-description: In den Medien Einstellungen können Slide Cover oder ein Fokusbild festgelegt werden.
+description: "Erfahre, wie du in den Medien Einstellungen ein Slide Cover oder ein Fokusbild festlegen kannst, um das Erscheinungsbild deines Slides zu optimieren."
 ---
 
 ## Slide Hintergründe als Bild oder Video Cover

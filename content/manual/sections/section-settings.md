@@ -1,5 +1,6 @@
 ---
 title: "Settings of the Elysium Section"
+description: "Learn how to adjust the settings of an Elysium section, including block alignment, spacing, and breakpoints for different devices."
 slug:
     de: '/de/anleitung/sektionen/sektion-einstellungen'
 ---

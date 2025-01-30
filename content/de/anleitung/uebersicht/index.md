@@ -4,6 +4,7 @@ slug:
 next:
     text: 'Sections'
     link: '/de/anleitung/uebersicht/sektionen'
+description: "Erfahre, wie du eindrucksvolle Erlebniswelten Layouts mit Elysium erstellst, einschließlich der Nutzung von Erlebniswelt Sektionen, Slide Builder und Slider und Banner Elementen."
 ---
 
 # Gestalte eindrucksvolle Erlebniswelten Layouts mithilfe von Elysium
