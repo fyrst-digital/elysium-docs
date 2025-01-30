@@ -52,7 +52,6 @@
                 :class="styeLangBtn(false)"
                 :href="locale.link"
                 v-html="locale.label" />
-
         </template>
     </Flyout>
 </template>

@@ -68,6 +68,8 @@ export default defineConfig({
           prev: 'Vorherige Seite',
           next: 'Nächste Seite',
         },
+        returnToTopLabel: 'Zurück nach oben',
+        darkModeSwitchLabel: 'Farbschema',
         lightModeSwitchTitle: 'Helle Ansicht',
         darkModeSwitchTitle: 'Dunkle Ansicht',
         search: {
