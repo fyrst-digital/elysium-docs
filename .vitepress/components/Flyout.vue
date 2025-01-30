@@ -59,7 +59,14 @@
                     fontSize: 'lg',
                 })
             ]"></span>
-            <span v-if="button" v-html="button"></span>
+            <span v-if="button" 
+                :class="css({
+                    display: 'none',
+                    'xl': {
+                        display: 'block',
+                    },
+                })"
+                v-html="button" />
             <span class="icon icon-caret-down" />
         </span>
   

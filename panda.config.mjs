@@ -6,7 +6,7 @@ export default defineConfig({
   preflight: true,
   // Where to look for your css declarations
   include: [
-    "./content/**/*.{vue,md}", 
+    "./content/**/*.{vue,md}",
     "./.vitepress/components/**/*.{js,jsx,ts,tsx,vue}",
     "./.vitepress/theme/**/*.{js,jsx,ts,tsx,vue}"
   ],
@@ -27,10 +27,10 @@ export default defineConfig({
     extend: {
       semanticTokens: {
         colors: {
-          primary: { 
+          primary: {
             value: { base: '{colors.fuchsia.700}', _dark: '{colors.fuchsia.300}' },
           },
-          contrast: { 
+          contrast: {
             soft: {
               value: { base: 'var(--vp-c-bg-soft)', _dark: 'var(--vp-c-bg)' },
             },

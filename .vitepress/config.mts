@@ -68,6 +68,9 @@ export default defineConfig({
           prev: 'Vorherige Seite',
           next: 'Nächste Seite',
         },
+        returnToTopLabel: 'Zurück nach oben',
+        skipToContentLabel: 'Zum Inhalt springen',
+        darkModeSwitchLabel: 'Farbschema',
         lightModeSwitchTitle: 'Helle Ansicht',
         darkModeSwitchTitle: 'Dunkle Ansicht',
         search: {
@@ -108,8 +111,5 @@ export default defineConfig({
     },
     nav: nav.en,
     sidebar: sidebar.en,
-    socialLinks: [
-      { icon: 'x', link: 'https://github.com/vuejs/vitepress' }
-    ]
   }
 })
