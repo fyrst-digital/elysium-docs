@@ -69,6 +69,7 @@ export default defineConfig({
           next: 'Nächste Seite',
         },
         returnToTopLabel: 'Zurück nach oben',
+        skipToContentLabel: 'Zum Inhalt springen',
         darkModeSwitchLabel: 'Farbschema',
         lightModeSwitchTitle: 'Helle Ansicht',
         darkModeSwitchTitle: 'Dunkle Ansicht',
