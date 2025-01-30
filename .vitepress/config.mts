@@ -108,8 +108,5 @@ export default defineConfig({
     },
     nav: nav.en,
     sidebar: sidebar.en,
-    socialLinks: [
-      { icon: 'x', link: 'https://github.com/vuejs/vitepress' }
-    ]
   }
 })
