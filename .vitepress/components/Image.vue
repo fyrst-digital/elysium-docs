@@ -1,9 +1,9 @@
 <script setup lang="ts">
-    import { type Ref, inject, ref, computed } from 'vue'
+    import { type Ref, ref, computed } from 'vue'
     import { css } from 'styled-system/css'
     import { breakpoints, thumbnailSizes } from '../../theme.config.mts';
     import { useImageZoom } from './../composables/image-zoom'
-    
+
     interface Sizes {
         xs: number
         sm: number
@@ -28,12 +28,17 @@
     }
 
     const props = withDefaults(defineProps<Props>(), {
-        basePath: "/images/",
+        basePath: "",
         src: "",
         alt: "",
         caption: true,
         aspectRatio: "16 / 9",
         lazy: true,
+    })
+
+    const resolvedBasePath = computed(() => {
+        if (props.basePath) return props.basePath
+        return '/'
     })
 
     const defaultSizes: Partial<Sizes> = {
@@ -45,7 +50,7 @@
             return thumbnailSizes.map(size => {
             const srcPath = props.src.split('.')[0]
             const srcSuffix = props.src.split('.')[1]
-            return `${props.basePath}thumbnails/${srcPath}_${size}.webp ${size}w`
+            return `${resolvedBasePath.value}thumbnails/${srcPath}_${size}.webp ${size}w`
         }).join(', ')
     })
 
@@ -113,7 +118,7 @@
 
                 <slot />
                 <img 
-                    :src="`${basePath}source/${src}`" 
+                    :src="`${resolvedBasePath}source/${src}`" 
                     :srcset="srcSet"
                     :sizes="srcSizes"
                     :alt="alt"
@@ -193,7 +198,7 @@
             @click.stop>
 
             <img 
-                :src="`${basePath}source/${src}`" 
+                :src="`${resolvedBasePath}source/${src}`" 
                 :alt="alt"
                 :class="css({
                     userSelect: 'none',

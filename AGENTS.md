@@ -180,3 +180,16 @@ Registered globally in `.vitepress/theme/index.ts`:
 - Images are stored in `/public/images/` with thumbnails in `/public/images/thumbnails/`
 - Build dependencies include sharp for image processing
 - Supports clean URLs (no `.html` extensions)
+
+### Important: Vue 3 Ref Unwrapping
+In Vue 3 `<script setup>`, refs are automatically unwrapped in templates. **NEVER use `.value` in template expressions.**
+
+```typescript
+// ❌ WRONG - in template
+:src="`${resolvedBasePath.value}source/${src}`"
+
+// ✅ CORRECT - in template  
+:src="`${resolvedBasePath}source/${src}`"
+```
+
+Only use `.value` in `<script setup>` JavaScript code, NOT in the `<template>` section.

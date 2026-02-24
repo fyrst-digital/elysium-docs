@@ -1,0 +1,109 @@
+{
+    "/v2.0/manual/": [
+        {
+            "text": "Overview",
+            "link": "/v2.0/manual/overview/index",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Sections",
+                    "link": "/v2.0/manual/overview/sections"
+                },
+                {
+                    "text": "Slide Builder",
+                    "link": "/v2.0/manual/overview/slide-builder"
+                },
+                {
+                    "text": "Slider & Banner elements",
+                    "link": "/v2.0/manual/overview/slider-banner-elements"
+                }
+            ]
+        },
+        {
+            "text": "Sections",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Placing blocks",
+                    "link": "/v2.0/manual/sections/placing-blocks"
+                },
+                {
+                    "text": "Adjust block size",
+                    "link": "/v2.0/manual/sections/adjust-block-size"
+                },
+                {
+                    "text": "Section settings",
+                    "link": "/v2.0/manual/sections/section-settings"
+                },
+                {
+                    "text": "Block settings",
+                    "link": "/v2.0/manual/sections/block-settings"
+                }
+            ]
+        },
+        {
+            "text": "Slide Builder",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Getting started",
+                    "link": "/v2.0/manual/slide-builder/getting-started"
+                },
+                {
+                    "text": "General settings",
+                    "link": "/v2.0/manual/slide-builder/general-settings"
+                },
+                {
+                    "text": "Media settings",
+                    "link": "/v2.0/manual/slide-builder/media-settings"
+                },
+                {
+                    "text": "Design settings",
+                    "link": "/v2.0/manual/slide-builder/design-settings"
+                },
+                {
+                    "text": "Advanced settings",
+                    "link": "/v2.0/manual/slide-builder/advanced-settings"
+                }
+            ]
+        },
+        {
+            "text": "CMS elements",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Slider",
+                    "link": "/v2.0/manual/cms-elements/slider"
+                },
+                {
+                    "text": "Banner",
+                    "link": "/v2.0/manual/cms-elements/banner"
+                }
+            ]
+        }
+    ],
+    "/v2.0/guides/": [
+        {
+            "text": "Guides",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Sizing and aspect ratio",
+                    "link": "/v2.0/guides/sizing-and-aspect-ratio"
+                },
+                {
+                    "text": "Slides per Slider view",
+                    "link": "/v2.0/guides/slides-per-slider-view"
+                },
+                {
+                    "text": "Slide cover thumbnails",
+                    "link": "/v2.0/guides/slide-cover-thumbnails"
+                },
+                {
+                    "text": "Custom Slide templates",
+                    "link": "/v2.0/guides/custom-slide-templates"
+                }
+            ]
+        }
+    ]
+}

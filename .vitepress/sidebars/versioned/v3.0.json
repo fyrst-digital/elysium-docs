@@ -1,0 +1,216 @@
+{
+    "/v3.0/manual/": [
+        {
+            "text": "Overview",
+            "link": "/v3.0/manual/overview/index",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Sections",
+                    "link": "/v3.0/manual/overview/sections"
+                },
+                {
+                    "text": "Slide Builder",
+                    "link": "/v3.0/manual/overview/slide-builder"
+                },
+                {
+                    "text": "Slider & Banner elements",
+                    "link": "/v3.0/manual/overview/slider-banner-elements"
+                }
+            ]
+        },
+        {
+            "text": "Sections",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Placing blocks",
+                    "link": "/v3.0/manual/sections/placing-blocks"
+                },
+                {
+                    "text": "Adjust block size",
+                    "link": "/v3.0/manual/sections/adjust-block-size"
+                },
+                {
+                    "text": "Section settings",
+                    "link": "/v3.0/manual/sections/section-settings"
+                },
+                {
+                    "text": "Block settings",
+                    "link": "/v3.0/manual/sections/block-settings"
+                }
+            ]
+        },
+        {
+            "text": "Slide Builder",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Getting started",
+                    "link": "/v3.0/manual/slide-builder/getting-started"
+                },
+                {
+                    "text": "General settings",
+                    "link": "/v3.0/manual/slide-builder/general-settings"
+                },
+                {
+                    "text": "Media settings",
+                    "link": "/v3.0/manual/slide-builder/media-settings"
+                },
+                {
+                    "text": "Design settings",
+                    "link": "/v3.0/manual/slide-builder/design-settings"
+                },
+                {
+                    "text": "Advanced settings",
+                    "link": "/v3.0/manual/slide-builder/advanced-settings"
+                }
+            ]
+        },
+        {
+            "text": "CMS elements",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Slider",
+                    "link": "/v3.0/manual/cms-elements/slider"
+                },
+                {
+                    "text": "Banner",
+                    "link": "/v3.0/manual/cms-elements/banner"
+                }
+            ]
+        }
+    ],
+    "/v3.0/guides/": [
+        {
+            "text": "Guides",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Sizing and aspect ratio",
+                    "link": "/v3.0/guides/sizing-and-aspect-ratio"
+                },
+                {
+                    "text": "Slides per Slider view",
+                    "link": "/v3.0/guides/slides-per-slider-view"
+                },
+                {
+                    "text": "Slide cover thumbnails",
+                    "link": "/v3.0/guides/slide-cover-thumbnails"
+                },
+                {
+                    "text": "Custom Slide templates",
+                    "link": "/v3.0/guides/custom-slide-templates"
+                }
+            ]
+        }
+    ],
+    "/v3.0/de/anleitung/": [
+        {
+            "text": "Übersicht",
+            "link": "/v3.0/de/anleitung/uebersicht/index",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Sektionen",
+                    "link": "/v3.0/de/anleitung/uebersicht/sektionen"
+                },
+                {
+                    "text": "Slide Builder",
+                    "link": "/v3.0/de/anleitung/uebersicht/slide-builder"
+                },
+                {
+                    "text": "Slider & Banner Elemente",
+                    "link": "/v3.0/de/anleitung/uebersicht/slider-banner-elemente"
+                }
+            ]
+        },
+        {
+            "text": "Sektionen",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Blöcke platzieren",
+                    "link": "/v3.0/de/anleitung/sektionen/bloecke-platzieren"
+                },
+                {
+                    "text": "Blockgröße anpassen",
+                    "link": "/v3.0/de/anleitung/sektionen/blockgroesse-anpassen"
+                },
+                {
+                    "text": "Sektion Einstellungen",
+                    "link": "/v3.0/de/anleitung/sektionen/sektion-einstellungen"
+                },
+                {
+                    "text": "Block Einstellungen",
+                    "link": "/v3.0/de/anleitung/sektionen/block-einstellungen"
+                }
+            ]
+        },
+        {
+            "text": "Slide Builder",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Erste Schritte",
+                    "link": "/v3.0/de/anleitung/slide-builder/erste-schritte"
+                },
+                {
+                    "text": "Allgemeine Einstellungen",
+                    "link": "/v3.0/de/anleitung/slide-builder/allgemeine-einstellungen"
+                },
+                {
+                    "text": "Medien Einstellungen",
+                    "link": "/v3.0/de/anleitung/slide-builder/medien-einstellungen"
+                },
+                {
+                    "text": "Design Einstellungen",
+                    "link": "/v3.0/de/anleitung/slide-builder/design-einstellungen"
+                },
+                {
+                    "text": "Erweiterte Einstellungen",
+                    "link": "/v3.0/de/anleitung/slide-builder/erweiterte-einstellungen"
+                }
+            ]
+        },
+        {
+            "text": "Erlebniswelt Elemente",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Slider",
+                    "link": "/v3.0/de/anleitung/cms-elemente/slider"
+                },
+                {
+                    "text": "Banner",
+                    "link": "/v3.0/de/anleitung/cms-elemente/banner"
+                }
+            ]
+        }
+    ],
+    "/de/v3.0/guides/": [
+        {
+            "text": "Guides",
+            "collapsed": false,
+            "items": [
+                {
+                    "text": "Größen und Seitenverhältnis",
+                    "link": "/de/v3.0/guides/groessen-und-seitenverhaeltnis"
+                },
+                {
+                    "text": "Slides pro Ansicht",
+                    "link": "/de/v3.0/guides/slides-pro-slider-ansicht"
+                },
+                {
+                    "text": "Slide Cover Thumbnails",
+                    "link": "/de/v3.0/guides/slide-cover-thumbnails"
+                },
+                {
+                    "text": "Individuelle Slide-Templates",
+                    "link": "/de/v3.0/guides/individuelle-slide-templates"
+                }
+            ]
+        }
+    ]
+}
