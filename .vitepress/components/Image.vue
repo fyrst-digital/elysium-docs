@@ -1,8 +1,16 @@
 <script setup lang="ts">
     import { type Ref, ref, computed } from 'vue'
+    import { useRoute } from 'vitepress'
     import { css } from 'styled-system/css'
     import { breakpoints, thumbnailSizes } from '../../theme.config.mts';
     import { useImageZoom } from './../composables/image-zoom'
+
+    const route = useRoute()
+
+    const versionPath = computed(() => {
+        const match = route.path.match(/^\/(v\d+\.\d+)\//)
+        return match ? `/${match[1]}/` : null
+    })
 
     interface Sizes {
         xs: number
@@ -38,7 +46,7 @@
 
     const resolvedBasePath = computed(() => {
         if (props.basePath) return props.basePath
-        return '/'
+        return '/images/'
     })
 
     const defaultSizes: Partial<Sizes> = {
