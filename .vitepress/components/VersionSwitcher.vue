@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useRouter } from 'vitepress'
-import { computed, ref } from 'vue'
+import { computed, onMounted, watch, nextTick } from 'vue'
 import VPMenuLink from 'vitepress/dist/client/theme-default/components/VPMenuLink.vue'
 import VPFlyout from 'vitepress/dist/client/theme-default/components/VPFlyout.vue'
 
@@ -20,7 +20,54 @@ const currentVersion = computed(() => {
     return props.latestVersion
 })
 
-const isOpen = ref(false)
+const currentLocale = computed(() => {
+    const path = router.route.path
+    for (const v of props.versions) {
+        if (path.startsWith(`/${v}/de/`)) {
+            return 'de'
+        }
+    }
+    return ''
+})
+
+const versionLink = (version: string) => {
+    if (currentLocale.value) {
+        return `/${version}/de/`
+    }
+    return `/${version}/`
+}
+
+function updateNavLinks() {
+    const version = currentVersion.value
+    const locale = currentLocale.value
+
+    const navItems = document.querySelectorAll('.VPNavBarMenuLink')
+    navItems.forEach((item) => {
+        const el = item as HTMLElement
+        const text = el.textContent?.trim()
+        const href = el.getAttribute('href')
+
+        if (!href || href.startsWith('/v')) return
+
+        if (text === 'Manual') {
+            el.setAttribute('href', `/${version}/manual/overview/index`)
+        } else if (text === 'Guides') {
+            el.setAttribute('href', `/${version}/guides/sizing-and-aspect-ratio`)
+        } else if (text === 'Anleitung') {
+            el.setAttribute('href', `/${version}/de/anleitung/uebersicht/index`)
+        }
+    })
+}
+
+onMounted(() => {
+    updateNavLinks()
+})
+
+watch(() => router.route.path, () => {
+    nextTick(() => {
+        updateNavLinks()
+    })
+})
 </script>
 
 <template>
@@ -31,7 +78,7 @@ const isOpen = ref(false)
                 :key="version"
                 :item="{
                     text: version,
-                    link: `/${version}/`,
+                    link: versionLink(version),
                 }"
             />
         </div>

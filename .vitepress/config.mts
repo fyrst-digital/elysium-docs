@@ -1,22 +1,25 @@
 import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
-import sidebar from './config.sidebar'
+import { createSidebar } from './config.sidebar'
 
 const versions = ['v4.0', 'v3.0']
 const latestVersion = 'v4.0'
 
+const sidebarV40 = createSidebar('v4.0')
+const sidebarV30 = createSidebar('v3.0')
+
 const sidebarEn = {
-    '/v4.0/manual/': sidebar.en['/manual/'],
-    '/v4.0/guides/': sidebar.en['/guides/'],
-    '/v3.0/manual/': sidebar.en['/manual/'],
-    '/v3.0/guides/': sidebar.en['/guides/']
+    '/v4.0/manual/': sidebarV40.en['/manual/'],
+    '/v4.0/guides/': sidebarV40.en['/guides/'],
+    '/v3.0/manual/': sidebarV30.en['/manual/'],
+    '/v3.0/guides/': sidebarV30.en['/guides/']
 }
 
 const sidebarDe = {
-    '/v4.0/de/anleitung/': sidebar.de['/de/anleitung/'],
-    '/v4.0/de/guides/': sidebar.de['/de/guides/'],
-    '/v3.0/de/anleitung/': sidebar.de['/de/anleitung/'],
-    '/v3.0/de/guides/': sidebar.de['/de/guides/']
+    '/v4.0/de/anleitung/': sidebarV40.de['/de/anleitung/'],
+    '/v4.0/de/guides/': sidebarV40.de['/de/guides/'],
+    '/v3.0/de/anleitung/': sidebarV30.de['/de/anleitung/'],
+    '/v3.0/de/guides/': sidebarV30.de['/de/guides/']
 }
 
 export default defineConfig({
@@ -70,8 +73,7 @@ export default defineConfig({
             link: '/v4.0/de/',
             themeConfig: {
                 nav: [
-                    { text: 'Anleitung', link: '/v4.0/de/anleitung/uebersicht' },
-                    { text: 'Guides', link: '/v4.0/de/guides/groessen-und-seitenverhaeltnis' },
+                    { component: 'NavBar' },
                     { component: 'VersionSwitcher', props: { versions, latestVersion } }
                 ],
                 sidebar: sidebarDe,
@@ -127,10 +129,9 @@ export default defineConfig({
             provider: 'local',
         },
         nav: [
-            { text: 'Manual', link: '/v4.0/manual/overview' },
-            { text: 'Guides', link: '/v4.0/guides/sizing-and-aspect-ratio' },
+            { component: 'NavBar' },
             { component: 'VersionSwitcher', props: { versions, latestVersion } }
         ],
         sidebar: sidebarEn,
     }
-}, __dirname)
+})
