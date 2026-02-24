@@ -33,7 +33,7 @@ Nutze zur Aufbereitung eines Erlebniswelten Layouts auch die neue Elysium Sektio
 
 In einem Erlebniswelten Layout kannst du unter der Block Gruppe **Elysium Blöcke** das Slider oder Banner Element auswählen und wie gewohnt, per Drag & Drop, an die gewünschte Position ziehen.
 
-Nutze für die Gestaltung und Anordung der Elemente die neue Elysium Sektion. [Mehr dazu findest du hier.](/v3.0/de/anleitung/sektionen/bloecke-platzieren)
+Nutze für die Gestaltung und Anordung der Elemente die neue Elysium Sektion. [Mehr dazu findest du hier.](/v3/de/anleitung/sektionen/bloecke-platzieren)
 
 ::: warning Zwei Spalten Block wird ab Version 4.0 entfernt
 Der zwei Spalten Block ist ab Version 3.6 als veraltet markiert und wird mit **Version 4.0** vollständig entfernt. Achte vor einem Update darauf diese Blöcke in den Erlebniswelten zu entfernen, ansonsten werden diese Inhalte nicht mehr im Storefront angezeigt.

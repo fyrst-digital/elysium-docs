@@ -1,6 +1,4 @@
 ---
-slug:
-    root: '/manual/overview/'
 next:
     text: 'Sections'
     link: '/de/anleitung/uebersicht/sektionen'

@@ -43,3 +43,6 @@ export const thumbnailSizes = [
     200, 300, 400, 500, 
     600, 800, 1200, 1600
 ]
+
+export const versions = ['v4', 'v3']
+export const latestVersion = 'v4'

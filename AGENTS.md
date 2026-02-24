@@ -132,10 +132,10 @@ const srcSet = computed(() => {
 
 ### Documentation Content
 - Markdown files go in `content/` directory
-- Content is organized by version (e.g., `content/v3.0/`)
+- Content is organized by version (e.g., `content/v3/`)
 - Each version has `manual/` (English docs), `guides/` (English guides), and `de/` (German translations)
 - Use frontmatter for metadata
-- Support bilingual: English (`content/v3.0/manual/`) and German (`content/v3.0/de/`)
+- Support bilingual: English (`content/v3/manual/`) and German (`content/v3/de/`)
 - Use Vue components in Markdown via Markdown attributes syntax
 - Keep line lengths reasonable in Markdown for readability
 
@@ -171,7 +171,7 @@ Registered globally in `.vitepress/theme/index.ts`:
 │   ├── config.*.ts      # VitePress config files
 │   └── theme/           # Theme setup
 ├── content/
-│   ├── v3.0/            # Versioned content
+│   ├── v3/            # Versioned content
 │   │   ├── manual/      # English documentation
 │   │   ├── guides/      # English guides
 │   │   └── de/          # German translations

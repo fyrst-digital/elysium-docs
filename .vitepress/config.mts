@@ -1,25 +1,23 @@
 import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 import { createSidebar } from './config.sidebar'
+import { versions, latestVersion } from '../theme.config.mts'
 
-const versions = ['v4.0', 'v3.0']
-const latestVersion = 'v4.0'
-
-const sidebarV40 = createSidebar('v4.0')
-const sidebarV30 = createSidebar('v3.0')
+const sidebarV40 = createSidebar('v4')
+const sidebarV30 = createSidebar('v3')
 
 const sidebarEn = {
-    '/v4.0/manual/': sidebarV40.en['/manual/'],
-    '/v4.0/guides/': sidebarV40.en['/guides/'],
-    '/v3.0/manual/': sidebarV30.en['/manual/'],
-    '/v3.0/guides/': sidebarV30.en['/guides/']
+    '/v4/manual/': sidebarV40.en['/manual/'],
+    '/v4/guides/': sidebarV40.en['/guides/'],
+    '/v3/manual/': sidebarV30.en['/manual/'],
+    '/v3/guides/': sidebarV30.en['/guides/']
 }
 
 const sidebarDe = {
-    '/v4.0/de/anleitung/': sidebarV40.de['/de/anleitung/'],
-    '/v4.0/de/guides/': sidebarV40.de['/de/guides/'],
-    '/v3.0/de/anleitung/': sidebarV30.de['/de/anleitung/'],
-    '/v3.0/de/guides/': sidebarV30.de['/de/guides/']
+    '/v4/de/anleitung/': sidebarV40.de['/de/anleitung/'],
+    '/v4/de/guides/': sidebarV40.de['/de/guides/'],
+    '/v3/de/anleitung/': sidebarV30.de['/de/anleitung/'],
+    '/v3/de/guides/': sidebarV30.de['/de/guides/']
 }
 
 export default defineConfig({
@@ -70,7 +68,7 @@ export default defineConfig({
         de: {
             label: 'Deutsch',
             lang: 'de',
-            link: '/v4.0/de/',
+            link: '/v4/de/',
             themeConfig: {
                 nav: [
                     { component: 'NavBar' },

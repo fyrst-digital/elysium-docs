@@ -1,30 +1,8 @@
 <script setup lang="ts">
-import { useRouter } from 'vitepress'
 import { computed } from 'vue'
+import { useVersion } from '../composables/useVersion'
 
-const router = useRouter()
-
-const versions = ['v4.0', 'v3.0']
-const latestVersion = 'v4.0'
-
-const currentVersion = computed(() => {
-    for (const v of versions) {
-        if (router.route.path.startsWith(`/${v}/`)) {
-            return v
-        }
-    }
-    return latestVersion
-})
-
-const currentLocale = computed(() => {
-    const path = router.route.path
-    for (const v of versions) {
-        if (path.startsWith(`/${v}/de/`)) {
-            return 'de'
-        }
-    }
-    return ''
-})
+const { currentVersion, currentLocale } = useVersion()
 
 const navLinks = computed(() => {
     if (currentLocale.value === 'de') {

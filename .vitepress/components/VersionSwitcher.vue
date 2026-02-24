@@ -1,41 +1,12 @@
 <script setup lang="ts">
 import { useRouter } from 'vitepress'
-import { computed, onMounted, watch, nextTick } from 'vue'
+import { onMounted, watch, nextTick } from 'vue'
 import VPMenuLink from 'vitepress/dist/client/theme-default/components/VPMenuLink.vue'
 import VPFlyout from 'vitepress/dist/client/theme-default/components/VPFlyout.vue'
-
-const props = defineProps<{
-    versions: string[]
-    latestVersion: string
-}>()
+import { useVersion } from '../composables/useVersion'
 
 const router = useRouter()
-
-const currentVersion = computed(() => {
-    for (const v of props.versions) {
-        if (router.route.path.startsWith(`/${v}/`)) {
-            return v
-        }
-    }
-    return props.latestVersion
-})
-
-const currentLocale = computed(() => {
-    const path = router.route.path
-    for (const v of props.versions) {
-        if (path.startsWith(`/${v}/de/`)) {
-            return 'de'
-        }
-    }
-    return ''
-})
-
-const versionLink = (version: string) => {
-    if (currentLocale.value) {
-        return `/${version}/de/`
-    }
-    return `/${version}/`
-}
+const { versions, latestVersion, currentVersion, currentLocale, versionPath } = useVersion()
 
 function updateNavLinks() {
     const version = currentVersion.value
@@ -78,7 +49,7 @@ watch(() => router.route.path, () => {
                 :key="version"
                 :item="{
                     text: version,
-                    link: versionLink(version),
+                    link: versionPath(version, currentLocale || undefined),
                 }"
             />
         </div>

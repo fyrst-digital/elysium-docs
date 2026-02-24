@@ -3,22 +3,30 @@
     import { useData } from 'vitepress'
     import Flyout from '../components/Flyout.vue'
     import {css} from 'styled-system/css';
+    import { useVersion } from '../composables/useVersion'
     
     const { theme, site, frontmatter, localeIndex, page, hash } = useData()
+    const { currentVersion, versionPath, latestVersion } = useVersion()
 
     const locales = computed(() => {
         return Object.entries(site.value.locales).map(([key, value]) => ({
             label: value.label,
-            link: resolveLink(key, value.link),
+            link: resolveLink(key),
             active: key === localeIndex.value,
             id: key
         }))
     })
 
-    const resolveLink = (langId: string, link?: string | null) =>
-        frontmatter.value.slug?.[langId] 
-        || link 
-        || (langId === 'root' ? '/' : `/${langId}/`)
+    const resolveLink = (langId: string) => {
+        const version = currentVersion.value || latestVersion
+        if (langId === 'de') {
+            return versionPath(version, 'de')
+        }
+        if (langId === 'root') {
+            return versionPath(version)
+        }
+        return langId === 'root' ? '/' : `/${langId}/`
+    }
 
     const styeLangBtn = (isActive: boolean) => {
         return css({
@@ -55,4 +63,3 @@
         </template>
     </Flyout>
 </template>
-  
