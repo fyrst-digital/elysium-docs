@@ -3,18 +3,22 @@ import { fileURLToPath, URL } from 'node:url'
 import sidebar from './config.sidebar'
 
 const sidebarEn = {
+    '/v4.0/manual/': sidebar.en['/manual/'],
+    '/v4.0/guides/': sidebar.en['/guides/'],
     '/v3.0/manual/': sidebar.en['/manual/'],
     '/v3.0/guides/': sidebar.en['/guides/']
 }
 
 const sidebarDe = {
+    '/v4.0/de/anleitung/': sidebar.de['/de/anleitung/'],
+    '/v4.0/de/guides/': sidebar.de['/de/guides/'],
     '/v3.0/de/anleitung/': sidebar.de['/de/anleitung/'],
     '/v3.0/de/guides/': sidebar.de['/de/guides/']
 }
 
 export default defineVersionedConfig({
     versioning: {
-        latestVersion: 'v3.0',
+        latestVersion: 'v4.0',
         switcher: {
             text: 'Version',
             includeLatestVersion: true
@@ -70,11 +74,11 @@ export default defineVersionedConfig({
         de: {
             label: 'Deutsch',
             lang: 'de',
-            link: '/v3.0/de/',
+            link: '/v4.0/de/',
             themeConfig: {
                 nav: [
-                    { text: 'Anleitung', link: '/v3.0/de/anleitung/uebersicht' },
-                    { text: 'Guides', link: '/v3.0/de/guides/groessen-und-seitenverhaeltnis' },
+                    { text: 'Anleitung', link: '/v4.0/de/anleitung/uebersicht' },
+                    { text: 'Guides', link: '/v4.0/de/guides/groessen-und-seitenverhaeltnis' },
                     { component: 'VersionSwitcher' }
                 ],
                 sidebar: sidebarDe,
@@ -131,8 +135,8 @@ export default defineVersionedConfig({
             provider: 'local',
         },
         nav: [
-            { text: 'Manual', link: '/v3.0/manual/overview' },
-            { text: 'Guides', link: '/v3.0/guides/sizing-and-aspect-ratio' },
+            { text: 'Manual', link: '/v4.0/manual/overview' },
+            { text: 'Guides', link: '/v4.0/guides/sizing-and-aspect-ratio' },
             { component: 'VersionSwitcher' }
         ],
         sidebar: sidebarEn,
