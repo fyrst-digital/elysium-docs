@@ -4,7 +4,7 @@ import Layout from '../components/Layout.vue'
 import Image from "../components/Image.vue";
 import Grid from "../components/Grid.vue";
 import Column from "../components/Column.vue";
-import VersionSwitcher from 'vitepress-versioning-plugin/src/components/VersionSwitcher.vue'
+import VersionSwitcher from '../components/VersionSwitcher.vue'
 import './index.css'
 import './icons.css'
 

@@ -1,6 +1,9 @@
-import defineVersionedConfig from 'vitepress-versioning-plugin'
+import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 import sidebar from './config.sidebar'
+
+const versions = ['v4.0', 'v3.0']
+const latestVersion = 'v4.0'
 
 const sidebarEn = {
     '/v4.0/manual/': sidebar.en['/manual/'],
@@ -16,17 +19,7 @@ const sidebarDe = {
     '/v3.0/de/guides/': sidebar.de['/de/guides/']
 }
 
-export default defineVersionedConfig({
-    versioning: {
-        latestVersion: 'v4.0',
-        switcher: {
-            text: 'Version',
-            includeLatestVersion: true
-        },
-        sidebars: {
-            processSidebarURLs: true
-        }
-    },
+export default defineConfig({
     vite: {
         esbuild: {
             target: 'es2022'
@@ -79,7 +72,7 @@ export default defineVersionedConfig({
                 nav: [
                     { text: 'Anleitung', link: '/v4.0/de/anleitung/uebersicht' },
                     { text: 'Guides', link: '/v4.0/de/guides/groessen-und-seitenverhaeltnis' },
-                    { component: 'VersionSwitcher' }
+                    { component: 'VersionSwitcher', props: { versions, latestVersion } }
                 ],
                 sidebar: sidebarDe,
                 outline: {
@@ -130,14 +123,13 @@ export default defineVersionedConfig({
     description: "Section, Slider and Banner for Shopware",
     themeConfig: {
         logo: '/icon-elysium.svg',
-        versionSwitcher: false,
         search: {
             provider: 'local',
         },
         nav: [
             { text: 'Manual', link: '/v4.0/manual/overview' },
             { text: 'Guides', link: '/v4.0/guides/sizing-and-aspect-ratio' },
-            { component: 'VersionSwitcher' }
+            { component: 'VersionSwitcher', props: { versions, latestVersion } }
         ],
         sidebar: sidebarEn,
     }
