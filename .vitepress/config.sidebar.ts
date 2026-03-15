@@ -16,6 +16,10 @@ export function createSidebar(version: string) {
                 {
                     text: 'Slider & Banner elements',
                     link: `/${version}/manual/overview/slider-banner-elements`
+                },
+                {
+                    text: 'Technical Preview',
+                    link: `/${version}/manual/overview/technical-preview`
                 }
             ]
         },
@@ -125,6 +129,10 @@ export function createSidebar(version: string) {
                 {
                     text: 'Slider & Banner Elemente',
                     link: `/${version}/de/anleitung/uebersicht/slider-banner-elemente`
+                },
+                {
+                    text: 'Technische Vorschau',
+                    link: `/${version}/de/anleitung/uebersicht/technische-vorschau`
                 }
             ]
         },
