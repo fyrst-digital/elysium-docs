@@ -5,7 +5,7 @@ description: "In the slider, you can set a slide selection and the behavior and 
 
 ## Content: Set the Slide Selection
 
-You can optionally set a **title** that will be displayed above the slider.
+You can optionally set a **title** that will be displayed above the slider. You can also choose the **HTML tag** for the title (`div`, `h1`–`h6`) and mark it as **visually hidden** (`sr-only`) so that it is only perceptible to screen readers.
 
 In the **Slide Selection**, you can set the slides and their order. The order can be changed either by drag & drop or through the quick actions. Individual slides can also be removed through the quick actions or the search results from the slide search. You will also find an edit function in the quick actions, which leads directly to the slide editing mask.
 
@@ -13,11 +13,13 @@ In the **Slide Selection**, you can set the slides and their order. The order ca
 
 With **Rewind Slides**, the slider jumps back to the first slide when it reaches the last slide. Otherwise, the slider stays on the last slide and the "next slide" arrow symbol is hidden.
 
-The **Show Overlay** option activates an overlay over the entire slider. This only covers the background and can improve the readability of texts.
+The **Show Overlay** option activates an overlay over the entire slider. This only covers the background and can improve the readability of texts. When overlay is active on a linked slide, the entire slide area becomes clickable.
 
 With **Slides per View**, multiple slides can be displayed within a slider view. For example, only one slide can be displayed on a smartphone and three slides on a desktop.
 
-The **Slide Speed** defines the time of the animation between the slides in milliseconds.
+The **Slide Effect** can be set to **slide** or **fade** (since 4.4.0). The **Slide Speed** defines the time of the animation between the slides in milliseconds.
+
+You can assign one or more **CSS classes** to the slider element for further customization.
 
 You can set the **Width of the Content Container**. This is especially useful for shopping experience layouts that span the entire screen width.
 With **Page Content**, the maximum width of the container follows the width of the page content. With **Full Width**, the content container is displayed across the entire width.
@@ -28,7 +30,7 @@ Activates the auto-play of the slider. You can set the **Playback Interval** of 
 
 ## Sizes: Spacing and Aspect Ratio
 
-Define the **Aspect Ratio** and thus determine the size of the slider. You can set a **maximum height** that the slider should not exceed. These settings are device-dependent and can be set separately for smartphone, tablet, and desktop.
+Define the **Aspect Ratio** and thus determine the size of the slider. You can set a **maximum height** that the slider should not exceed. With **Justify Slide Height** (since 4.3.0), the heights of all slides in the view can be equalized. These settings are device-dependent and can be set separately for smartphone, tablet, and desktop.
 
 A detailed guide on aspect ratio [can be found here](/v3/guides/sizing-and-aspect-ratio)
 
@@ -38,4 +40,4 @@ The **Show Slider Navigation** setting activates quick navigation. The **Positio
 You can customize the **Appearance** of the navigation points. The **Shape** of the navigation points can be displayed either as a dot or a bar. There are three different **Sizes** available for the navigation points. You can also set the **Spacing** between the navigation points and their **Color**.
 
 ## Arrows: Customize Arrow Navigation
-The **Show Slider Arrows** option activates arrow navigation. You can set the icon shape (chevron or arrow), color, and size. You can also define a background color for the arrow navigation.
+The **Show Slider Arrows** option activates arrow navigation. You can set the icon shape (chevron or arrow), color, and size. You can also define a background color for the arrow navigation and set the **outer margin** (offset padding) of the arrows.

@@ -11,3 +11,7 @@ Alternatively, you can set an **Aspect Ratio** and a **Maximum Height** that sho
 ## Lazy loading of slide covers and focus images
 
 **Lazy loading** is enabled by default and uses the browser's lazy loading function for images. Lazy loading affects slide covers and focus images within a banner. It is recommended to disable this setting for banners that are in the visible browser window (when the page is first loaded). Typically, this affects banners at the beginning of a Shopping Experience.
+
+## Additional settings
+
+You can assign one or more **CSS classes** to the banner element for further customization.

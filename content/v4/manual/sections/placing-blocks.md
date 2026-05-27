@@ -35,7 +35,7 @@ The new block always attaches to the block on which it was dropped.
 Blocks can be structurally moved via the block navigator. This allows you to change the arrangement of the blocks.
 
 In the Elysium-specific block settings, a different visual order can be set. The visual order can be distinguished for smartphone, tablet, and desktop. The structural arrangement remains the same on each view.
-<!-- @todo(#4) [Details on the visual order can be found here](#todo-url). -->
+
 
 <Grid>
     <Column :cols="{xs: 12, sm: 6, 'xl': 4}">

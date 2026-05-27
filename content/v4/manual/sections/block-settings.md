@@ -18,4 +18,4 @@ You can set the **visual order** of blocks. This is useful if a block should be 
 
 With the **Rows** setting, you can specify how many rows a block should occupy. For example, blocks can be combined into a so-called "grid layout," where two blocks are displayed one below the other on the left side and one block is displayed on the right side, spanning these two blocks. This is just a simple example; more complex grid layouts are, of course, also possible.
 
-<!-- The combination of order and rows is a powerful tool for creating simple but also complex layouts, **optionally per view**. On our example page (link to page), you will find some layouts and instructions on how to replicate them. -->
+

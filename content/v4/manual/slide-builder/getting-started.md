@@ -19,21 +19,29 @@ The slide is always created in your default language. If you want to maintain th
 
 To add a slide, click the **Create Slide** button in the top right corner. This will take you to the detail view where you can maintain the slide. On the following pages, you will find more details about the setting options.
 
+::: tip Slide Name Validation
+Since version 4.7.0, slide names are validated. Only letters, numbers, spaces, and dashes are allowed. Leading or trailing whitespace is not permitted.
+:::
+
 After you have created a slide, you can link it in the Elysium Slider or Banner element of a Shopping Experience.
 
 ::: tip Elysium Section for Design and Arrangement
 Use the new Elysium section (from version 3.6) to prepare a Shopping Experience layout. It offers many options for responsive and individual design.
 :::
 
-<!-- ::: info Slide Examples
-[On our example pages](#todo-url), we have provided collections to show you what is possible with the Slide Builder.
-::: -->
+## Live Preview
+
+Since version 4.8.0, the Slide Builder includes a live preview. As you edit a slide, your changes are instantly reflected in a real storefront preview. This helps you see the result immediately without saving and switching to the storefront.
+
+::: tip Live Preview Data
+When you set a product or category link for the first time, the live preview automatically loads the corresponding name, description, and image data.
+:::
 
 ## Link Slide in Shopping Experience Elements
 
 In a Shopping Experience layout, you can select the Slider or Banner element under the **Elysium Blocks** block group and drag and drop it to the desired position.
 
-Use the new Elysium section for the design and arrangement of the elements. [You can find more about it here.](/v3/manual/sections/placing-blocks)
+Use the new Elysium section for the design and arrangement of the elements. [You can find more about it here.](/v4/manual/sections/placing-blocks)
 
 ::: warning Two-Column Block will be removed in version 4.0
 The two-column block is marked as deprecated from version 3.6 and will be completely removed with **version 4.0**. Make sure to remove these blocks in the shopping experiences before an update, otherwise, these contents will no longer be displayed in the storefront.

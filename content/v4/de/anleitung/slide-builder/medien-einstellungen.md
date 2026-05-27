@@ -10,12 +10,14 @@ Das **Cover Bild** kann für Smartphone-, Tablet- und Desktop-Ansicht unterschie
 
 Das **Cover Video** ist für alle Ansichten gleich und kann nicht unterschieden werden. Gültige Videoformate sind `mp4` und `webm`.
 
-Für Bild und Video lassen sich **Objekt-Positionen und -Anpassung** festlegen. Diese Einstellungen kommen vor allem zum tragen, wenn das Bild oder Video nicht dem Größenverhätniss des Slides entspricht. So kann das Bild oder Video noch nachjustiert werden.  
+Für Bild und Video lassen sich **Objekt-Positionen und -Anpassungen** festlegen. Die **horizontale Position** kann auf links, mittig oder rechts eingestellt werden. Die **vertikale Position** kann auf oben, mittig oder unten eingestellt werden. Die **Objekt-Anpassung** kann auf cover, contain oder auto eingestellt werden. Diese Einstellungen kommen vor allem zum Tragen, wenn das Bild oder Video nicht dem Größenverhältnis des Slides entspricht. So kann das Bild oder Video noch nachjustiert werden.  
 Diese Einstellungen können für die Smartphone-, Tablet- und Desktop-Ansicht unterschieden werden.
 
-### Tipp: Bildgrößen als Seitenverhältniss definieren
+Für Cover-Bilder können außerdem **Alt**- und **Title**-Attribute festgelegt werden. Diese werden im HTML ausgegeben und verbessern die Barrierefreiheit sowie SEO.
 
-In modernen Grafikdesign macht es Sinn Bildgrößen für das resposive Web im Seitenverhältniss zu denken. Zum einen funktioniert so die Skalierung für Thumbnail-Varianten besser, CLS (Cumulative Layout Shift) lässt sich einfacher vermeiden und eine konistenz im Shop-Design wird gewährleitet.
+### Tipp: Bildgrößen als Seitenverhältnis definieren
+
+In modernen Grafikdesign macht es Sinn, Bildgrößen für das responsive Web im Seitenverhältnis zu denken. Zum einen funktioniert so die Skalierung für Thumbnail-Varianten besser, CLS (Cumulative Layout Shift) lässt sich einfacher vermeiden und eine Konsistenz im Shop-Design wird gewährleistet.
 
 Aufgrund dieser Vorteile definieren wir die Größen in Slider und Banner Elementen als Seitenverhältnisse, anstatt festen Pixeln.
 Bedenke dies beim erstellen deiner Grafiken.
@@ -31,4 +33,4 @@ Für einen Slide kann ein Fokusbild festgelegt werden. Das Fokusbild wird als se
     </Column>
 </Grid>
 
-Das Bild lässt sich dabei **auf volle Breite strecken** oder in der **Breite beschränken**. Diese Optionen sind geräteabhängig.
+Das Bild lässt sich dabei **auf volle Breite strecken** oder in der **Breite beschränken**. Diese Optionen sind geräteabhängig. Außerdem können die **Breiten-Basis** (als Prozentwert) und die **horizontale Ausrichtung** (Anfang, Mitte, Ende) des Fokusbilds festgelegt werden.

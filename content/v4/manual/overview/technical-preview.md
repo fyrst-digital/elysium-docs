@@ -16,4 +16,5 @@ Take advantage of the free trial period to evaluate these features and determine
 
 ## Available Technical Preview Features
 
-- **Elasticsearch Support in the Administration search** (since 4.6.0)
+- **Elasticsearch Support in the Administration search** (since 4.6.0) — enables Elasticsearch indexing for slide search in the administration. Requires Elasticsearch to be configured in Shopware.
+- **Time-controlled slides and CMS scheduling** (since 4.7.0) — schedule slides, Elysium CMS sections, and blocks with start and end dates. [Learn more in the guide](/v4/guides/time-control).

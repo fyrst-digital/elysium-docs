@@ -31,10 +31,14 @@ Under **Container**, the design of the inner container can be adjusted. The inne
 
 The option **Display elements below each other** determines whether the elements within the container should be displayed below each other or not. This setting is device-dependent.
 
-The **Layout order** determines the order in which the content element and the focus image should be displayed. This only has an effect if a focus image is set. Additionally, a **background color** can be assigned to the container and it can be restricted in **width**.
+The **Layout order** determines the order in which the content element and the focus image should be displayed (default or reversed). This only has an effect if a focus image is set. Additionally, a **background color** can be assigned to the container and its **width** can be restricted using a percentage value.
 
-**Spacing and border radius**, as well as the **alignment** of the container, can be set. In the spacing, a **gap** between the content element and the focus image can also be set. The border radius only has a visible effect if a background color is assigned to the container.  
+A **blur background effect** can be applied to the container. **Spacing and border radius**, as well as the **alignment** of the container, can be set. In the spacing, a **gap** between the content element and the focus image can also be set. The border radius only has a visible effect if a background color is assigned to the container.  
 The alignment affects the alignment of the inner container elements, i.e., the content element and the focus image. If the elements are displayed below each other, these settings are reversed.
+
+::: tip Percentage Values
+Since version 4.8.0, width restrictions for the container, content element, and focus image use percentage values for more consistent sizing across different screen sizes.
+:::
 
 ## Adjust the content element
 The content element encloses the slide's heading, description, and button.
@@ -46,4 +50,4 @@ The content element encloses the slide's heading, description, and button.
     </Column>
 </Grid>
 
-It can be restricted in **width** and the **inner spacing** can be adjusted. The **text alignment** can also be set.
+Its **width** can be restricted using a percentage value and the **inner spacing** can be adjusted. The **text alignment** can also be set.

@@ -29,12 +29,16 @@ Unter **Container** kann das Design des inneren Containers angepasst werden. Der
     </Column>
 </Grid>
 
-Die Option **Elemente untereinander anzeigen** legt fest ob die Elemente innerhalb des Container untereinander angezeigt werden sollen oder nicht. Diese Einstellung ist geräteabhängig.
+Die Option **Elemente untereinander anzeigen** legt fest, ob die Elemente innerhalb des Containers untereinander angezeigt werden sollen oder nicht. Diese Einstellung ist geräteabhängig.
 
-Die **Layout Reihenfolge** legt fest in welcher Reihenfolge das Inhaltselement und das Fokusbild angezeigt werden sollen. Dies hat nur einen Effekt wenn ein Fokusbild hinterlegt ist. Ausßerdem kann dem Container eine **Hintergrundfarbe** zugewiesen werden und er lässt sich in der **Breite beschränken**.
+Die **Layout-Reihenfolge** legt fest, in welcher Reihenfolge das Inhaltselement und das Fokusbild angezeigt werden sollen (Standard oder umgekehrt). Dies hat nur einen Effekt, wenn ein Fokusbild hinterlegt ist. Außerdem kann dem Container eine **Hintergrundfarbe** zugewiesen werden und seine **Breite** kann per Prozentwert beschränkt werden.
 
-Es lassen sich **Abstände und Kantenrundung**, sowie die **Ausrichtung** des Containers festlegen. In den Abständen lässt sich auch **Zwischenraum** zwischen dem Inhaltselement und dem Fokusbild festlegen. Die Kantenrundung hat nur einen sichtbaren Effekt wenn dem Container eine Hintergrundfarbe zugewiesen wurde.  
+Ein **Unschärfe-Hintergrundeffekt** kann auf den Container angewendet werden. **Abstände und Kantenrundung**, sowie die **Ausrichtung** des Containers können festgelegt werden. In den Abständen lässt sich auch **Zwischenraum** zwischen dem Inhaltselement und dem Fokusbild festlegen. Die Kantenrundung hat nur einen sichtbaren Effekt, wenn dem Container eine Hintergrundfarbe zugewiesen wurde.  
 Die Ausrichtung beeinflusst die Ausrichtung der inneren Containerelemente, also Inhaltselement und Fokusbild. Wenn die Elemente untereinander angezeigt werden, werden diese Einstellungen umgekehrt.
+
+::: tip Prozentwerte
+Seit Version 4.8.0 werden Breitenbeschränkungen für den Container, das Inhaltselement und das Fokusbild als Prozentwerte verwendet, um eine konsistentere Größenanpassung über verschiedene Bildschirmgrößen hinweg zu gewährleisten.
+:::
 
 ## Inhaltselement anpassen
 Das Inhaltselement umschließt Überschrift, Beschreibung und Button des Slides.
@@ -46,4 +50,4 @@ Das Inhaltselement umschließt Überschrift, Beschreibung und Button des Slides.
     </Column>
 </Grid>
 
-Es lässt sich in der **Breite beschränken** und die **inneren Abstände** können angepasst werden. Außerdem lässt sich die **Textausrichtung** festlegen.
+Es lässt sich in der **Breite** per Prozentwert beschränken und die **inneren Abstände** können angepasst werden. Außerdem lässt sich die **Textausrichtung** festlegen.

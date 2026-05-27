@@ -16,4 +16,5 @@ Nutze die kostenlose Phase, um diese Funktionen für deinen Bedarf zu evaluieren
 
 ## Verfügbare Technische Vorschau Funktionen
 
-- **Elasticsearch-Unterstützung in der Administration-Suche** (seit 4.6.0)
+- **Elasticsearch-Unterstützung in der Administration-Suche** (seit 4.6.0) — ermöglicht die Elasticsearch-Indizierung für die Slide-Suche in der Administration. Erfordert, dass Elasticsearch in Shopware konfiguriert ist.
+- **Zeitgesteuerte Slides und CMS-Zeitsteuerung** (seit 4.7.0) — plane Slides, Elysium CMS Sektionen und Blöcke mit Start- und Enddaten. [Mehr dazu im Guide](/v4/de/guides/zeitsteuerung).

@@ -5,19 +5,21 @@ description: "Im Slider kannst du eine Slide Auswahl und das Verhalten sowie Aus
 
 ## Inhalt: Lege die Slide Auswahl fest
 
-Du kannst optional eine **Überschrift** festlegen welche über dem Slider angezeigt wird.
+Du kannst optional eine **Überschrift** festlegen, welche über dem Slider angezeigt wird. Du kannst außerdem das **HTML-Tag** für die Überschrift wählen (`div`, `h1`, `h6`) und sie als **visuell verborgen** markieren, sodass sie nur für Screenreader wahrnehmbar ist.
 
 In der **Slide Auswahl** kannst du Slides und deren Reihenfolge festlegen. Die Reihenfolge kann entweder per Drag & Drop oder über die Schnellaktionen geändert werden. Einzelne Slides kannst du ebenfalls über die Schnellaktionen oder die Suchresultate aus der Slidesuche entfernen. Ebenso findest du eine Bearbeitungsfunktion in den Schnellaktionen, diese führt direkt zur Bearbeitungsmske des Slides.
 
 ## Einstellungen: Allgemeines Slider Verhalten
 
-Bei **Slides zurückspulen** springt der Slider zum ersten Slide zurück, wenn dieser am letzten Slide angekommen ist. Ansonsten bleibt der Slider beim letzten Slide stehen und das "nächster Slide" Pfeil Symbol wird ausgeblendet.
+Bei **Slides zurückspulen** springt der Slider zum ersten Slide zurück, wenn dieser am letzten Slide angekommen ist. Ansonsten bleibt der Slider beim letzten Slide stehen und das "nächster Slide" Pfeil-Symbol wird ausgeblendet.
 
-Mit der Option **Zeige Overlay** wird eine Überblendung über den gesamten Slider aktiviert. Dieser legt sich nur über den Hintergrund und kann die Lesbarkeit von Texten verbessern.
+Mit der Option **Zeige Overlay** wird eine Überblendung über den gesamten Slider aktiviert. Dieser legt sich nur über den Hintergrund und kann die Lesbarkeit von Texten verbessern. Wenn Overlay bei einem verlinkten Slide aktiv ist, wird der gesamte Slide-Bereich anklickbar.
 
-Mit **Slides pro Ansicht** lassen sich mehrere Slides innerhalb einer Slider Ansicht anzeigen. So kann zum Beispiel auf dem Smartphone nur ein und auf dem Desktop drei Slides angezeigt werden.
+Mit **Slides pro Ansicht** lassen sich mehrere Slides innerhalb einer Slider-Ansicht anzeigen. So kann zum Beispiel auf dem Smartphone nur ein und auf dem Desktop drei Slides angezeigt werden.
 
-Die **Slide-Geschwindigkeit** definiert die Zeit der Animation zwischen den Slides in Millisekunden.
+Der **Slide-Effekt** kann auf **Slide** oder **Fade** (seit 4.4.0) eingestellt werden. Die **Slide-Geschwindigkeit** definiert die Zeit der Animation zwischen den Slides in Millisekunden.
+
+Du kannst dem Slider-Element eine oder mehrere **CSS-Klassen** zuweisen, um es weiter anzupassen.
 
 Es kann die **Breite des Inhaltscontainers** festgelegt werden. Das kommt vor allem bei Erlebniswelten Layouts zum tragen, welche über die gesamte Bildschirmbreite verlaufen.
 Bei **Seiteninhalt** folgt die maximale Breite des Containers der Breite des Seiteninhalts. Bei **Volle Breite** wird der Inhalts-Container über die gesamte Breite angezeigt.
@@ -28,7 +30,7 @@ Aktiviert die Auto-Wiedergabe des Sliders. Du kannst den **Wiedergabe-Intervall*
 
 ## Größen: Abstände und Seitenverhältnis
 
-Definiere das **Seitenverhätlnis** und bestimme somit die Größe des Sliders. Es lässt sich eine **maximale Höhe** festlegen, welche der Slider nicht überschreiten darf. Diese Einstellungen sind geräteabhängig und können jeweils für Smartphone, Tablet und Desktop festgelegt werden.
+Definiere das **Seitenverhältnis** und bestimme somit die Größe des Sliders. Es lässt sich eine **maximale Höhe** festlegen, welche der Slider nicht überschreiten darf. Mit **Slide-Höhen angleichen** (seit 4.3.0) können die Höhen aller Slides in der Ansicht angeglichen werden. Diese Einstellungen sind geräteabhängig und können jeweils für Smartphone, Tablet und Desktop festgelegt werden.
 
 Einen ausführlichen Guide zum Seitenverhältnis [findest du hier](/v3/de/guides/groessen-und-seitenverhaeltnis)
 
@@ -38,4 +40,4 @@ Mit der Einstellung **Zeige Slider Navigation** wird die Schnellnavigation aktiv
 Du kannst das **Aussehen** der Navigationspunkte anpassen. Die **Form** der Navigationspunkte kann entweder als Punkt oder Balken dargestellt werden. Es stehen drei verschiedene **Größen** für die Navigationspunkte zur Verfügung. Zudem lassen sich der **Abstand** zwischen den Navigationspunkten und deren **Farbe** einstellen.
 
 ## Pfeile: Pfeilnavigation anpassen
-Die Option **Zeige Slider Pfeile** aktiviert die Pfeilnavigation. Es lässt sich die Icon-Form (Chevron oder Pfeil), -Farbe und -Größe festlegen. Außerdem kann eine Hintergrundfarbe für die Pfeilnavigation definiert werden.
+Die Option **Zeige Slider Pfeile** aktiviert die Pfeilnavigation. Es lässt sich die Icon-Form (Chevron oder Pfeil), -Farbe und -Größe festlegen. Außerdem kann eine Hintergrundfarbe für die Pfeilnavigation definiert und der **äußere Abstand** (Offset-Padding) der Pfeile festgelegt werden.

@@ -10,8 +10,10 @@ The **cover image** can be differentiated for smartphone, tablet, and desktop vi
 
 The **cover video** is the same for all views and cannot be differentiated. Valid video formats are `mp4` and `webm`.
 
-For both images and videos, you can set **object positions and adjustments**. These settings are especially useful when the image or video does not match the aspect ratio of the slide. This allows you to fine-tune the image or video.
+For both images and videos, you can set **object positions and adjustments**. The **horizontal position** can be set to left, center, or right. The **vertical position** can be set to top, center, or bottom. The **object fit** can be set to cover, contain, or auto. These settings are especially useful when the image or video does not match the aspect ratio of the slide. This allows you to fine-tune the image or video.
 These settings can be differentiated for smartphone, tablet, and desktop views.
+
+For cover images, you can also set **Alt** and **Title** attributes. These are output in the HTML and improve accessibility and SEO.
 
 ### Tip: Define Image Sizes as Aspect Ratios
 
@@ -31,4 +33,4 @@ A focus image can be set for a slide. The focus image is displayed as a separate
     </Column>
 </Grid>
 
-The image can be **stretched to full width** or **restricted in width**. These options are device-dependent.
+The image can be **stretched to full width** or **restricted in width**. These options are device-dependent. You can also set the **width basis** (as a percentage) and the **horizontal alignment** (start, center, end) of the focus image.
