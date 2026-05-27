@@ -108,6 +108,10 @@ export function createSidebar(version: string) {
                     text: 'Custom Slide templates',
                     link: `/${version}/guides/custom-slide-templates`
                 },
+                {
+                    text: 'Time-controlled slides and CMS scheduling',
+                    link: `/${version}/guides/time-control`
+                },
             ]
         },
     ]
@@ -220,6 +224,10 @@ export function createSidebar(version: string) {
                 {
                     text: 'Individuelle Slide-Templates',
                     link: `/${version}/de/guides/individuelle-slide-templates`
+                },
+                {
+                    text: 'Zeitgesteuerte Slides und CMS-Zeitsteuerung',
+                    link: `/${version}/de/guides/zeitsteuerung`
                 },
             ]
         },
